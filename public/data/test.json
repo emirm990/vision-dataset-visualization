@@ -1,0 +1,5400 @@
+[
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-04.690603022Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx1-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-04.690603022Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX1.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-04.690603022Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2437,
+      "foil_end": 19359,
+      "coating_line_sections": [
+        {
+          "foil_start": 2437,
+          "foil_end": 10898,
+          "coating_start": 2793,
+          "coating_end": 10555
+        },
+        {
+          "foil_start": 10898,
+          "foil_end": 19359,
+          "coating_start": 11244,
+          "coating_end": 19003
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-10.110977008Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx1-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-10.110977008Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX1.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-10.110977008Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2437,
+      "foil_end": 19358,
+      "coating_line_sections": [
+        {
+          "foil_start": 2437,
+          "foil_end": 10897,
+          "coating_start": 2793,
+          "coating_end": 10555
+        },
+        {
+          "foil_start": 10897,
+          "foil_end": 19358,
+          "coating_start": 11244,
+          "coating_end": 19003
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-15.530606816Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx1-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-15.530606816Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX1.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-15.530606816Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2435,
+      "foil_end": 19359,
+      "coating_line_sections": [
+        {
+          "foil_start": 2435,
+          "foil_end": 10897,
+          "coating_start": 2793,
+          "coating_end": 10556
+        },
+        {
+          "foil_start": 10897,
+          "foil_end": 19359,
+          "coating_start": 11244,
+          "coating_end": 19004
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-20.950602981Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx1-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-20.950602981Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX1.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-20.950602981Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2437,
+      "foil_end": 19359,
+      "coating_line_sections": [
+        {
+          "foil_start": 2437,
+          "foil_end": 10898,
+          "coating_start": 2793,
+          "coating_end": 10555
+        },
+        {
+          "foil_start": 10898,
+          "foil_end": 19359,
+          "coating_start": 11244,
+          "coating_end": 19003
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-26.368819059Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx1-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-26.368819059Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX1.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-26.368819059Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2437,
+      "foil_end": 19358,
+      "coating_line_sections": [
+        {
+          "foil_start": 2437,
+          "foil_end": 10897,
+          "coating_start": 2793,
+          "coating_end": 10555
+        },
+        {
+          "foil_start": 10897,
+          "foil_end": 19358,
+          "coating_start": 11244,
+          "coating_end": 19003
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-00.363160937Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx2-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.363160937Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX2.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-00.363160937Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2206,
+      "foil_end": 19116,
+      "coating_line_sections": [
+        {
+          "foil_start": 2206,
+          "foil_end": 10661,
+          "coating_start": 2562,
+          "coating_end": 10322
+        },
+        {
+          "foil_start": 10661,
+          "foil_end": 19116,
+          "coating_start": 11008,
+          "coating_end": 18762
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-00.411918569Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx2-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.411918569Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX2.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-00.411918569Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2206,
+      "foil_end": 19117,
+      "coating_line_sections": [
+        {
+          "foil_start": 2206,
+          "foil_end": 10661,
+          "coating_start": 2561,
+          "coating_end": 10322
+        },
+        {
+          "foil_start": 10661,
+          "foil_end": 19117,
+          "coating_start": 11008,
+          "coating_end": 18762
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-00.463642101Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx2-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.463642101Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX2.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-00.463642101Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2207,
+      "foil_end": 19117,
+      "coating_line_sections": [
+        {
+          "foil_start": 2207,
+          "foil_end": 10662,
+          "coating_start": 2561,
+          "coating_end": 10322
+        },
+        {
+          "foil_start": 10662,
+          "foil_end": 19117,
+          "coating_start": 11008,
+          "coating_end": 18762
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-00.563021695Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx2-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.563021695Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX2.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-00.563021695Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2207,
+      "foil_end": 19116,
+      "coating_line_sections": [
+        {
+          "foil_start": 2207,
+          "foil_end": 10661,
+          "coating_start": 2561,
+          "coating_end": 10321
+        },
+        {
+          "foil_start": 10661,
+          "foil_end": 19116,
+          "coating_start": 11008,
+          "coating_end": 18763
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-00.667900776Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx2-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.667900776Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX2.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-00.667900776Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2206,
+      "foil_end": 19115,
+      "coating_line_sections": [
+        {
+          "foil_start": 2206,
+          "foil_end": 10660,
+          "coating_start": 2561,
+          "coating_end": 10321
+        },
+        {
+          "foil_start": 10660,
+          "foil_end": 19115,
+          "coating_start": 11008,
+          "coating_end": 18763
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-04.028712371Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx3-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-04.028712371Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX3.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-04.028712371Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2599,
+      "foil_end": 19511,
+      "coating_line_sections": [
+        {
+          "foil_start": 2599,
+          "foil_end": 11055,
+          "coating_start": 2950,
+          "coating_end": 10716
+        },
+        {
+          "foil_start": 11055,
+          "foil_end": 19511,
+          "coating_start": 11403,
+          "coating_end": 19161
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-09.446856905Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx3-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-09.446856905Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX3.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-09.446856905Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2597,
+      "foil_end": 19511,
+      "coating_line_sections": [
+        {
+          "foil_start": 2597,
+          "foil_end": 11054,
+          "coating_start": 2950,
+          "coating_end": 10716
+        },
+        {
+          "foil_start": 11054,
+          "foil_end": 19511,
+          "coating_start": 11404,
+          "coating_end": 19160
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-14.869412259Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx3-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-14.869412259Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX3.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-14.869412259Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2598,
+      "foil_end": 19511,
+      "coating_line_sections": [
+        {
+          "foil_start": 2598,
+          "foil_end": 11054,
+          "coating_start": 2951,
+          "coating_end": 10716
+        },
+        {
+          "foil_start": 11054,
+          "foil_end": 19511,
+          "coating_start": 11404,
+          "coating_end": 19160
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-20.288256884Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx3-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-20.288256884Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX3.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-20.288256884Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2599,
+      "foil_end": 19512,
+      "coating_line_sections": [
+        {
+          "foil_start": 2599,
+          "foil_end": 11055,
+          "coating_start": 2950,
+          "coating_end": 10715
+        },
+        {
+          "foil_start": 11055,
+          "foil_end": 19512,
+          "coating_start": 11403,
+          "coating_end": 19160
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-25.704001998Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx3-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-25.704001998Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX3.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-25.704001998Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2597,
+      "foil_end": 19510,
+      "coating_line_sections": [
+        {
+          "foil_start": 2597,
+          "foil_end": 11053,
+          "coating_start": 2950,
+          "coating_end": 10716
+        },
+        {
+          "foil_start": 11053,
+          "foil_end": 19510,
+          "coating_start": 11403,
+          "coating_end": 19160
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-08.988344634Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx3-kea2-bxc1/2023-11-03-05/2023-11-03T05-15-08.988344634Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX3.KEA2.BXC1/raw/2023/11/03/2023-11-03T05-15-08.988344634Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2592,
+      "foil_end": 19518,
+      "coating_line_sections": [
+        {
+          "foil_start": 2592,
+          "foil_end": 11055,
+          "coating_start": 2948,
+          "coating_end": 10714
+        },
+        {
+          "foil_start": 11055,
+          "foil_end": 19518,
+          "coating_start": 11401,
+          "coating_end": 19164
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-30.664419273Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx3-kea2-bxc1/2023-11-03-05/2023-11-03T05-15-30.664419273Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX3.KEA2.BXC1/raw/2023/11/03/2023-11-03T05-15-30.664419273Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2593,
+      "foil_end": 19518,
+      "coating_line_sections": [
+        {
+          "foil_start": 2593,
+          "foil_end": 11055,
+          "coating_start": 2948,
+          "coating_end": 10714
+        },
+        {
+          "foil_start": 11055,
+          "foil_end": 19518,
+          "coating_start": 11401,
+          "coating_end": 19164
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-52.341758403Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx3-kea2-bxc1/2023-11-03-05/2023-11-03T05-15-52.341758403Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX3.KEA2.BXC1/raw/2023/11/03/2023-11-03T05-15-52.341758403Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2593,
+      "foil_end": 19519,
+      "coating_line_sections": [
+        {
+          "foil_start": 2593,
+          "foil_end": 11056,
+          "coating_start": 2949,
+          "coating_end": 10715
+        },
+        {
+          "foil_start": 11056,
+          "foil_end": 19519,
+          "coating_start": 11401,
+          "coating_end": 19164
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-16-14.018316907Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx3-kea2-bxc1/2023-11-03-05/2023-11-03T05-16-14.018316907Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX3.KEA2.BXC1/raw/2023/11/03/2023-11-03T05-16-14.018316907Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2592,
+      "foil_end": 19518,
+      "coating_line_sections": [
+        {
+          "foil_start": 2592,
+          "foil_end": 11055,
+          "coating_start": 2949,
+          "coating_end": 10714
+        },
+        {
+          "foil_start": 11055,
+          "foil_end": 19518,
+          "coating_start": 11401,
+          "coating_end": 19164
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-16-35.695427654Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx3-kea2-bxc1/2023-11-03-05/2023-11-03T05-16-35.695427654Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX3.KEA2.BXC1/raw/2023/11/03/2023-11-03T05-16-35.695427654Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2592,
+      "foil_end": 19518,
+      "coating_line_sections": [
+        {
+          "foil_start": 2592,
+          "foil_end": 11055,
+          "coating_start": 2948,
+          "coating_end": 10714
+        },
+        {
+          "foil_start": 11055,
+          "foil_end": 19518,
+          "coating_start": 11400,
+          "coating_end": 19163
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-00.246255567Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx4-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.246255567Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX4.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-00.246255567Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2272,
+      "foil_end": 19179,
+      "coating_line_sections": [
+        {
+          "foil_start": 2272,
+          "foil_end": 10725,
+          "coating_start": 2622,
+          "coating_end": 10385
+        },
+        {
+          "foil_start": 10725,
+          "foil_end": 19179,
+          "coating_start": 11076,
+          "coating_end": 18830
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-00.342419757Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx4-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.342419757Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX4.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-00.342419757Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2270,
+      "foil_end": 19178,
+      "coating_line_sections": [
+        {
+          "foil_start": 2270,
+          "foil_end": 10724,
+          "coating_start": 2622,
+          "coating_end": 10385
+        },
+        {
+          "foil_start": 10724,
+          "foil_end": 19178,
+          "coating_start": 11076,
+          "coating_end": 18830
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-00.736417669Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx4-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.736417669Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX4.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-00.736417669Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2270,
+      "foil_end": 19179,
+      "coating_line_sections": [
+        {
+          "foil_start": 2270,
+          "foil_end": 10724,
+          "coating_start": 2622,
+          "coating_end": 10385
+        },
+        {
+          "foil_start": 10724,
+          "foil_end": 19179,
+          "coating_start": 11076,
+          "coating_end": 18830
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-00.98282228Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx4-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.98282228Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX4.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-00.98282228Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2270,
+      "foil_end": 19180,
+      "coating_line_sections": [
+        {
+          "foil_start": 2270,
+          "foil_end": 10725,
+          "coating_start": 2621,
+          "coating_end": 10385
+        },
+        {
+          "foil_start": 10725,
+          "foil_end": 19180,
+          "coating_start": 11075,
+          "coating_end": 18830
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-02.070648925Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx4-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-02.070648925Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX4.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-02.070648925Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2270,
+      "foil_end": 19179,
+      "coating_line_sections": [
+        {
+          "foil_start": 2270,
+          "foil_end": 10724,
+          "coating_start": 2622,
+          "coating_end": 10386
+        },
+        {
+          "foil_start": 10724,
+          "foil_end": 19179,
+          "coating_start": 11076,
+          "coating_end": 18830
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-00.024245011Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx4-kea2-bxc1/2023-11-03-05/2023-11-03T05-15-00.024245011Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX4.KEA2.BXC1/raw/2023/11/03/2023-11-03T05-15-00.024245011Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2263,
+      "foil_end": 19171,
+      "coating_line_sections": [
+        {
+          "foil_start": 2263,
+          "foil_end": 10717,
+          "coating_start": 2616,
+          "coating_end": 10377
+        },
+        {
+          "foil_start": 10717,
+          "foil_end": 19171,
+          "coating_start": 11063,
+          "coating_end": 18818
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-00.070420086Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx4-kea2-bxc1/2023-11-03-05/2023-11-03T05-15-00.070420086Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX4.KEA2.BXC1/raw/2023/11/03/2023-11-03T05-15-00.070420086Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2263,
+      "foil_end": 19171,
+      "coating_line_sections": [
+        {
+          "foil_start": 2263,
+          "foil_end": 10717,
+          "coating_start": 2616,
+          "coating_end": 10377
+        },
+        {
+          "foil_start": 10717,
+          "foil_end": 19171,
+          "coating_start": 11063,
+          "coating_end": 18818
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-00.122903652Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx4-kea2-bxc1/2023-11-03-05/2023-11-03T05-15-00.122903652Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX4.KEA2.BXC1/raw/2023/11/03/2023-11-03T05-15-00.122903652Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2263,
+      "foil_end": 19170,
+      "coating_line_sections": [
+        {
+          "foil_start": 2263,
+          "foil_end": 10716,
+          "coating_start": 2616,
+          "coating_end": 10377
+        },
+        {
+          "foil_start": 10716,
+          "foil_end": 19170,
+          "coating_start": 11063,
+          "coating_end": 18818
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-00.168718097Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx4-kea2-bxc1/2023-11-03-05/2023-11-03T05-15-00.168718097Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX4.KEA2.BXC1/raw/2023/11/03/2023-11-03T05-15-00.168718097Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2262,
+      "foil_end": 19170,
+      "coating_line_sections": [
+        {
+          "foil_start": 2262,
+          "foil_end": 10716,
+          "coating_start": 2616,
+          "coating_end": 10377
+        },
+        {
+          "foil_start": 10716,
+          "foil_end": 19170,
+          "coating_start": 11063,
+          "coating_end": 18818
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-03T05-15-00.229001316Z.jpg",
+    "fbs": "F1.A1.CT.COT01.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx4-kea2-bxc1/2023-11-03-05/2023-11-03T05-15-00.229001316Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX4.KEA2.BXC1/raw/2023/11/03/2023-11-03T05-15-00.229001316Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2261,
+      "foil_end": 19169,
+      "coating_line_sections": [
+        {
+          "foil_start": 2261,
+          "foil_end": 10715,
+          "coating_start": 2616,
+          "coating_end": 10377
+        },
+        {
+          "foil_start": 10715,
+          "foil_end": 19169,
+          "coating_start": 11063,
+          "coating_end": 18818
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-02.891348687Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx1-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-02.891348687Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX1.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-02.891348687Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5606,
+      "foil_end": 16695,
+      "coating_line_sections": [
+        {
+          "foil_start": 5606,
+          "foil_end": 16695,
+          "coating_start": 6004,
+          "coating_end": 16298
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-07.806845162Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx1-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-07.806845162Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX1.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-07.806845162Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5606,
+      "foil_end": 16695,
+      "coating_line_sections": [
+        {
+          "foil_start": 5606,
+          "foil_end": 16695,
+          "coating_start": 6005,
+          "coating_end": 16298
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-12.723122977Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx1-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-12.723122977Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX1.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-12.723122977Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5604,
+      "foil_end": 16694,
+      "coating_line_sections": [
+        {
+          "foil_start": 5604,
+          "foil_end": 16694,
+          "coating_start": 6004,
+          "coating_end": 16298
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-17.638276759Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx1-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-17.638276759Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX1.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-17.638276759Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5606,
+      "foil_end": 16696,
+      "coating_line_sections": [
+        {
+          "foil_start": 5606,
+          "foil_end": 16696,
+          "coating_start": 6003,
+          "coating_end": 16297
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-22.553824603Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx1-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-22.553824603Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX1.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-22.553824603Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5605,
+      "foil_end": 16694,
+      "coating_line_sections": [
+        {
+          "foil_start": 5605,
+          "foil_end": 16694,
+          "coating_start": 6004,
+          "coating_end": 16298
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-00.045146275Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx2-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-00.045146275Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX2.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-00.045146275Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5202,
+      "foil_end": 16295,
+      "coating_line_sections": [
+        {
+          "foil_start": 5202,
+          "foil_end": 16295,
+          "coating_start": 5600,
+          "coating_end": 15901
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-00.143257199Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx2-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-00.143257199Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX2.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-00.143257199Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5202,
+      "foil_end": 16296,
+      "coating_line_sections": [
+        {
+          "foil_start": 5202,
+          "foil_end": 16296,
+          "coating_start": 5600,
+          "coating_end": 15900
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-00.193084144Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx2-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-00.193084144Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX2.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-00.193084144Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5203,
+      "foil_end": 16296,
+      "coating_line_sections": [
+        {
+          "foil_start": 5203,
+          "foil_end": 16296,
+          "coating_start": 5600,
+          "coating_end": 15900
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-00.291846138Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx2-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-00.291846138Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX2.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-00.291846138Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5203,
+      "foil_end": 16297,
+      "coating_line_sections": [
+        {
+          "foil_start": 5203,
+          "foil_end": 16297,
+          "coating_start": 5600,
+          "coating_end": 15900
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-00.340786405Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx2-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-00.340786405Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX2.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-00.340786405Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5203,
+      "foil_end": 16296,
+      "coating_line_sections": [
+        {
+          "foil_start": 5203,
+          "foil_end": 16296,
+          "coating_start": 5601,
+          "coating_end": 15900
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-02.155775261Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx3-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-02.155775261Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX3.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-02.155775261Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5575,
+      "foil_end": 16667,
+      "coating_line_sections": [
+        {
+          "foil_start": 5575,
+          "foil_end": 16667,
+          "coating_start": 5973,
+          "coating_end": 16267
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-07.069882311Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx3-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-07.069882311Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX3.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-07.069882311Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5575,
+      "foil_end": 16668,
+      "coating_line_sections": [
+        {
+          "foil_start": 5575,
+          "foil_end": 16668,
+          "coating_start": 5974,
+          "coating_end": 16268
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-11.983722755Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx3-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-11.983722755Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX3.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-11.983722755Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5574,
+      "foil_end": 16666,
+      "coating_line_sections": [
+        {
+          "foil_start": 5574,
+          "foil_end": 16666,
+          "coating_start": 5973,
+          "coating_end": 16267
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-16.898469524Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx3-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-16.898469524Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX3.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-16.898469524Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5574,
+      "foil_end": 16666,
+      "coating_line_sections": [
+        {
+          "foil_start": 5574,
+          "foil_end": 16666,
+          "coating_start": 5973,
+          "coating_end": 16267
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-21.812364071Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx3-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-21.812364071Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX3.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-21.812364071Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5575,
+      "foil_end": 16667,
+      "coating_line_sections": [
+        {
+          "foil_start": 5575,
+          "foil_end": 16667,
+          "coating_start": 5974,
+          "coating_end": 16268
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-00.036844989Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx3-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-00.036844989Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX3.KEA2.BXC1/raw/2023/11/01/2023-11-01T05-30-00.036844989Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5564,
+      "foil_end": 16658,
+      "coating_line_sections": [
+        {
+          "foil_start": 5564,
+          "foil_end": 16658,
+          "coating_start": 5962,
+          "coating_end": 16263
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-00.084801031Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx3-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-00.084801031Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX3.KEA2.BXC1/raw/2023/11/01/2023-11-01T05-30-00.084801031Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5563,
+      "foil_end": 16657,
+      "coating_line_sections": [
+        {
+          "foil_start": 5563,
+          "foil_end": 16657,
+          "coating_start": 5962,
+          "coating_end": 16263
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-00.132574692Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx3-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-00.132574692Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX3.KEA2.BXC1/raw/2023/11/01/2023-11-01T05-30-00.132574692Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5564,
+      "foil_end": 16657,
+      "coating_line_sections": [
+        {
+          "foil_start": 5564,
+          "foil_end": 16657,
+          "coating_start": 5962,
+          "coating_end": 16263
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-00.182343637Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx3-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-00.182343637Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX3.KEA2.BXC1/raw/2023/11/01/2023-11-01T05-30-00.182343637Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5564,
+      "foil_end": 16658,
+      "coating_line_sections": [
+        {
+          "foil_start": 5564,
+          "foil_end": 16658,
+          "coating_start": 5962,
+          "coating_end": 16262
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-00.23202471Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx3-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-00.23202471Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX3.KEA2.BXC1/raw/2023/11/01/2023-11-01T05-30-00.23202471Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5564,
+      "foil_end": 16658,
+      "coating_line_sections": [
+        {
+          "foil_start": 5564,
+          "foil_end": 16658,
+          "coating_start": 5962,
+          "coating_end": 16263
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-00.036751012Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx4-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-00.036751012Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX4.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-00.036751012Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5804,
+      "foil_end": 16889,
+      "coating_line_sections": [
+        {
+          "foil_start": 5804,
+          "foil_end": 16889,
+          "coating_start": 6202,
+          "coating_end": 16491
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-01.182073811Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx4-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-01.182073811Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX4.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-01.182073811Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5804,
+      "foil_end": 16889,
+      "coating_line_sections": [
+        {
+          "foil_start": 5804,
+          "foil_end": 16889,
+          "coating_start": 6202,
+          "coating_end": 16491
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-02.15072194Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx4-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-02.15072194Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX4.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-02.15072194Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5805,
+      "foil_end": 16888,
+      "coating_line_sections": [
+        {
+          "foil_start": 5805,
+          "foil_end": 16888,
+          "coating_start": 6201,
+          "coating_end": 16491
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-02.598112065Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx4-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-02.598112065Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX4.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-02.598112065Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5805,
+      "foil_end": 16889,
+      "coating_line_sections": [
+        {
+          "foil_start": 5805,
+          "foil_end": 16889,
+          "coating_start": 6201,
+          "coating_end": 16491
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-02.643893496Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx4-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-02.643893496Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX4.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-02.643893496Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5804,
+      "foil_end": 16889,
+      "coating_line_sections": [
+        {
+          "foil_start": 5804,
+          "foil_end": 16889,
+          "coating_start": 6201,
+          "coating_end": 16491
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-00.633744774Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx4-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-00.633744774Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX4.KEA2.BXC1/raw/2023/11/01/2023-11-01T05-30-00.633744774Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5811,
+      "foil_end": 16898,
+      "coating_line_sections": [
+        {
+          "foil_start": 5811,
+          "foil_end": 16898,
+          "coating_start": 6208,
+          "coating_end": 16504
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-00.78191178Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx4-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-00.78191178Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX4.KEA2.BXC1/raw/2023/11/01/2023-11-01T05-30-00.78191178Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5812,
+      "foil_end": 16898,
+      "coating_line_sections": [
+        {
+          "foil_start": 5812,
+          "foil_end": 16898,
+          "coating_start": 6208,
+          "coating_end": 16504
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-01.569668569Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx4-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-01.569668569Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX4.KEA2.BXC1/raw/2023/11/01/2023-11-01T05-30-01.569668569Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5812,
+      "foil_end": 16899,
+      "coating_line_sections": [
+        {
+          "foil_start": 5812,
+          "foil_end": 16899,
+          "coating_start": 6208,
+          "coating_end": 16504
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-01.718218331Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx4-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-01.718218331Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX4.KEA2.BXC1/raw/2023/11/01/2023-11-01T05-30-01.718218331Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5812,
+      "foil_end": 16898,
+      "coating_line_sections": [
+        {
+          "foil_start": 5812,
+          "foil_end": 16898,
+          "coating_start": 6208,
+          "coating_end": 16504
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T05-30-01.961636154Z.jpg",
+    "fbs": "F1.A1.CT.COT02.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx4-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-01.961636154Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX4.KEA2.BXC1/raw/2023/11/01/2023-11-01T05-30-01.961636154Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5812,
+      "foil_end": 16898,
+      "coating_line_sections": [
+        {
+          "foil_start": 5812,
+          "foil_end": 16898,
+          "coating_start": 6208,
+          "coating_end": 16503
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-08.737465004Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx1-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-08.737465004Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX1.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-08.737465004Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5305,
+      "foil_end": 16405,
+      "coating_line_sections": [
+        {
+          "foil_start": 5305,
+          "foil_end": 16405,
+          "coating_start": 5709,
+          "coating_end": 16003
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-18.569329009Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx1-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-18.569329009Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX1.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-18.569329009Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5306,
+      "foil_end": 16405,
+      "coating_line_sections": [
+        {
+          "foil_start": 5306,
+          "foil_end": 16405,
+          "coating_start": 5708,
+          "coating_end": 16004
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-28.399936516Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx1-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-28.399936516Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX1.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-28.399936516Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5305,
+      "foil_end": 16404,
+      "coating_line_sections": [
+        {
+          "foil_start": 5305,
+          "foil_end": 16404,
+          "coating_start": 5708,
+          "coating_end": 16003
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-38.230640967Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx1-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-38.230640967Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX1.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-38.230640967Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5307,
+      "foil_end": 16405,
+      "coating_line_sections": [
+        {
+          "foil_start": 5307,
+          "foil_end": 16405,
+          "coating_start": 5708,
+          "coating_end": 16004
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-48.06048151Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx1-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-48.06048151Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX1.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-48.06048151Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5305,
+      "foil_end": 16405,
+      "coating_line_sections": [
+        {
+          "foil_start": 5305,
+          "foil_end": 16405,
+          "coating_start": 5707,
+          "coating_end": 16003
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-00.516011108Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx2-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-00.516011108Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX2.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-00.516011108Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5416,
+      "foil_end": 16510,
+      "coating_line_sections": [
+        {
+          "foil_start": 5416,
+          "foil_end": 16510,
+          "coating_start": 5815,
+          "coating_end": 16110
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-00.812019784Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx2-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-00.812019784Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX2.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-00.812019784Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5416,
+      "foil_end": 16510,
+      "coating_line_sections": [
+        {
+          "foil_start": 5416,
+          "foil_end": 16510,
+          "coating_start": 5815,
+          "coating_end": 16110
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-01.106356481Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx2-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-01.106356481Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX2.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-01.106356481Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5416,
+      "foil_end": 16509,
+      "coating_line_sections": [
+        {
+          "foil_start": 5416,
+          "foil_end": 16509,
+          "coating_start": 5815,
+          "coating_end": 16111
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-01.401417394Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx2-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-01.401417394Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX2.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-01.401417394Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5416,
+      "foil_end": 16511,
+      "coating_line_sections": [
+        {
+          "foil_start": 5416,
+          "foil_end": 16511,
+          "coating_start": 5815,
+          "coating_end": 16111
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-01.794390283Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx2-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-01.794390283Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX2.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-01.794390283Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5416,
+      "foil_end": 16509,
+      "coating_line_sections": [
+        {
+          "foil_start": 5416,
+          "foil_end": 16509,
+          "coating_start": 5815,
+          "coating_end": 16111
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-03.243153069Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx3-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-03.243153069Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX3.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-03.243153069Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5440,
+      "foil_end": 16539,
+      "coating_line_sections": [
+        {
+          "foil_start": 5440,
+          "foil_end": 16539,
+          "coating_start": 5839,
+          "coating_end": 16139
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-13.071805378Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx3-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-13.071805378Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX3.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-13.071805378Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5439,
+      "foil_end": 16539,
+      "coating_line_sections": [
+        {
+          "foil_start": 5439,
+          "foil_end": 16539,
+          "coating_start": 5839,
+          "coating_end": 16139
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-22.900231318Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx3-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-22.900231318Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX3.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-22.900231318Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5440,
+      "foil_end": 16539,
+      "coating_line_sections": [
+        {
+          "foil_start": 5440,
+          "foil_end": 16539,
+          "coating_start": 5839,
+          "coating_end": 16139
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-32.728378893Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx3-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-32.728378893Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX3.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-32.728378893Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5440,
+      "foil_end": 16540,
+      "coating_line_sections": [
+        {
+          "foil_start": 5440,
+          "foil_end": 16540,
+          "coating_start": 5839,
+          "coating_end": 16139
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-42.557249251Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx3-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-42.557249251Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX3.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-42.557249251Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5441,
+      "foil_end": 16541,
+      "coating_line_sections": [
+        {
+          "foil_start": 5441,
+          "foil_end": 16541,
+          "coating_start": 5839,
+          "coating_end": 16139
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-00.615802274Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx3-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-00.615802274Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX3.KEA2.BXC1/raw/2023/11/01/2023-11-01T15-30-00.615802274Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5448,
+      "foil_end": 16539,
+      "coating_line_sections": [
+        {
+          "foil_start": 5448,
+          "foil_end": 16539,
+          "coating_start": 5847,
+          "coating_end": 16139
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-01.697327206Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx3-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-01.697327206Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX3.KEA2.BXC1/raw/2023/11/01/2023-11-01T15-30-01.697327206Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5448,
+      "foil_end": 16538,
+      "coating_line_sections": [
+        {
+          "foil_start": 5448,
+          "foil_end": 16538,
+          "coating_start": 5847,
+          "coating_end": 16139
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-01.992768293Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx3-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-01.992768293Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX3.KEA2.BXC1/raw/2023/11/01/2023-11-01T15-30-01.992768293Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5448,
+      "foil_end": 16538,
+      "coating_line_sections": [
+        {
+          "foil_start": 5448,
+          "foil_end": 16538,
+          "coating_start": 5848,
+          "coating_end": 16140
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-02.879198644Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx3-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-02.879198644Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX3.KEA2.BXC1/raw/2023/11/01/2023-11-01T15-30-02.879198644Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5448,
+      "foil_end": 16539,
+      "coating_line_sections": [
+        {
+          "foil_start": 5448,
+          "foil_end": 16539,
+          "coating_start": 5848,
+          "coating_end": 16139
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-05.237706059Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx3-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-05.237706059Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX3.KEA2.BXC1/raw/2023/11/01/2023-11-01T15-30-05.237706059Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5448,
+      "foil_end": 16539,
+      "coating_line_sections": [
+        {
+          "foil_start": 5448,
+          "foil_end": 16539,
+          "coating_start": 5847,
+          "coating_end": 16139
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-00.189975629Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx4-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-00.189975629Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX4.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-00.189975629Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5293,
+      "foil_end": 16388,
+      "coating_line_sections": [
+        {
+          "foil_start": 5293,
+          "foil_end": 16388,
+          "coating_start": 5690,
+          "coating_end": 15987
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-00.485028356Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx4-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-00.485028356Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX4.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-00.485028356Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5293,
+      "foil_end": 16387,
+      "coating_line_sections": [
+        {
+          "foil_start": 5293,
+          "foil_end": 16387,
+          "coating_start": 5689,
+          "coating_end": 15987
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-03.336911822Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx4-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-03.336911822Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX4.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-03.336911822Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5293,
+      "foil_end": 16388,
+      "coating_line_sections": [
+        {
+          "foil_start": 5293,
+          "foil_end": 16388,
+          "coating_start": 5689,
+          "coating_end": 15987
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-06.389919124Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx4-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-06.389919124Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX4.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-06.389919124Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5293,
+      "foil_end": 16388,
+      "coating_line_sections": [
+        {
+          "foil_start": 5293,
+          "foil_end": 16388,
+          "coating_start": 5691,
+          "coating_end": 15987
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-09.344694221Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx4-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-09.344694221Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX4.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-09.344694221Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5293,
+      "foil_end": 16388,
+      "coating_line_sections": [
+        {
+          "foil_start": 5293,
+          "foil_end": 16388,
+          "coating_start": 5690,
+          "coating_end": 15987
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-00.215002515Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx4-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-00.215002515Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX4.KEA2.BXC1/raw/2023/11/01/2023-11-01T15-30-00.215002515Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5329,
+      "foil_end": 16418,
+      "coating_line_sections": [
+        {
+          "foil_start": 5329,
+          "foil_end": 16418,
+          "coating_start": 5727,
+          "coating_end": 16019
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-00.411989826Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx4-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-00.411989826Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX4.KEA2.BXC1/raw/2023/11/01/2023-11-01T15-30-00.411989826Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5328,
+      "foil_end": 16419,
+      "coating_line_sections": [
+        {
+          "foil_start": 5328,
+          "foil_end": 16419,
+          "coating_start": 5727,
+          "coating_end": 16019
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-03.659773616Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx4-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-03.659773616Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX4.KEA2.BXC1/raw/2023/11/01/2023-11-01T15-30-03.659773616Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5329,
+      "foil_end": 16418,
+      "coating_line_sections": [
+        {
+          "foil_start": 5329,
+          "foil_end": 16418,
+          "coating_start": 5727,
+          "coating_end": 16019
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-03.95547199Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx4-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-03.95547199Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX4.KEA2.BXC1/raw/2023/11/01/2023-11-01T15-30-03.95547199Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5328,
+      "foil_end": 16418,
+      "coating_line_sections": [
+        {
+          "foil_start": 5328,
+          "foil_end": 16418,
+          "coating_start": 5727,
+          "coating_end": 16019
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-01T15-30-04.053696835Z.jpg",
+    "fbs": "F1.A1.CT.COT03.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx4-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-04.053696835Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX4.KEA2.BXC1/raw/2023/11/01/2023-11-01T15-30-04.053696835Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5328,
+      "foil_end": 16418,
+      "coating_line_sections": [
+        {
+          "foil_start": 5328,
+          "foil_end": 16418,
+          "coating_start": 5727,
+          "coating_end": 16019
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-03.714176169Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx1-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-03.714176169Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX1.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-03.714176169Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5414,
+      "foil_end": 16478,
+      "coating_line_sections": [
+        {
+          "foil_start": 5414,
+          "foil_end": 16478,
+          "coating_start": 5892,
+          "coating_end": 16002
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-09.822249613Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx1-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-09.822249613Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX1.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-09.822249613Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5415,
+      "foil_end": 16479,
+      "coating_line_sections": [
+        {
+          "foil_start": 5415,
+          "foil_end": 16479,
+          "coating_start": 5892,
+          "coating_end": 16002
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-15.930872932Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx1-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-15.930872932Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX1.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-15.930872932Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5414,
+      "foil_end": 16479,
+      "coating_line_sections": [
+        {
+          "foil_start": 5414,
+          "foil_end": 16479,
+          "coating_start": 5892,
+          "coating_end": 16001
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-22.036310276Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx1-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-22.036310276Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX1.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-22.036310276Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5413,
+      "foil_end": 16477,
+      "coating_line_sections": [
+        {
+          "foil_start": 5413,
+          "foil_end": 16477,
+          "coating_start": 5890,
+          "coating_end": 16000
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-28.147565655Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx1-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-28.147565655Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX1.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-28.147565655Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5415,
+      "foil_end": 16480,
+      "coating_line_sections": [
+        {
+          "foil_start": 5415,
+          "foil_end": 16480,
+          "coating_start": 5892,
+          "coating_end": 16002
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-00.865537758Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx2-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-00.865537758Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX2.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-00.865537758Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5397,
+      "foil_end": 16460,
+      "coating_line_sections": [
+        {
+          "foil_start": 5397,
+          "foil_end": 16460,
+          "coating_start": 5874,
+          "coating_end": 15983
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-04.48682814Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx2-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-04.48682814Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX2.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-04.48682814Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5397,
+      "foil_end": 16460,
+      "coating_line_sections": [
+        {
+          "foil_start": 5397,
+          "foil_end": 16460,
+          "coating_start": 5874,
+          "coating_end": 15983
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-09.3812088Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx2-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-09.3812088Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX2.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-09.3812088Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5398,
+      "foil_end": 16462,
+      "coating_line_sections": [
+        {
+          "foil_start": 5398,
+          "foil_end": 16462,
+          "coating_start": 5875,
+          "coating_end": 15984
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-14.270784707Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx2-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-14.270784707Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX2.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-14.270784707Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5398,
+      "foil_end": 16461,
+      "coating_line_sections": [
+        {
+          "foil_start": 5398,
+          "foil_end": 16461,
+          "coating_start": 5875,
+          "coating_end": 15984
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-19.164697893Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx2-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-19.164697893Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX2.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-19.164697893Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5398,
+      "foil_end": 16462,
+      "coating_line_sections": [
+        {
+          "foil_start": 5398,
+          "foil_end": 16462,
+          "coating_start": 5876,
+          "coating_end": 15984
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-05.320257065Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx3-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-05.320257065Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX3.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-05.320257065Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5483,
+      "foil_end": 16542,
+      "coating_line_sections": [
+        {
+          "foil_start": 5483,
+          "foil_end": 16542,
+          "coating_start": 5962,
+          "coating_end": 16066
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-11.427997355Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx3-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-11.427997355Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX3.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-11.427997355Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5484,
+      "foil_end": 16543,
+      "coating_line_sections": [
+        {
+          "foil_start": 5484,
+          "foil_end": 16543,
+          "coating_start": 5962,
+          "coating_end": 16066
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-17.535624694Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx3-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-17.535624694Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX3.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-17.535624694Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5483,
+      "foil_end": 16543,
+      "coating_line_sections": [
+        {
+          "foil_start": 5483,
+          "foil_end": 16543,
+          "coating_start": 5962,
+          "coating_end": 16066
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-23.640648052Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx3-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-23.640648052Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX3.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-23.640648052Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5483,
+      "foil_end": 16542,
+      "coating_line_sections": [
+        {
+          "foil_start": 5483,
+          "foil_end": 16542,
+          "coating_start": 5962,
+          "coating_end": 16066
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-29.751890185Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx3-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-29.751890185Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX3.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-29.751890185Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5483,
+      "foil_end": 16543,
+      "coating_line_sections": [
+        {
+          "foil_start": 5483,
+          "foil_end": 16543,
+          "coating_start": 5962,
+          "coating_end": 16066
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-01.002539774Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx3-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-01.002539774Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX3.KEA2.BXC1/raw/2023/10/20/2023-10-20T14-00-01.002539774Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5507,
+      "foil_end": 16563,
+      "coating_line_sections": [
+        {
+          "foil_start": 5507,
+          "foil_end": 16563,
+          "coating_start": 5985,
+          "coating_end": 16088
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-03.628651788Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx3-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-03.628651788Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX3.KEA2.BXC1/raw/2023/10/20/2023-10-20T14-00-03.628651788Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5509,
+      "foil_end": 16564,
+      "coating_line_sections": [
+        {
+          "foil_start": 5509,
+          "foil_end": 16564,
+          "coating_start": 5986,
+          "coating_end": 16088
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-04.969815499Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx3-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-04.969815499Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX3.KEA2.BXC1/raw/2023/10/20/2023-10-20T14-00-04.969815499Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5509,
+      "foil_end": 16565,
+      "coating_line_sections": [
+        {
+          "foil_start": 5509,
+          "foil_end": 16565,
+          "coating_start": 5985,
+          "coating_end": 16087
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-05.644084107Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx3-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-05.644084107Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX3.KEA2.BXC1/raw/2023/10/20/2023-10-20T14-00-05.644084107Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5508,
+      "foil_end": 16564,
+      "coating_line_sections": [
+        {
+          "foil_start": 5508,
+          "foil_end": 16564,
+          "coating_start": 5985,
+          "coating_end": 16087
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-07.109966784Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx3-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-07.109966784Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX3.KEA2.BXC1/raw/2023/10/20/2023-10-20T14-00-07.109966784Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5508,
+      "foil_end": 16565,
+      "coating_line_sections": [
+        {
+          "foil_start": 5508,
+          "foil_end": 16565,
+          "coating_start": 5984,
+          "coating_end": 16087
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-03.523553167Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx4-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-03.523553167Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX4.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-03.523553167Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5549,
+      "foil_end": 16616,
+      "coating_line_sections": [
+        {
+          "foil_start": 5549,
+          "foil_end": 16616,
+          "coating_start": 6028,
+          "coating_end": 16140
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-04.842362892Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx4-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-04.842362892Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX4.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-04.842362892Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5549,
+      "foil_end": 16617,
+      "coating_line_sections": [
+        {
+          "foil_start": 5549,
+          "foil_end": 16617,
+          "coating_start": 6028,
+          "coating_end": 16140
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-04.891259552Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx4-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-04.891259552Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX4.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-04.891259552Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5550,
+      "foil_end": 16617,
+      "coating_line_sections": [
+        {
+          "foil_start": 5550,
+          "foil_end": 16617,
+          "coating_start": 6028,
+          "coating_end": 16140
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-04.94185865Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx4-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-04.94185865Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX4.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-04.94185865Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5550,
+      "foil_end": 16617,
+      "coating_line_sections": [
+        {
+          "foil_start": 5550,
+          "foil_end": 16617,
+          "coating_start": 6028,
+          "coating_end": 16140
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-05.676438555Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx4-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-05.676438555Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX4.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-05.676438555Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5550,
+      "foil_end": 16616,
+      "coating_line_sections": [
+        {
+          "foil_start": 5550,
+          "foil_end": 16616,
+          "coating_start": 6028,
+          "coating_end": 16140
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-03.603430556Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx4-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-03.603430556Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX4.KEA2.BXC1/raw/2023/10/20/2023-10-20T14-00-03.603430556Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5536,
+      "foil_end": 16599,
+      "coating_line_sections": [
+        {
+          "foil_start": 5536,
+          "foil_end": 16599,
+          "coating_start": 6012,
+          "coating_end": 16122
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-05.068452802Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx4-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-05.068452802Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX4.KEA2.BXC1/raw/2023/10/20/2023-10-20T14-00-05.068452802Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5536,
+      "foil_end": 16599,
+      "coating_line_sections": [
+        {
+          "foil_start": 5536,
+          "foil_end": 16599,
+          "coating_start": 6013,
+          "coating_end": 16122
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-08.496423409Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx4-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-08.496423409Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX4.KEA2.BXC1/raw/2023/10/20/2023-10-20T14-00-08.496423409Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5536,
+      "foil_end": 16598,
+      "coating_line_sections": [
+        {
+          "foil_start": 5536,
+          "foil_end": 16598,
+          "coating_start": 6013,
+          "coating_end": 16122
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-13.389551872Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx4-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-13.389551872Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX4.KEA2.BXC1/raw/2023/10/20/2023-10-20T14-00-13.389551872Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5535,
+      "foil_end": 16598,
+      "coating_line_sections": [
+        {
+          "foil_start": 5535,
+          "foil_end": 16598,
+          "coating_start": 6011,
+          "coating_end": 16120
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T14-00-17.694897473Z.jpg",
+    "fbs": "F1.C1.CT.COT01.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx4-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-17.694897473Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX4.KEA2.BXC1/raw/2023/10/20/2023-10-20T14-00-17.694897473Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5536,
+      "foil_end": 16599,
+      "coating_line_sections": [
+        {
+          "foil_start": 5536,
+          "foil_end": 16599,
+          "coating_start": 6012,
+          "coating_end": 16121
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-02.755977111Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx1-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-02.755977111Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX1.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-02.755977111Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5425,
+      "foil_end": 16490,
+      "coating_line_sections": [
+        {
+          "foil_start": 5425,
+          "foil_end": 16490,
+          "coating_start": 5901,
+          "coating_end": 16013
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-08.862291439Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx1-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-08.862291439Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX1.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-08.862291439Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5423,
+      "foil_end": 16488,
+      "coating_line_sections": [
+        {
+          "foil_start": 5423,
+          "foil_end": 16488,
+          "coating_start": 5900,
+          "coating_end": 16012
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-14.972856553Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx1-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-14.972856553Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX1.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-14.972856553Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5423,
+      "foil_end": 16489,
+      "coating_line_sections": [
+        {
+          "foil_start": 5423,
+          "foil_end": 16489,
+          "coating_start": 5899,
+          "coating_end": 16011
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-21.081478749Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx1-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-21.081478749Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX1.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-21.081478749Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5423,
+      "foil_end": 16488,
+      "coating_line_sections": [
+        {
+          "foil_start": 5423,
+          "foil_end": 16488,
+          "coating_start": 5900,
+          "coating_end": 16012
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-27.189826823Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx1-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-27.189826823Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX1.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-27.189826823Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5425,
+      "foil_end": 16490,
+      "coating_line_sections": [
+        {
+          "foil_start": 5425,
+          "foil_end": 16490,
+          "coating_start": 5900,
+          "coating_end": 16012
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-00.360556658Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx2-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-00.360556658Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX2.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-00.360556658Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5519,
+      "foil_end": 16586,
+      "coating_line_sections": [
+        {
+          "foil_start": 5519,
+          "foil_end": 16586,
+          "coating_start": 5996,
+          "coating_end": 16110
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-00.899426117Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx2-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-00.899426117Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX2.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-00.899426117Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5520,
+      "foil_end": 16586,
+      "coating_line_sections": [
+        {
+          "foil_start": 5520,
+          "foil_end": 16586,
+          "coating_start": 5996,
+          "coating_end": 16110
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-01.044921367Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx2-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-01.044921367Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX2.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-01.044921367Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5520,
+      "foil_end": 16587,
+      "coating_line_sections": [
+        {
+          "foil_start": 5520,
+          "foil_end": 16587,
+          "coating_start": 5996,
+          "coating_end": 16110
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-01.095188892Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx2-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-01.095188892Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX2.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-01.095188892Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5520,
+      "foil_end": 16588,
+      "coating_line_sections": [
+        {
+          "foil_start": 5520,
+          "foil_end": 16588,
+          "coating_start": 5996,
+          "coating_end": 16110
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-01.239746317Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx2-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-01.239746317Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX2.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-01.239746317Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5520,
+      "foil_end": 16587,
+      "coating_line_sections": [
+        {
+          "foil_start": 5520,
+          "foil_end": 16587,
+          "coating_start": 5996,
+          "coating_end": 16110
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-02.535251175Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx3-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-02.535251175Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX3.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-02.535251175Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5406,
+      "foil_end": 16469,
+      "coating_line_sections": [
+        {
+          "foil_start": 5406,
+          "foil_end": 16469,
+          "coating_start": 5884,
+          "coating_end": 15990
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-08.647774142Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx3-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-08.647774142Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX3.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-08.647774142Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5405,
+      "foil_end": 16468,
+      "coating_line_sections": [
+        {
+          "foil_start": 5405,
+          "foil_end": 16468,
+          "coating_start": 5884,
+          "coating_end": 15990
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-14.759117287Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx3-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-14.759117287Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX3.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-14.759117287Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5405,
+      "foil_end": 16468,
+      "coating_line_sections": [
+        {
+          "foil_start": 5405,
+          "foil_end": 16468,
+          "coating_start": 5883,
+          "coating_end": 15990
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-20.871326927Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx3-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-20.871326927Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX3.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-20.871326927Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5406,
+      "foil_end": 16469,
+      "coating_line_sections": [
+        {
+          "foil_start": 5406,
+          "foil_end": 16469,
+          "coating_start": 5884,
+          "coating_end": 15990
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-26.982059109Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx3-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-26.982059109Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX3.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-26.982059109Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5406,
+      "foil_end": 16469,
+      "coating_line_sections": [
+        {
+          "foil_start": 5406,
+          "foil_end": 16469,
+          "coating_start": 5884,
+          "coating_end": 15990
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-00.475601629Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx3-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-00.475601629Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX3.KEA2.BXC1/raw/2023/10/31/2023-10-31T17-00-00.475601629Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5399,
+      "foil_end": 16464,
+      "coating_line_sections": [
+        {
+          "foil_start": 5399,
+          "foil_end": 16464,
+          "coating_start": 5875,
+          "coating_end": 15988
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-01.817033315Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx3-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-01.817033315Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX3.KEA2.BXC1/raw/2023/10/31/2023-10-31T17-00-01.817033315Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5399,
+      "foil_end": 16465,
+      "coating_line_sections": [
+        {
+          "foil_start": 5399,
+          "foil_end": 16465,
+          "coating_start": 5875,
+          "coating_end": 15987
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-02.367175274Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx3-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-02.367175274Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX3.KEA2.BXC1/raw/2023/10/31/2023-10-31T17-00-02.367175274Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5399,
+      "foil_end": 16465,
+      "coating_line_sections": [
+        {
+          "foil_start": 5399,
+          "foil_end": 16465,
+          "coating_start": 5875,
+          "coating_end": 15987
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-03.347684189Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx3-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-03.347684189Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX3.KEA2.BXC1/raw/2023/10/31/2023-10-31T17-00-03.347684189Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5398,
+      "foil_end": 16463,
+      "coating_line_sections": [
+        {
+          "foil_start": 5398,
+          "foil_end": 16463,
+          "coating_start": 5874,
+          "coating_end": 15987
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-03.958565105Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx3-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-03.958565105Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX3.KEA2.BXC1/raw/2023/10/31/2023-10-31T17-00-03.958565105Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5398,
+      "foil_end": 16464,
+      "coating_line_sections": [
+        {
+          "foil_start": 5398,
+          "foil_end": 16464,
+          "coating_start": 5874,
+          "coating_end": 15987
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-00.393225207Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx4-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-00.393225207Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX4.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-00.393225207Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5476,
+      "foil_end": 16538,
+      "coating_line_sections": [
+        {
+          "foil_start": 5476,
+          "foil_end": 16538,
+          "coating_start": 5953,
+          "coating_end": 16061
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-02.007883814Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx4-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-02.007883814Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX4.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-02.007883814Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5477,
+      "foil_end": 16539,
+      "coating_line_sections": [
+        {
+          "foil_start": 5477,
+          "foil_end": 16539,
+          "coating_start": 5953,
+          "coating_end": 16060
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-02.983655315Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx4-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-02.983655315Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX4.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-02.983655315Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5477,
+      "foil_end": 16539,
+      "coating_line_sections": [
+        {
+          "foil_start": 5477,
+          "foil_end": 16539,
+          "coating_start": 5953,
+          "coating_end": 16060
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-03.033968702Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx4-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-03.033968702Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX4.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-03.033968702Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5477,
+      "foil_end": 16539,
+      "coating_line_sections": [
+        {
+          "foil_start": 5477,
+          "foil_end": 16539,
+          "coating_start": 5954,
+          "coating_end": 16060
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-04.797793321Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx4-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-04.797793321Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX4.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-04.797793321Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5476,
+      "foil_end": 16537,
+      "coating_line_sections": [
+        {
+          "foil_start": 5476,
+          "foil_end": 16537,
+          "coating_start": 5953,
+          "coating_end": 16060
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-00.777530999Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx4-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-00.777530999Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX4.KEA2.BXC1/raw/2023/10/31/2023-10-31T17-00-00.777530999Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5503,
+      "foil_end": 16562,
+      "coating_line_sections": [
+        {
+          "foil_start": 5503,
+          "foil_end": 16562,
+          "coating_start": 5979,
+          "coating_end": 16087
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-01.26472895Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx4-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-01.26472895Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX4.KEA2.BXC1/raw/2023/10/31/2023-10-31T17-00-01.26472895Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5503,
+      "foil_end": 16562,
+      "coating_line_sections": [
+        {
+          "foil_start": 5503,
+          "foil_end": 16562,
+          "coating_start": 5979,
+          "coating_end": 16087
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-01.41313683Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx4-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-01.41313683Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX4.KEA2.BXC1/raw/2023/10/31/2023-10-31T17-00-01.41313683Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5503,
+      "foil_end": 16563,
+      "coating_line_sections": [
+        {
+          "foil_start": 5503,
+          "foil_end": 16563,
+          "coating_start": 5979,
+          "coating_end": 16087
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-01.560459981Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx4-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-01.560459981Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX4.KEA2.BXC1/raw/2023/10/31/2023-10-31T17-00-01.560459981Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5504,
+      "foil_end": 16563,
+      "coating_line_sections": [
+        {
+          "foil_start": 5504,
+          "foil_end": 16563,
+          "coating_start": 5979,
+          "coating_end": 16087
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-31T17-00-02.144688832Z.jpg",
+    "fbs": "F1.C1.CT.COT02.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx4-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-02.144688832Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX4.KEA2.BXC1/raw/2023/10/31/2023-10-31T17-00-02.144688832Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 5504,
+      "foil_end": 16563,
+      "coating_line_sections": [
+        {
+          "foil_start": 5504,
+          "foil_end": 16563,
+          "coating_start": 5980,
+          "coating_end": 16087
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-05.554680789Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx1-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-05.554680789Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX1.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-05.554680789Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2558,
+      "foil_end": 19480,
+      "coating_line_sections": [
+        {
+          "foil_start": 2558,
+          "foil_end": 11019,
+          "coating_start": 2999,
+          "coating_end": 10572
+        },
+        {
+          "foil_start": 11019,
+          "foil_end": 19480,
+          "coating_start": 11476,
+          "coating_end": 19054
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-11.692660976Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx1-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-11.692660976Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX1.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-11.692660976Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2557,
+      "foil_end": 19480,
+      "coating_line_sections": [
+        {
+          "foil_start": 2557,
+          "foil_end": 11018,
+          "coating_start": 2998,
+          "coating_end": 10571
+        },
+        {
+          "foil_start": 11018,
+          "foil_end": 19480,
+          "coating_start": 11476,
+          "coating_end": 19053
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-17.826500793Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx1-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-17.826500793Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX1.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-17.826500793Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2557,
+      "foil_end": 19480,
+      "coating_line_sections": [
+        {
+          "foil_start": 2557,
+          "foil_end": 11018,
+          "coating_start": 2998,
+          "coating_end": 10571
+        },
+        {
+          "foil_start": 11018,
+          "foil_end": 19480,
+          "coating_start": 11475,
+          "coating_end": 19052
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-23.962903681Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx1-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-23.962903681Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX1.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-23.962903681Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2558,
+      "foil_end": 19481,
+      "coating_line_sections": [
+        {
+          "foil_start": 2558,
+          "foil_end": 11019,
+          "coating_start": 2998,
+          "coating_end": 10572
+        },
+        {
+          "foil_start": 11019,
+          "foil_end": 19481,
+          "coating_start": 11476,
+          "coating_end": 19053
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-30.095808919Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX1.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx1-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-30.095808919Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX1.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-30.095808919Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2557,
+      "foil_end": 19480,
+      "coating_line_sections": [
+        {
+          "foil_start": 2557,
+          "foil_end": 11018,
+          "coating_start": 2999,
+          "coating_end": 10572
+        },
+        {
+          "foil_start": 11018,
+          "foil_end": 19480,
+          "coating_start": 11477,
+          "coating_end": 19053
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-01.489942766Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx2-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-01.489942766Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX2.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-01.489942766Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2536,
+      "foil_end": 19459,
+      "coating_line_sections": [
+        {
+          "foil_start": 2536,
+          "foil_end": 10997,
+          "coating_start": 2977,
+          "coating_end": 10550
+        },
+        {
+          "foil_start": 10997,
+          "foil_end": 19459,
+          "coating_start": 11455,
+          "coating_end": 19032
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-06.39871014Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx2-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-06.39871014Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX2.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-06.39871014Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2537,
+      "foil_end": 19460,
+      "coating_line_sections": [
+        {
+          "foil_start": 2537,
+          "foil_end": 10998,
+          "coating_start": 2978,
+          "coating_end": 10551
+        },
+        {
+          "foil_start": 10998,
+          "foil_end": 19460,
+          "coating_start": 11456,
+          "coating_end": 19033
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-11.312840979Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx2-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-11.312840979Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX2.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-11.312840979Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2537,
+      "foil_end": 19459,
+      "coating_line_sections": [
+        {
+          "foil_start": 2537,
+          "foil_end": 10998,
+          "coating_start": 2978,
+          "coating_end": 10549
+        },
+        {
+          "foil_start": 10998,
+          "foil_end": 19459,
+          "coating_start": 11455,
+          "coating_end": 19031
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-16.224424337Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx2-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-16.224424337Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX2.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-16.224424337Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2536,
+      "foil_end": 19458,
+      "coating_line_sections": [
+        {
+          "foil_start": 2536,
+          "foil_end": 10997,
+          "coating_start": 2978,
+          "coating_end": 10549
+        },
+        {
+          "foil_start": 10997,
+          "foil_end": 19458,
+          "coating_start": 11456,
+          "coating_end": 19031
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-21.135147057Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX2.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx2-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-21.135147057Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX2.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-21.135147057Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2537,
+      "foil_end": 19460,
+      "coating_line_sections": [
+        {
+          "foil_start": 2537,
+          "foil_end": 10998,
+          "coating_start": 2977,
+          "coating_end": 10549
+        },
+        {
+          "foil_start": 10998,
+          "foil_end": 19460,
+          "coating_start": 11455,
+          "coating_end": 19032
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-03.451741409Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx3-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-03.451741409Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX3.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-03.451741409Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2489,
+      "foil_end": 19407,
+      "coating_line_sections": [
+        {
+          "foil_start": 2489,
+          "foil_end": 10948,
+          "coating_start": 2919,
+          "coating_end": 10495
+        },
+        {
+          "foil_start": 10948,
+          "foil_end": 19407,
+          "coating_start": 11397,
+          "coating_end": 18975
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-09.583786852Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx3-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-09.583786852Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX3.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-09.583786852Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2489,
+      "foil_end": 19406,
+      "coating_line_sections": [
+        {
+          "foil_start": 2489,
+          "foil_end": 10947,
+          "coating_start": 2919,
+          "coating_end": 10495
+        },
+        {
+          "foil_start": 10947,
+          "foil_end": 19406,
+          "coating_start": 11397,
+          "coating_end": 18975
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-15.71528146Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx3-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-15.71528146Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX3.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-15.71528146Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2488,
+      "foil_end": 19406,
+      "coating_line_sections": [
+        {
+          "foil_start": 2488,
+          "foil_end": 10947,
+          "coating_start": 2919,
+          "coating_end": 10495
+        },
+        {
+          "foil_start": 10947,
+          "foil_end": 19406,
+          "coating_start": 11397,
+          "coating_end": 18975
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-21.847652214Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx3-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-21.847652214Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX3.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-21.847652214Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2488,
+      "foil_end": 19405,
+      "coating_line_sections": [
+        {
+          "foil_start": 2488,
+          "foil_end": 10946,
+          "coating_start": 2919,
+          "coating_end": 10494
+        },
+        {
+          "foil_start": 10946,
+          "foil_end": 19405,
+          "coating_start": 11397,
+          "coating_end": 18975
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-27.980165324Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX3.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx3-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-27.980165324Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX3.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-27.980165324Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2488,
+      "foil_end": 19406,
+      "coating_line_sections": [
+        {
+          "foil_start": 2488,
+          "foil_end": 10947,
+          "coating_start": 2919,
+          "coating_end": 10495
+        },
+        {
+          "foil_start": 10947,
+          "foil_end": 19406,
+          "coating_start": 11397,
+          "coating_end": 18975
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-00.007879131Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx3-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-00.007879131Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX3.KEA2.BXC1/raw/2023/10/20/2023-10-20T18-00-00.007879131Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2502,
+      "foil_end": 19418,
+      "coating_line_sections": [
+        {
+          "foil_start": 2502,
+          "foil_end": 10960,
+          "coating_start": 2942,
+          "coating_end": 10512
+        },
+        {
+          "foil_start": 10960,
+          "foil_end": 19418,
+          "coating_start": 11418,
+          "coating_end": 18990
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-01.049895066Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx3-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-01.049895066Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX3.KEA2.BXC1/raw/2023/10/20/2023-10-20T18-00-01.049895066Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2504,
+      "foil_end": 19419,
+      "coating_line_sections": [
+        {
+          "foil_start": 2504,
+          "foil_end": 10961,
+          "coating_start": 2943,
+          "coating_end": 10514
+        },
+        {
+          "foil_start": 10961,
+          "foil_end": 19419,
+          "coating_start": 11419,
+          "coating_end": 18991
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-01.295347454Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx3-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-01.295347454Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX3.KEA2.BXC1/raw/2023/10/20/2023-10-20T18-00-01.295347454Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2502,
+      "foil_end": 19418,
+      "coating_line_sections": [
+        {
+          "foil_start": 2502,
+          "foil_end": 10960,
+          "coating_start": 2943,
+          "coating_end": 10513
+        },
+        {
+          "foil_start": 10960,
+          "foil_end": 19418,
+          "coating_start": 11419,
+          "coating_end": 18991
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-01.906201724Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx3-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-01.906201724Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX3.KEA2.BXC1/raw/2023/10/20/2023-10-20T18-00-01.906201724Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2502,
+      "foil_end": 19418,
+      "coating_line_sections": [
+        {
+          "foil_start": 2502,
+          "foil_end": 10960,
+          "coating_start": 2943,
+          "coating_end": 10513
+        },
+        {
+          "foil_start": 10960,
+          "foil_end": 19418,
+          "coating_start": 11418,
+          "coating_end": 18990
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-03.687377365Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX3.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx3-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-03.687377365Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX3.KEA2.BXC1/raw/2023/10/20/2023-10-20T18-00-03.687377365Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2502,
+      "foil_end": 19418,
+      "coating_line_sections": [
+        {
+          "foil_start": 2502,
+          "foil_end": 10960,
+          "coating_start": 2943,
+          "coating_end": 10513
+        },
+        {
+          "foil_start": 10960,
+          "foil_end": 19418,
+          "coating_start": 11419,
+          "coating_end": 18990
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-03.698003931Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx4-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-03.698003931Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX4.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-03.698003931Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2773,
+      "foil_end": 19692,
+      "coating_line_sections": [
+        {
+          "foil_start": 2773,
+          "foil_end": 11232,
+          "coating_start": 3202,
+          "coating_end": 10780
+        },
+        {
+          "foil_start": 11232,
+          "foil_end": 19692,
+          "coating_start": 11682,
+          "coating_end": 19262
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-08.611915344Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx4-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-08.611915344Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX4.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-08.611915344Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2772,
+      "foil_end": 19692,
+      "coating_line_sections": [
+        {
+          "foil_start": 2772,
+          "foil_end": 11232,
+          "coating_start": 3203,
+          "coating_end": 10780
+        },
+        {
+          "foil_start": 11232,
+          "foil_end": 19692,
+          "coating_start": 11683,
+          "coating_end": 19262
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-12.691022818Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx4-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-12.691022818Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX4.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-12.691022818Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2774,
+      "foil_end": 19693,
+      "coating_line_sections": [
+        {
+          "foil_start": 2774,
+          "foil_end": 11233,
+          "coating_start": 3202,
+          "coating_end": 10780
+        },
+        {
+          "foil_start": 11233,
+          "foil_end": 19693,
+          "coating_start": 11683,
+          "coating_end": 19261
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-13.528092877Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx4-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-13.528092877Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX4.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-13.528092877Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2773,
+      "foil_end": 19693,
+      "coating_line_sections": [
+        {
+          "foil_start": 2773,
+          "foil_end": 11233,
+          "coating_start": 3203,
+          "coating_end": 10779
+        },
+        {
+          "foil_start": 11233,
+          "foil_end": 19693,
+          "coating_start": 11683,
+          "coating_end": 19261
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-18.442656858Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX4.KEA1.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx4-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-18.442656858Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX4.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-18.442656858Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2773,
+      "foil_end": 19692,
+      "coating_line_sections": [
+        {
+          "foil_start": 2773,
+          "foil_end": 11232,
+          "coating_start": 3203,
+          "coating_end": 10781
+        },
+        {
+          "foil_start": 11232,
+          "foil_end": 19692,
+          "coating_start": 11683,
+          "coating_end": 19263
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-00.522784439Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx4-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-00.522784439Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX4.KEA2.BXC1/raw/2023/10/20/2023-10-20T18-00-00.522784439Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2745,
+      "foil_end": 19667,
+      "coating_line_sections": [
+        {
+          "foil_start": 2745,
+          "foil_end": 11206,
+          "coating_start": 3185,
+          "coating_end": 10758
+        },
+        {
+          "foil_start": 11206,
+          "foil_end": 19667,
+          "coating_start": 11664,
+          "coating_end": 19241
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-01.753281179Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx4-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-01.753281179Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX4.KEA2.BXC1/raw/2023/10/20/2023-10-20T18-00-01.753281179Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2745,
+      "foil_end": 19667,
+      "coating_line_sections": [
+        {
+          "foil_start": 2745,
+          "foil_end": 11206,
+          "coating_start": 3185,
+          "coating_end": 10759
+        },
+        {
+          "foil_start": 11206,
+          "foil_end": 19667,
+          "coating_start": 11664,
+          "coating_end": 19242
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-03.719864839Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx4-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-03.719864839Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX4.KEA2.BXC1/raw/2023/10/20/2023-10-20T18-00-03.719864839Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2746,
+      "foil_end": 19668,
+      "coating_line_sections": [
+        {
+          "foil_start": 2746,
+          "foil_end": 11207,
+          "coating_start": 3184,
+          "coating_end": 10759
+        },
+        {
+          "foil_start": 11207,
+          "foil_end": 19668,
+          "coating_start": 11664,
+          "coating_end": 19242
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-05.439914046Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx4-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-05.439914046Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX4.KEA2.BXC1/raw/2023/10/20/2023-10-20T18-00-05.439914046Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2746,
+      "foil_end": 19668,
+      "coating_line_sections": [
+        {
+          "foil_start": 2746,
+          "foil_end": 11207,
+          "coating_start": 3183,
+          "coating_end": 10759
+        },
+        {
+          "foil_start": 11207,
+          "foil_end": 19668,
+          "coating_start": 11663,
+          "coating_end": 19242
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-20T18-00-10.352741817Z.jpg",
+    "fbs": "F1.C1.CT.COT03.BX4.KEA2.BXC1",
+    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx4-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-10.352741817Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX4.KEA2.BXC1/raw/2023/10/20/2023-10-20T18-00-10.352741817Z.jpg",
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
+    "ppmx": 23.3,
+    "width": 21960,
+    "height": 1024,
+    "result": {
+      "foil_start": 2746,
+      "foil_end": 19668,
+      "coating_line_sections": [
+        {
+          "foil_start": 2746,
+          "foil_end": 11207,
+          "coating_start": 3184,
+          "coating_end": 10759
+        },
+        {
+          "foil_start": 11207,
+          "foil_end": 19668,
+          "coating_start": 11664,
+          "coating_end": 19242
+        }
+      ]
+    }
+  }
+]
