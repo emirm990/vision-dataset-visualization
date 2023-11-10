@@ -2,6 +2,7 @@
 import { TestItem } from '@/types/testdata'
 import useSWR from 'swr'
 import Canvas from './Canvas/Canvas'
+import styles from './styles.module.css'
 
 type Props = {
   item: TestItem
@@ -18,7 +19,7 @@ export default function DataVisualization(props: Props){
 
   data?.images.forEach((image: string) => {
     const imagePathNormalized = image.replaceAll('_', '/')
-    if (item.pathS3.includes(imagePathNormalized)) {
+    if (item.pathS3.includes(imagePathNormalized) || item.pathLocal === image) {
       imagePath = image
     }
   })
@@ -36,7 +37,8 @@ export default function DataVisualization(props: Props){
   }
 
   return (
-    <div>
+    <div className={styles.visualizationContainer}>
+      <h1>{item.fbs}</h1>
       <Canvas item={item} imagePath={generateFullImagePath(imagePath)} />
     </div>
   )

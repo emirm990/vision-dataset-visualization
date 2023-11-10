@@ -2,6 +2,7 @@ import { TestItem } from '@/types/testdata'
 import { useEffect, useRef } from 'react'
 import { fabric } from 'fabric' // v5
 import type { Canvas as FabricCanvasType } from 'fabric/fabric-impl'
+import styles from './styles.module.css'
 
 type Props = {
   item: TestItem,
@@ -21,9 +22,10 @@ export default function Canvas(props: Props){
 
   const fabricRef = useRef<FabricCanvas | null>(null)
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
+  const canvasContainerRef = useRef<HTMLDivElement | null>(null)
 
   const getWidth = () => {
-    return document.body.getBoundingClientRect().width
+    return canvasContainerRef.current?.clientWidth
   }
 
   useEffect(() => {
@@ -31,6 +33,7 @@ export default function Canvas(props: Props){
       fabricRef.current = new fabric.Canvas(canvasRef.current, {
         perPixelTargetFind: true,
         imageSmoothingEnabled: false,
+        selection: false,
       }) as FabricCanvas
       fabricRef.current.width = getWidth()
     }
@@ -43,8 +46,10 @@ export default function Canvas(props: Props){
 
     const onResize = () => {
       if (fabricRef.current) {
-
-        fabricRef.current.setDimensions({width: getWidth(), height: 600})
+        const width = getWidth()
+        if (width) {
+          fabricRef.current.setDimensions({width: width, height: 600})
+        }
       }
     }
 
@@ -57,7 +62,6 @@ export default function Canvas(props: Props){
 
       if (evt.altKey === true) {
         canvas.isDragging = true
-        canvas.selection = false
         canvas.lastPosX = evt.clientX
         canvas.lastPosY = evt.clientY
       }
@@ -93,7 +97,6 @@ export default function Canvas(props: Props){
       if (vpt) {
         canvas.setViewportTransform(vpt)
         canvas.isDragging = false
-        canvas.selection = true
       }
     })
     
@@ -116,8 +119,22 @@ export default function Canvas(props: Props){
       opt.e.stopPropagation()
     })
           
-    fabricRef.current?.on('mouse:over', function(opt) {
-      console.log(opt.target)
+    fabricRef.current?.on('object:moving', function(opt) {
+      const target = opt.target as fabric.Group
+      if (!target) {
+        return
+      }
+      const objects = target.getObjects() as fabric.Object[]
+      
+      objects.forEach((object) => {
+        if (object.name === 'text') {
+          const textObject = object as fabric.Text
+          const objectPositionLeft = target.left && target.width ? target.left + target?.width / 2 : 0
+          textObject.set({
+            text: `${target?.name}: ${objectPositionLeft.toFixed(0)}px`
+          })
+        }
+      })
     })
 
     onResize()
@@ -133,22 +150,25 @@ export default function Canvas(props: Props){
     if (imagePath) {
       const addLine = (x: number, y: number, stroke?: string, label?: string) => {
         const line = new fabric.Line([x, 0, x, y], {
+          name: 'line',
           strokeWidth: 10,
-          stroke: stroke || 'red'
+          stroke: stroke || 'red',
+          opacity: 0.5,
         })
         const text = new fabric.Text(`${label}: ${x}px`, {
+          name: 'text',
           textAlign: 'center',
           stroke: stroke,
           fill: stroke,
           backgroundColor: 'white',
-          padding: 50,
           originX: 'center',
           originY: 'center',
           left: x,
           top: y + 50,
         })
-        line.lockMovementY = true
         const lineGroup = new fabric.Group([line, text])
+        lineGroup.lockMovementY = true
+        lineGroup.name = label
         return lineGroup
       }
 
@@ -184,8 +204,7 @@ export default function Canvas(props: Props){
   }, [item])
 
   return (
-    <div>
-      <h1>{item.fbs}</h1>
+    <div ref={canvasContainerRef} className={styles.canvasContainer}>
       <canvas ref={canvasRef} width={getWidth()} height={600}/>
     </div>
   )
