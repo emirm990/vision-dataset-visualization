@@ -14,6 +14,9 @@ type FabricCanvas = FabricCanvasType & {
   lastPosY: number,
   lastPosX: number,
 }
+
+fabric.Object.prototype.objectCaching = false
+
 export default function Canvas(props: Props){
   const {
     item,

@@ -1,5 +1,6 @@
+import DataVisualization from '../components/DataVisualization/DataVisualization'
 import testData from '../../public/data/test.json'
-import DataVisualization from '@/components/DataVisualization/DataVisualization'
+
 
 export default function Home() {
 
