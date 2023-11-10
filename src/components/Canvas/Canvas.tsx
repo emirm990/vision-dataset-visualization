@@ -25,7 +25,15 @@ export default function Canvas(props: Props){
   const canvasContainerRef = useRef<HTMLDivElement | null>(null)
 
   const getWidth = () => {
-    return canvasContainerRef.current?.clientWidth
+    if(canvasContainerRef.current) {
+      return canvasContainerRef.current?.clientWidth
+    }
+  }
+
+  const getHeight = () => {
+    if (canvasContainerRef.current) {
+      return canvasContainerRef.current?.clientHeight
+    }
   }
 
   useEffect(() => {
@@ -34,6 +42,7 @@ export default function Canvas(props: Props){
         perPixelTargetFind: true,
         imageSmoothingEnabled: false,
         selection: false,
+        enableRetinaScaling: true,
       }) as FabricCanvas
       fabricRef.current.width = getWidth()
     }
@@ -47,8 +56,11 @@ export default function Canvas(props: Props){
     const onResize = () => {
       if (fabricRef.current) {
         const width = getWidth()
-        if (width) {
-          fabricRef.current.setDimensions({width: width, height: 600})
+        const height = getHeight()
+
+        if (width && height) {
+          fabricRef.current.setDimensions({width: width, height: height})
+          fabricRef.current.setViewportTransform([window.devicePixelRatio, 0, 0, window.devicePixelRatio, 0, 0])
         }
       }
     }
@@ -154,6 +166,7 @@ export default function Canvas(props: Props){
           strokeWidth: 10,
           stroke: stroke || 'red',
           opacity: 0.5,
+          hasControls: false,
         })
         const text = new fabric.Text(`${label}: ${x}px`, {
           name: 'text',
@@ -165,10 +178,14 @@ export default function Canvas(props: Props){
           originY: 'center',
           left: x,
           top: y + 50,
+          hasControls: false,
         })
-        const lineGroup = new fabric.Group([line, text])
-        lineGroup.lockMovementY = true
-        lineGroup.name = label
+        const lineGroup = new fabric.Group([line, text], {
+          lockMovementY: true,
+          name: label,
+          hasControls: false,
+        })
+
         return lineGroup
       }
 
@@ -205,7 +222,7 @@ export default function Canvas(props: Props){
 
   return (
     <div ref={canvasContainerRef} className={styles.canvasContainer}>
-      <canvas ref={canvasRef} width={getWidth()} height={600}/>
+      <canvas ref={canvasRef} width={getWidth()} height={getHeight()}/>
     </div>
   )
 }

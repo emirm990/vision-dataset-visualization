@@ -1,8 +1,9 @@
 'use client'
 import { TestItem } from '@/types/testdata'
 import useSWR from 'swr'
-import Canvas from './Canvas/Canvas'
+import Canvas from '../Canvas/Canvas'
 import styles from './styles.module.css'
+import ControlPanel from '../ControlPanel/ControlPanel'
 
 type Props = {
   item: TestItem
@@ -37,9 +38,14 @@ export default function DataVisualization(props: Props){
   }
 
   return (
-    <div className={styles.visualizationContainer}>
-      <h1>{item.fbs}</h1>
-      <Canvas item={item} imagePath={generateFullImagePath(imagePath)} />
+    <div className={styles.mainContainer}>
+      <div className={styles.visualizationContainer}>
+        <h1>{item.fbs}</h1>
+        <Canvas item={item} imagePath={generateFullImagePath(imagePath)} />
+      </div>
+      <div>
+        <ControlPanel item={item} />
+      </div>
     </div>
   )
 }

@@ -1,3 +1,4 @@
 .canvasContainer {
   border: 1px solid black;
+  height: calc(100% - 50px);
 }
