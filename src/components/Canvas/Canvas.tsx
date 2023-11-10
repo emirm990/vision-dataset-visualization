@@ -36,6 +36,12 @@ export default function Canvas(props: Props){
     }
   }
 
+  const getRatio = () => {
+    if (fabricRef.current) {
+      return fabricRef.current.getWidth() / item.width
+    }
+  }
+
   useEffect(() => {
     const initFabric = () => {
       fabricRef.current = new fabric.Canvas(canvasRef.current, {
@@ -60,7 +66,6 @@ export default function Canvas(props: Props){
 
         if (width && height) {
           fabricRef.current.setDimensions({width: width, height: height})
-          fabricRef.current.setViewportTransform([window.devicePixelRatio, 0, 0, window.devicePixelRatio, 0, 0])
         }
       }
     }
@@ -115,6 +120,7 @@ export default function Canvas(props: Props){
     fabricRef.current?.on('mouse:wheel', function(opt) {
       const canvas = fabricRef.current
       const delta = opt.e.deltaY
+      const ratio = getRatio() ?? 0.01
 
       if (!canvas) {
         return
@@ -123,8 +129,8 @@ export default function Canvas(props: Props){
       let zoom = canvas.getZoom()
 
       zoom *= 0.999 ** delta
-      if (zoom > 20) zoom = 20
-      if (zoom < 0.01) zoom = 0.01
+      if (zoom > 100) zoom = 100
+      if (zoom < ratio) zoom = ratio
       canvas.zoomToPoint({ x: opt.e.offsetX, y: opt.e.offsetY }, zoom)
 
       opt.e.preventDefault()
@@ -205,6 +211,7 @@ export default function Canvas(props: Props){
             return result
           })
           oImg.selectable = false
+          oImg.noScaleCache = true
           fabricRef.current?.add(...[oImg, foil_start, foil_end, ...coatingLineSections])
         })
       }
@@ -215,8 +222,10 @@ export default function Canvas(props: Props){
 
   useEffect(() => {
     if (fabricRef.current) {
-      const ratio = fabricRef.current.getWidth() / item.width
-      fabricRef.current.setZoom(ratio)
+      const ratio = getRatio()
+      if (ratio) {
+        fabricRef.current.setZoom(ratio)
+      }
     }
   }, [item])
 
