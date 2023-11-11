@@ -16,10 +16,12 @@ export default function DataVisualization(props: Props){
 
   const fetcher = (url: string) => fetch(url).then((res) => res.json())
   const { data } = useSWR('/api/images', fetcher)
+
   let imagePath = ''
 
   data?.images.forEach((image: string) => {
     const imagePathNormalized = image.replaceAll('_', '/')
+
     if (item.pathS3.includes(imagePathNormalized) || item.pathLocal === image) {
       imagePath = image
     }
