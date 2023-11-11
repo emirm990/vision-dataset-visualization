@@ -5,7 +5,7 @@ export async function GET() {
   const dir = path.resolve('./public', 'data/images')
 
   try {
-    const files = await readdir(dirs, { recursive: true })
+    const files = await readdir(dir, { recursive: true })
     const images = files.filter((file) => file.includes('.jpg'))
     
     return Response.json({ images })
