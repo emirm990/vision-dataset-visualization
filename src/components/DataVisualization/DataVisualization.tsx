@@ -1,31 +1,18 @@
 'use client'
-import { TestItem } from '@/types/testdata'
-import useSWR from 'swr'
+import { TestItemWithLocalPath } from '@/types/testdata'
 import Canvas from '../Canvas/Canvas'
 import styles from './styles.module.css'
 import ControlPanel from '../ControlPanel/ControlPanel'
+import { memo } from 'react'
 
 type Props = {
-  item: TestItem
+  item: TestItemWithLocalPath,
 }
 
-export default function DataVisualization(props: Props){
+const DataVisualizedMemoized = memo(function DataVisualization(props: Props){
   const {
     item,
   } = props
-
-  const fetcher = (url: string) => fetch(url).then((res) => res.json())
-  const { data } = useSWR('/api/images', fetcher)
-
-  let imagePath = ''
-
-  data?.images.forEach((image: string) => {
-    const imagePathNormalized = image.replaceAll('_', '/')
-
-    if (item.pathS3.includes(imagePathNormalized) || item.pathLocal === image) {
-      imagePath = image
-    }
-  })
 
   const generateFullImagePath = (imagePath: string) => {
     if (imagePath) {
@@ -35,19 +22,17 @@ export default function DataVisualization(props: Props){
     return ''
   }
 
-  if (!imagePath) {
-    return null
-  }
-
   return (
     <div className={styles.mainContainer}>
       <div className={styles.visualizationContainer}>
-        <h1>{item.fbs}</h1>
-        <Canvas item={item} imagePath={generateFullImagePath(imagePath)} />
+        <h1>{item.localImagePath}</h1>
+        <Canvas item={item} imagePath={generateFullImagePath(item.localImagePath)} />
       </div>
       <div>
         <ControlPanel item={item} />
       </div>
     </div>
   )
-}
+})
+
+export default DataVisualizedMemoized

@@ -221,8 +221,9 @@ export default function Canvas(props: Props){
           originX: 'center',
           originY: 'center',
           left: x,
-          top: y + 50,
+          top: y + 25,
           hasControls: false,
+          absolutePositioned: true,
           fontSize: zoom < 1
             ? 16 / zoom
             : 16

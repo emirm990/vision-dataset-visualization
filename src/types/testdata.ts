@@ -23,3 +23,7 @@ export type TestItem = {
   height: number,
   result: Result,
 }
+
+export type TestItemWithLocalPath = TestItem & {
+  localImagePath: string
+}
