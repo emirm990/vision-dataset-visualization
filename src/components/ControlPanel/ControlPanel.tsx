@@ -1,7 +1,8 @@
-import { TestItem } from '@/types/testdata'
+import { Result, TestItem } from '@/types/testdata'
 import styles from './styles.module.css'
-import { Fragment } from 'react'
-import { Box, Divider, List, ListItem, ListSubheader, Typography } from '@mui/material'
+import { Fragment, useEffect } from 'react'
+import { Box, Divider, List, ListItem, ListSubheader, TextField, Typography } from '@mui/material'
+import { useAppStore } from '@/store/appStore'
 
 type Props = {
   item: TestItem,
@@ -11,6 +12,17 @@ export default function ControlPanel(props: Props) {
   const {
     item,
   } = props
+
+  const measurements = useAppStore((state) => state.measurements)
+  const setMeasurements = useAppStore((state) => state.setMeasurements)
+
+  const handleValueChanged = (measurements: Result) => {
+    setMeasurements(item.pathS3, measurements)
+  }
+
+  useEffect(() => {
+    setMeasurements(item.pathS3, item.result)
+  }, [])
 
   return (
     <Box className={styles.controlPanelContainer} sx={{  bgcolor: 'background.paper' }}>
@@ -26,8 +38,26 @@ export default function ControlPanel(props: Props) {
             <Typography>Results: </Typography>
           </ListSubheader>
         }>
-        <ListItem>foil_start: {item.result.foil_start}</ListItem>
-        <ListItem>foil_end: {item.result.foil_end}</ListItem>
+        <ListItem>
+          foil_start:
+          <TextField
+            sx={{marginLeft: 1}}
+            value={measurements[item.pathS3]?.foil_start}
+            onChange={(e) => handleValueChanged({...measurements[item.pathS3], foil_start: Number(e.target.value)})}
+            type='number'
+            variant='standard'
+          />
+        </ListItem>
+        <ListItem>
+          foil_end:
+          <TextField
+            sx={{marginLeft: 1}}
+            value={measurements[item.pathS3]?.foil_end}
+            onChange={(e) => handleValueChanged({...measurements[item.pathS3], foil_end: Number(e.target.value)})}
+            type='number'
+            variant='standard'
+          />
+        </ListItem>
         <Divider />
         <List
           subheader={
@@ -36,13 +66,101 @@ export default function ControlPanel(props: Props) {
             </ListSubheader>
           }
         >
-          {item.result.coating_line_sections.map((result, i) => {
+          {measurements[item.pathS3]?.coating_line_sections.map((result, i) => {
             return (
               <Fragment key={i}>
-                <ListItem>foil_start: {result.foil_start}px</ListItem>
-                <ListItem>foil_start: {result.foil_end}px</ListItem>
-                <ListItem>coating_start: {result.coating_start}px</ListItem>
-                <ListItem>coating_end: {result.coating_end}px</ListItem>
+                <ListItem>
+                  foil_start:
+                  <TextField
+                    sx={{marginLeft: 1}}
+                    value={result.foil_start}
+                    onChange={(e) => {
+                      const coatingSections = [...measurements[item.pathS3].coating_line_sections]
+                      const coatingSection = {...coatingSections[i]}
+                      coatingSection.foil_start = Number(e.target.value)
+                      coatingSections[i] = coatingSection
+                      handleValueChanged(
+                        {
+                          ...measurements[item.pathS3],
+                          coating_line_sections: [
+                            ...coatingSections
+                          ]
+                        }
+                      )}
+                    }
+                    type='number'
+                    variant='standard'
+                  />
+                </ListItem>
+                <ListItem>
+                  foil_start:
+                  <TextField
+                    sx={{marginLeft: 1}}
+                    value={result.foil_end}
+                    onChange={(e) => {
+                      const coatingSections = [...measurements[item.pathS3].coating_line_sections]
+                      const coatingSection = {...coatingSections[i]}
+                      coatingSection.foil_end = Number(e.target.value)
+                      coatingSections[i] = coatingSection
+                      handleValueChanged(
+                        {
+                          ...measurements[item.pathS3],
+                          coating_line_sections: [
+                            ...coatingSections
+                          ]
+                        }
+                      )}
+                    }
+                    type='number'
+                    variant='standard'
+                  />
+                </ListItem>
+                <ListItem>
+                  coating_start:
+                  <TextField
+                    sx={{marginLeft: 1}}
+                    value={result.coating_start}
+                    onChange={(e) => {
+                      const coatingSections = [...measurements[item.pathS3].coating_line_sections]
+                      const coatingSection = {...coatingSections[i]}
+                      coatingSection.coating_start = Number(e.target.value)
+                      coatingSections[i] = coatingSection
+                      handleValueChanged(
+                        {
+                          ...measurements[item.pathS3],
+                          coating_line_sections: [
+                            ...coatingSections
+                          ]
+                        }
+                      )}
+                    }
+                    type='number'
+                    variant='standard'
+                  />
+                </ListItem>
+                <ListItem>
+                  coating_end:
+                  <TextField
+                    sx={{marginLeft: 1}}
+                    value={result.coating_end}
+                    onChange={(e) => {
+                      const coatingSections = [...measurements[item.pathS3].coating_line_sections]
+                      const coatingSection = {...coatingSections[i]}
+                      coatingSection.coating_end = Number(e.target.value)
+                      coatingSections[i] = coatingSection
+                      handleValueChanged(
+                        {
+                          ...measurements[item.pathS3],
+                          coating_line_sections: [
+                            ...coatingSections
+                          ]
+                        }
+                      )}
+                    }
+                    type='number'
+                    variant='standard'
+                  />
+                </ListItem>
               </Fragment>
             )
           })}

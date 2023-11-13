@@ -29,7 +29,7 @@ export default function Canvas(props: Props){
 
   const labels = {
     result : ['foil_start', 'foil_end'],
-    section: ['coating_start', 'coating_end', 'foil_start', 'foil_end'],
+    section: ['coating_start', 'coating_end'],
   }
 
   const getWidth = () => {
