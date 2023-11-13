@@ -3,7 +3,6 @@ import { TestItemWithLocalPath } from '@/types/testdata'
 import { Box, Button, Checkbox, Drawer, FormControlLabel, List, ListItem, ListSubheader } from '@mui/material'
 import ImageSearchIcon from '@mui/icons-material/Image'
 import { useState } from 'react'
-import styles from './styles.module.css'
 
 type Props = {
   data: TestItemWithLocalPath[],
@@ -63,7 +62,11 @@ export default function FileExplorer(props: Props){
   return (
     <>
       <Button
-        className={styles.button}
+        sx={{
+          position: 'fixed',
+          top: '20px',
+          left: '20px',
+        }}
         onClick={() => setIsToggleOpen(true)}
         endIcon={<ImageSearchIcon />}
         variant="contained"

@@ -3,6 +3,8 @@ import { useEffect, useRef } from 'react'
 import { fabric } from 'fabric' // v5
 import type { Canvas as FabricCanvasType } from 'fabric/fabric-impl'
 import styles from './styles.module.css'
+import { useAppStore } from '@/store/appStore'
+import { getDiff, rdiffResult } from 'recursive-diff'
 
 type Props = {
   item: TestItem,
@@ -49,6 +51,60 @@ export default function Canvas(props: Props){
       return fabricRef.current.getWidth() / item.width
     }
   }
+
+  const updateLinePosition = (canvas: FabricCanvas,value: number, target: string) => {
+    const measurementLines = canvas.getObjects().filter((object) => {
+      if (object.name?.includes(target)) {
+        return true
+      }
+
+      return false
+    })
+
+    measurementLines.forEach((lineGroup) => {
+      const group = lineGroup as fabric.Group
+      if (group.name === target) {
+        const groupWidth = group.width
+        if (groupWidth) {
+          group.left = value - (groupWidth / 2)
+          const text = group.getObjects().filter((item) => item.name === 'text')[0] as fabric.Text
+
+          if (text) {
+            text.text = `${value}px`
+          }
+          group.setCoords()
+          canvas.renderAll()
+        }
+      }
+    })
+  }
+
+  const measurementsLineSub = useAppStore.subscribe(
+    (state) => state.measurements[item.pathS3],
+    (next, prev) => {
+      if (prev) {
+        const delta = getDiff(prev,next)
+
+        const canvas = fabricRef.current
+        const generateFullPath = (delta: rdiffResult) => {
+          let path = delta.path[0]
+          if (delta.path[1] !== undefined) {
+            path = `${path}[${delta.path[1]}]`
+          }
+          if (delta.path[2] !== undefined) {
+            path = `${path}.${delta.path[2]}`
+          }
+
+          return path as string
+        }
+
+        const path = generateFullPath(delta[0])
+        if (canvas) {
+          updateLinePosition(canvas, delta[0].val, path)
+        }
+      }
+    }
+  )
 
   useEffect(() => {
     const initFabric = () => {
@@ -141,7 +197,7 @@ export default function Canvas(props: Props){
       if (zoom < ratio) zoom = ratio
       canvas.zoomToPoint({ x: opt.e.offsetX, y: opt.e.offsetY }, zoom)
       const measurementLines = canvas.getObjects().filter((object) => {
-        if (object.name?.includes('section') || object.name?.includes('result')) {
+        if (object.name?.includes('foil') || object.name?.includes('sections')) {
           return true
         }
 
@@ -195,6 +251,7 @@ export default function Canvas(props: Props){
     return () => {
       disposeFabric()
       window.removeEventListener('resize', onResize)
+      measurementsLineSub()
     }
   }, [])
 
@@ -202,6 +259,7 @@ export default function Canvas(props: Props){
   useEffect(() => {
     if (imagePath) {
       const addLine = (x: number, y: number, stroke?: string, label?: string) => {
+        console.log(label)
         const zoom = fabricRef.current?.getZoom() ?? 1
         const line = new fabric.Line([x, 0, x, y], {
           name: 'line',
@@ -240,11 +298,11 @@ export default function Canvas(props: Props){
       const addImage = () => {
         fabric.Image.fromURL(imagePath, function(oImg) {
           const results = labels.result.map((label) => {
-            return addLine(item.result[label as keyof Pick<Result, 'foil_start' | 'foil_end'>], item.height, 'red', `result.${label}`)
+            return addLine(item.result[label as keyof Pick<Result, 'foil_start' | 'foil_end'>], item.height, 'red', `${label}`)
           })
-          const coatingLineSections = item.result.coating_line_sections.flatMap((section) => {
+          const coatingLineSections = item.result.coating_line_sections.flatMap((section, i) => {
             return labels.section.map((label) => {
-              return addLine(section[label as keyof typeof section], item.height, 'green', `section.${label}`)
+              return addLine(section[label as keyof typeof section], item.height, 'green', `coating_line_sections[${i}].${label}`)
             })
           })
           oImg.selectable = false

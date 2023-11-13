@@ -72,6 +72,7 @@ export default function ControlPanel(props: Props) {
                 <ListItem>
                   foil_start:
                   <TextField
+                    disabled
                     sx={{marginLeft: 1}}
                     value={result.foil_start}
                     onChange={(e) => {
@@ -93,8 +94,9 @@ export default function ControlPanel(props: Props) {
                   />
                 </ListItem>
                 <ListItem>
-                  foil_start:
+                  foil_end:
                   <TextField
+                    disabled
                     sx={{marginLeft: 1}}
                     value={result.foil_end}
                     onChange={(e) => {
