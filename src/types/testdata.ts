@@ -1,3 +1,15 @@
+export type Result = {
+  foil_start: number,
+  foil_end: number,
+  coating_line_sections: 
+    {
+      foil_start: number,
+      foil_end: number,
+      coating_start: number,
+      coating_end: number,
+    }[]
+}
+
 export type TestItem = {
   test: boolean,
   fileName: string,
@@ -9,15 +21,5 @@ export type TestItem = {
   ppmx: number,
   width: number,
   height: number,
-  result: {
-    foil_start: number,
-    foil_end: number,
-    coating_line_sections: 
-      {
-        foil_start: number,
-        foil_end: number,
-        coating_start: number,
-        coating_end: number,
-      }[]
-  }
+  result: Result,
 }

@@ -1,4 +1,4 @@
-import { TestItem } from '@/types/testdata'
+import { Result, TestItem } from '@/types/testdata'
 import { useEffect, useRef } from 'react'
 import { fabric } from 'fabric' // v5
 import type { Canvas as FabricCanvasType } from 'fabric/fabric-impl'
@@ -26,6 +26,11 @@ export default function Canvas(props: Props){
   const fabricRef = useRef<FabricCanvas | null>(null)
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
   const canvasContainerRef = useRef<HTMLDivElement | null>(null)
+
+  const labels = {
+    result : ['foil_start', 'foil_end'],
+    section: ['coating_start', 'coating_end', 'foil_start', 'foil_end'],
+  }
 
   const getWidth = () => {
     if(canvasContainerRef.current) {
@@ -135,7 +140,34 @@ export default function Canvas(props: Props){
       if (zoom > 100) zoom = 100
       if (zoom < ratio) zoom = ratio
       canvas.zoomToPoint({ x: opt.e.offsetX, y: opt.e.offsetY }, zoom)
+      const measurementLines = canvas.getObjects().filter((object) => {
+        if (object.name?.includes('section') || object.name?.includes('result')) {
+          return true
+        }
 
+        return false
+      })
+
+      measurementLines.forEach((item) => {
+        const group = item as fabric.Group
+
+        const lines = group.getObjects().filter((object) => object.name === 'line') as fabric.Line[]
+        const texts = group.getObjects().filter((object) => object.name === 'text') as fabric.Text[]
+
+        lines.forEach((line) => {
+          if (line.strokeWidth) {
+            if (zoom < 1) {
+              line.strokeWidth = 1 / zoom
+            }
+          }
+        })
+
+        texts.forEach((text) => {
+          if (zoom < 1) {
+            text.fontSize = 16 / zoom
+          }
+        })
+      })
       opt.e.preventDefault()
       opt.e.stopPropagation()
     })
@@ -152,7 +184,7 @@ export default function Canvas(props: Props){
           const textObject = object as fabric.Text
           const objectPositionLeft = target.left && target.width ? target.left + target?.width / 2 : 0
           textObject.set({
-            text: `${target?.name}: ${objectPositionLeft.toFixed(0)}px`
+            text: `${objectPositionLeft.toFixed(0)}px`
           })
         }
       })
@@ -170,14 +202,17 @@ export default function Canvas(props: Props){
   useEffect(() => {
     if (imagePath) {
       const addLine = (x: number, y: number, stroke?: string, label?: string) => {
+        const zoom = fabricRef.current?.getZoom() ?? 1
         const line = new fabric.Line([x, 0, x, y], {
           name: 'line',
-          strokeWidth: 10,
+          strokeWidth: zoom < 1 
+            ? 1 / zoom
+            : 1,
           stroke: stroke || 'red',
           opacity: 0.5,
           hasControls: false,
         })
-        const text = new fabric.Text(`${label}: ${x}px`, {
+        const text = new fabric.Text(`${x}px`, {
           name: 'text',
           textAlign: 'center',
           stroke: stroke,
@@ -188,6 +223,9 @@ export default function Canvas(props: Props){
           left: x,
           top: y + 50,
           hasControls: false,
+          fontSize: zoom < 1
+            ? 16 / zoom
+            : 16
         })
         const lineGroup = new fabric.Group([line, text], {
           lockMovementY: true,
@@ -200,22 +238,17 @@ export default function Canvas(props: Props){
 
       const addImage = () => {
         fabric.Image.fromURL(imagePath, function(oImg) {
-          const foil_start = addLine(item.result.foil_start, item.height, 'red', 'result.foil_start')
-          const foil_end = addLine(item.result.foil_end, item.height, 'red', 'result.foil_end')
+          const results = labels.result.map((label) => {
+            return addLine(item.result[label as keyof Pick<Result, 'foil_start' | 'foil_end'>], item.height, 'red', `result.${label}`)
+          })
           const coatingLineSections = item.result.coating_line_sections.flatMap((section) => {
-            const result = []
-            result.push(
-              addLine(section.coating_start, item.height, 'green', 'section.coating_start'),
-              addLine(section.coating_end, item.height, 'green', 'section.coating_end'),
-              addLine(section.foil_start, item.height, 'green', 'section.foil_start'),
-              addLine(section.foil_end, item.height, 'green', 'section.foil_end')
-            )
-
-            return result
+            return labels.section.map((label) => {
+              return addLine(section[label as keyof typeof section], item.height, 'green', `section.${label}`)
+            })
           })
           oImg.selectable = false
           oImg.noScaleCache = true
-          fabricRef.current?.add(...[oImg, foil_start, foil_end, ...coatingLineSections])
+          fabricRef.current?.add(...[oImg, ...results, ...coatingLineSections])
         })
       }
       
