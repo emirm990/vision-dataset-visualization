@@ -1,7 +1,9 @@
 import { useAppStore } from '@/store/appStore'
 import { TestItemWithLocalPath } from '@/types/testdata'
 import { Box, Button, Checkbox, Drawer, FormControlLabel, List, ListItem, ListSubheader } from '@mui/material'
+import ImageSearchIcon from '@mui/icons-material/Image'
 import { useState } from 'react'
+import styles from './styles.module.css'
 
 type Props = {
   data: TestItemWithLocalPath[],
@@ -60,7 +62,14 @@ export default function FileExplorer(props: Props){
 
   return (
     <>
-      <Button sx={{position: 'absolute', top: 0, left: 0}} onClick={() => setIsToggleOpen(true)} >Chose images</Button>
+      <Button
+        className={styles.button}
+        onClick={() => setIsToggleOpen(true)}
+        endIcon={<ImageSearchIcon />}
+        variant="contained"
+      >
+        Select images
+      </Button>
       <Drawer
         anchor="left"
         open={isToggleOpen}

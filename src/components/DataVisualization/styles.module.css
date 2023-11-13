@@ -1,6 +1,7 @@
 .visualizationContainer {
   padding: 30px;
   height: 100vh;
+  margin-top: 50px;
 }
 
 .visualizationContainer > h1{

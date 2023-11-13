@@ -1,22 +1,4 @@
 .controlPanelContainer {
-  height: 100%;
-  border-left: 1px solid gray;
+  height: calc(100% - 30px);
   padding: 30px 10px;
-}
-
-.list {
-  list-style-position: inside;
-}
-
-.outsideList {
-  margin-top: 10px;
-}
-
-.insideList {
-  padding-left: 10px;
-  padding-top: 5px;
-}
-
-.insideList > p {
-  padding-bottom: 5px;
 }

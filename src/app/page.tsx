@@ -6,6 +6,7 @@ import { TestItem, TestItemWithLocalPath } from '@/types/testdata'
 import { useEffect, useState } from 'react'
 import FileExplorer from '@/components/FileExplorer/FileExplorer'
 import { useAppStore } from '@/store/appStore'
+import { Alert, Box, Container } from '@mui/material'
 
 export default function Home() {
   const fetcher = (url: string) => fetch(url).then((res) => res.json())
@@ -49,13 +50,16 @@ export default function Home() {
     })
   }
 
+  const renderItems = itemsToShow()
   return (
     <>
-      <main>
-        <div>
-          { itemsToShow() }
-        </div>
-      </main>
+      <Container maxWidth={false}>
+        <Box sx={{ bgcolor: 'background.paper'}}>
+          { renderItems.length > 0 
+            ? renderItems
+            : <Alert severity="info" sx={{position: 'relative', top: 100 }}>No images choosen!</Alert>}
+        </Box>
+      </Container>
       <FileExplorer data={testData} />
     </>
   )

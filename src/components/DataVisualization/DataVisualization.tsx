@@ -4,6 +4,7 @@ import Canvas from '../Canvas/Canvas'
 import styles from './styles.module.css'
 import ControlPanel from '../ControlPanel/ControlPanel'
 import { memo } from 'react'
+import { Divider, Typography } from '@mui/material'
 
 type Props = {
   item: TestItemWithLocalPath,
@@ -25,12 +26,15 @@ const DataVisualizedMemoized = memo(function DataVisualization(props: Props){
   return (
     <div className={styles.mainContainer}>
       <div className={styles.visualizationContainer}>
-        <h1>{item.localImagePath}</h1>
+        <Typography variant="subtitle1">
+          {item.localImagePath}
+        </Typography>
         <Canvas item={item} imagePath={generateFullImagePath(item.localImagePath)} />
       </div>
       <div>
         <ControlPanel item={item} />
       </div>
+      <Divider />
     </div>
   )
 })
