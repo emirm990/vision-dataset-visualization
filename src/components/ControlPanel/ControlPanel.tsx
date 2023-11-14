@@ -22,7 +22,7 @@ export default function ControlPanel(props: Props) {
   const measurements = useAppStore((state) => state.measurements)
   const setMeasurements = useAppStore((state) => state.setMeasurements)
 
-  const [tags, setTags] = useState(config?.data?.tags ? [...item.tags, ...config.data.tags] : [...item.tags])
+  const [tags, setTags] = useState(config?.data?.tags ? config.data.tags : [])
   
   const batteryTypes = [
     'one',
@@ -48,7 +48,7 @@ export default function ControlPanel(props: Props) {
 
   useEffect(() => {
     if (config?.data?.tags) {
-      setTags((state) => [...new Set([...state, ...config.data.tags])])
+      setTags(config.data.tags)
     }
   }, [config?.data])
 
