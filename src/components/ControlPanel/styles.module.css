@@ -8,3 +8,9 @@
   justify-content: flex-end;
   margin-bottom: 20px;
 }
+
+.tagsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}

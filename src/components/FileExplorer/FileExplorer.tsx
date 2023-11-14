@@ -40,7 +40,7 @@ export default function FileExplorer(props: Props){
         </FormControl>
         <RadioGroup
           name="radio-buttons-group"
-          value={selectedImages.length > 0 ? selectedImages[0] : data[0].localImagePath}
+          value={selectedImages.length > 0 ? selectedImages[0] : undefined}
           onChange={handleImageClick}
         >
           {data.map((item) => {
