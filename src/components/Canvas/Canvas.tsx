@@ -28,6 +28,7 @@ export default function Canvas(props: Props){
   const fabricRef = useRef<FabricCanvas | null>(null)
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
   const canvasContainerRef = useRef<HTMLDivElement | null>(null)
+  let visibilityTimeout: NodeJS.Timeout
 
   const setMeasurements = useAppStore((state) => state.setMeasurements)
 
@@ -64,6 +65,7 @@ export default function Canvas(props: Props){
     })
 
     measurementLines.forEach((lineGroup) => {
+      clearTimeout(visibilityTimeout)
       const group = lineGroup as fabric.Group
       if (group.name === target) {
         const groupWidth = group.width
@@ -72,7 +74,7 @@ export default function Canvas(props: Props){
           const text = group.getObjects().filter((item) => item.name === 'text')[0] as fabric.Text
 
           if (text) {
-            text.text = `${value}px`
+            text.text = `${target}: ${value}px`
           }
           group.setCoords()
           canvas.renderAll()
@@ -105,6 +107,12 @@ export default function Canvas(props: Props){
 
         const path = generateFullPath(delta[0])
         if (canvas && path) {
+          const groups = fabricRef.current?.getObjects().filter((object) => object.type === 'group') as fabric.Group[]
+          const target = groups?.find((group) => group.name === path)
+          if (target) {
+            canvas.setActiveObject(target)
+          }
+
           updateLinePosition(canvas, delta[0].val, path)
         }
       }
@@ -244,10 +252,10 @@ export default function Canvas(props: Props){
         if (object.name === 'text') {
           const textObject = object as fabric.Text
           const objectPositionLeft = target.left && target.width ? target.left + target?.width / 2 : 0
-          textObject.set({
-            text: `${objectPositionLeft.toFixed(0)}px`
-          })
           const name = object.group?.name
+          textObject.set({
+            text: `${name}: ${objectPositionLeft.toFixed(0)}px`
+          })
           const splitedName = name?.split('.')
           if (splitedName) {
             const indexAndLabel = splitedName[0].replace(/[[\]']+/g, '.').split('.')
@@ -264,6 +272,53 @@ export default function Canvas(props: Props){
           }
         }
       })
+    })
+
+    fabricRef.current?.on('mouse:over', function(opt) {
+      if (opt.target?.type === 'group') {
+        const group = opt.target as fabric.Group
+        const objects = group.getObjects()
+        const canvas = fabricRef.current
+        const zoom = canvas?.getZoom()
+
+        const line = objects.find((object) => {
+          return object.type === 'line'
+        })
+        const text = objects.find((object) => {
+          return object.type === 'text'
+        })
+
+        if (text) {
+          const mousePosition = canvas?.getPointer(opt.e)
+          if (mousePosition && line?.height) {
+            const adjustedZoom = zoom && zoom < 1 ? zoom : 1
+            if (text.width) {
+              text.left = text.width / 2 + 25
+            }
+            text.top = (mousePosition.y - line.height / 2) + 25 / adjustedZoom
+          }
+          text.visible = true
+          fabricRef.current?.renderAll()
+        }
+      }
+    })
+
+    fabricRef.current?.on('mouse:out', function(opt) {
+      if (opt.target?.type === 'group') {
+        const group = opt.target as fabric.Group
+        const objects = group.getObjects()
+
+        const text = objects.find((object) => {
+          return object.type === 'text'
+        })
+
+        if (text) {
+          text.top = text.data.top
+          text.left = text.data.left
+          text.visible = false
+          fabricRef.current?.renderAll()
+        }
+      }
     })
 
     onResize()
@@ -289,18 +344,23 @@ export default function Canvas(props: Props){
           opacity: 0.5,
           hasControls: false,
         })
-        const text = new fabric.Text(`${x}px`, {
+        const text = new fabric.Text(`${label}: ${x}px`, {
           name: 'text',
           textAlign: 'center',
           stroke: stroke,
           fill: stroke,
           backgroundColor: 'white',
           originX: 'center',
-          originY: 'center',
+          originY: 'bottom',
           left: x,
           top: y + 25,
           hasControls: false,
           absolutePositioned: true,
+          visible: false,
+          data: {
+            top: y + 25,
+            left: x,
+          },
           fontSize: zoom < 1
             ? 16 / zoom
             : 16
