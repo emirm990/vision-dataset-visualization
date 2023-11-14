@@ -23,12 +23,6 @@ export default function ControlPanel(props: Props) {
   const setMeasurements = useAppStore((state) => state.setMeasurements)
 
   const [tags, setTags] = useState(config?.data?.tags ? config.data.tags : [])
-  
-  const batteryTypes = [
-    'one',
-    'two',
-    'thre_long',
-  ]
 
   const handleValueChanged = (measurements: Result) => {
     setMeasurements(item.pathS3, measurements)
@@ -56,6 +50,7 @@ export default function ControlPanel(props: Props) {
     setMeasurements(item.pathS3, item.result)
   }, [])
 
+  console.log(config?.data)
   return (
     <Box className={styles.controlPanelContainer} sx={{  bgcolor: 'background.paper' }}>
       <Typography>{item.fbs}</Typography>
@@ -68,7 +63,7 @@ export default function ControlPanel(props: Props) {
           labelId="battery-type-label"
           label="Battery type"
         >
-          {batteryTypes.map((battery) => <MenuItem key={battery} value={battery}>{battery}</MenuItem>)}
+          {config?.data?.batteryTypes ? (config.data.batteryTypes as string[]).map((battery) => <MenuItem key={battery} value={battery}>{battery}</MenuItem>) : null}
         </Select>
         <Typography sx={{mt: 2}}>Tags: </Typography>
         <div className={styles.tagsContainer} >

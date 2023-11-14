@@ -13,7 +13,6 @@ export async function GET() {
 
   const data = JSON.parse(file)
 
-  console.log(data)
   try {
     return Response.json({ data })
   } catch (err) {

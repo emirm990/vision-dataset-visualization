@@ -1,3 +1,4 @@
 {
-  "tags": ["A", "B", "C"]
+  "tags": ["A", "B", "C"],
+  "batteryTypes": ["test_one", "test2_long_name", "t3"]
 }
