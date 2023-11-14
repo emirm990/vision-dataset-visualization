@@ -1,8 +1,9 @@
 import { Result, TestItem } from '@/types/testdata'
 import styles from './styles.module.css'
 import { Fragment, useEffect } from 'react'
-import { Box, Divider, List, ListItem, ListSubheader, TextField, Typography } from '@mui/material'
+import { Box, Button, Divider, List, ListItem, ListSubheader, TextField, Typography } from '@mui/material'
 import { useAppStore } from '@/store/appStore'
+import RefreshIcon from '@mui/icons-material/Refresh'
 
 type Props = {
   item: TestItem,
@@ -20,12 +21,25 @@ export default function ControlPanel(props: Props) {
     setMeasurements(item.pathS3, measurements)
   }
 
+  const handleResetValues = () => {
+    setMeasurements(item.pathS3, item.result)
+  }
+
   useEffect(() => {
     setMeasurements(item.pathS3, item.result)
   }, [])
 
   return (
     <Box className={styles.controlPanelContainer} sx={{  bgcolor: 'background.paper' }}>
+      <div className={styles.buttonContainer}>
+        <Button
+          variant='outlined'
+          onClick={() => handleResetValues()}
+          endIcon={
+            <RefreshIcon />
+          }
+        >Reset values</Button>
+      </div>
       <Typography>width: {item.width}px</Typography>
       <Typography>height: {item.width}px</Typography>
       <Typography>ppmx: {item.ppmx}</Typography>

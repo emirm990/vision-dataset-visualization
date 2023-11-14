@@ -2,3 +2,9 @@
   height: calc(100% - 30px);
   padding: 30px 10px;
 }
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
