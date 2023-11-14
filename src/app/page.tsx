@@ -53,11 +53,11 @@ export default function Home() {
   const renderItems = itemsToShow()
   return (
     <>
-      <Container maxWidth={false}>
+      <Container maxWidth={false} disableGutters>
         <Box sx={{ bgcolor: 'background.paper'}}>
           { renderItems.length > 0 
             ? renderItems
-            : <Alert severity="info" sx={{position: 'relative', top: 100 }}>No images choosen!</Alert>}
+            : <Container maxWidth={false}><Alert severity="info" sx={{position: 'relative', top: 100 }}>No images choosen!</Alert></Container>}
         </Box>
       </Container>
       <FileExplorer data={testData} />

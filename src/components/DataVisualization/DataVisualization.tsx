@@ -3,8 +3,8 @@ import { TestItemWithLocalPath } from '@/types/testdata'
 import Canvas from '../Canvas/Canvas'
 import styles from './styles.module.css'
 import ControlPanel from '../ControlPanel/ControlPanel'
-import { memo } from 'react'
-import { Divider, Typography } from '@mui/material'
+import { memo, useRef } from 'react'
+import { Typography } from '@mui/material'
 
 type Props = {
   item: TestItemWithLocalPath,
@@ -15,6 +15,7 @@ const DataVisualizedMemoized = memo(function DataVisualization(props: Props){
     item,
   } = props
 
+  const visualizationContainerRef = useRef<HTMLDivElement>(null)
   const generateFullImagePath = (imagePath: string) => {
     if (imagePath) {
       return `/data/images/${imagePath}`
@@ -24,17 +25,16 @@ const DataVisualizedMemoized = memo(function DataVisualization(props: Props){
   }
 
   return (
-    <div className={styles.mainContainer}>
-      <div className={styles.visualizationContainer}>
+    <div className={styles.mainContainer} >
+      <div className={styles.visualizationContainer} ref={visualizationContainerRef}>
         <Typography variant="subtitle1">
           {item.localImagePath}
         </Typography>
-        <Canvas item={item} imagePath={generateFullImagePath(item.localImagePath)} />
+        <Canvas item={item} imagePath={generateFullImagePath(item.localImagePath)} parent={visualizationContainerRef} />
       </div>
       <div>
         <ControlPanel item={item} />
       </div>
-      <Divider />
     </div>
   )
 })

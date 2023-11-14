@@ -1,5 +1,5 @@
 import { Result, TestItem } from '@/types/testdata'
-import { useEffect, useRef } from 'react'
+import { RefObject, useEffect, useRef } from 'react'
 import { fabric } from 'fabric' // v5
 import type { Canvas as FabricCanvasType } from 'fabric/fabric-impl'
 import styles from './styles.module.css'
@@ -9,6 +9,7 @@ import { getDiff, rdiffResult } from 'recursive-diff'
 type Props = {
   item: TestItem,
   imagePath: string,
+  parent: RefObject<HTMLDivElement>
 }
 
 type FabricCanvas = FabricCanvasType & {
@@ -23,6 +24,7 @@ export default function Canvas(props: Props){
   const {
     item,
     imagePath,
+    parent,
   } = props
 
   const fabricRef = useRef<FabricCanvas | null>(null)
@@ -38,14 +40,14 @@ export default function Canvas(props: Props){
   }
 
   const getWidth = () => {
-    if(canvasContainerRef.current) {
-      return canvasContainerRef.current?.clientWidth
+    if(parent.current) {
+      return parent.current.getBoundingClientRect().width - 60
     }
   }
 
   const getHeight = () => {
-    if (canvasContainerRef.current) {
-      return canvasContainerRef.current?.clientHeight
+    if (parent.current) {
+      return parent.current.getBoundingClientRect().height - 125
     }
   }
 
@@ -280,7 +282,7 @@ export default function Canvas(props: Props){
         const objects = group.getObjects()
         const canvas = fabricRef.current
         const zoom = canvas?.getZoom()
-
+        
         const line = objects.find((object) => {
           return object.type === 'line'
         })
@@ -288,6 +290,15 @@ export default function Canvas(props: Props){
           return object.type === 'text'
         })
 
+        if (line) {
+          if (zoom && zoom < 1) {
+            const strokeWidth = 10 / zoom < 20
+              ? 10 / zoom
+              : 20
+            line.strokeWidth = strokeWidth
+          }
+          line.backgroundColor = line.stroke
+        }
         if (text) {
           const mousePosition = canvas?.getPointer(opt.e)
           if (mousePosition && line?.height) {
@@ -307,11 +318,20 @@ export default function Canvas(props: Props){
       if (opt.target?.type === 'group') {
         const group = opt.target as fabric.Group
         const objects = group.getObjects()
+        const zoom = fabricRef.current?.getZoom() ?? 1
 
         const text = objects.find((object) => {
           return object.type === 'text'
         })
-
+        const line = objects.find((object) => {
+          return object.type === 'line'
+        })
+        if (line) {
+          line.backgroundColor = undefined
+          line.strokeWidth = zoom < 1 
+            ? 1 / zoom
+            : 1
+        }
         if (text) {
           text.top = text.data.top
           text.left = text.data.left
@@ -343,6 +363,7 @@ export default function Canvas(props: Props){
           stroke: stroke || 'red',
           opacity: 0.5,
           hasControls: false,
+          originX: 'left',
         })
         const text = new fabric.Text(`${label}: ${x}px`, {
           name: 'text',
@@ -355,7 +376,6 @@ export default function Canvas(props: Props){
           left: x,
           top: y + 25,
           hasControls: false,
-          absolutePositioned: true,
           visible: false,
           data: {
             top: y + 25,
@@ -365,10 +385,12 @@ export default function Canvas(props: Props){
             ? 16 / zoom
             : 16
         })
+
         const lineGroup = new fabric.Group([line, text], {
           lockMovementY: true,
           name: label,
           hasControls: false,
+          hasBorders: false,
         })
 
         return lineGroup

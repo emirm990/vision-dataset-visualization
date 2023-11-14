@@ -1,6 +1,6 @@
 .visualizationContainer {
   padding: 30px;
-  height: 100vh;
+  height: calc(100vh - 120px);
   margin-top: 50px;
 }
 
@@ -10,5 +10,5 @@
 
 .mainContainer {
   display: grid;
-  grid-template-columns: 1fr 250px;
+  grid-template-columns: 1fr 280px;
 }
