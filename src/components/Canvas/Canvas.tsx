@@ -29,6 +29,8 @@ export default function Canvas(props: Props){
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
   const canvasContainerRef = useRef<HTMLDivElement | null>(null)
 
+  const setMeasurements = useAppStore((state) => state.setMeasurements)
+
   const labels = {
     result : ['foil_start', 'foil_end'],
     section: ['coating_start', 'coating_end'],
@@ -87,6 +89,9 @@ export default function Canvas(props: Props){
 
         const canvas = fabricRef.current
         const generateFullPath = (delta: rdiffResult) => {
+          if (!delta) {
+            return
+          }
           let path = delta.path[0]
           if (delta.path[1] !== undefined) {
             path = `${path}[${delta.path[1]}]`
@@ -99,7 +104,7 @@ export default function Canvas(props: Props){
         }
 
         const path = generateFullPath(delta[0])
-        if (canvas) {
+        if (canvas && path) {
           updateLinePosition(canvas, delta[0].val, path)
         }
       }
@@ -242,6 +247,21 @@ export default function Canvas(props: Props){
           textObject.set({
             text: `${objectPositionLeft.toFixed(0)}px`
           })
+          const name = object.group?.name
+          const splitedName = name?.split('.')
+          if (splitedName) {
+            const indexAndLabel = splitedName[0].replace(/[[\]']+/g, '.').split('.')
+            const currentState = useAppStore.getState().measurements[item.pathS3]
+            const newState = JSON.parse(JSON.stringify(currentState)) // hack around read only object when setting 
+            if (splitedName[1]) {
+              if (indexAndLabel[0] && indexAndLabel[1] && newState[indexAndLabel[0]][indexAndLabel[1]][splitedName[1]]) {
+                newState[indexAndLabel[0]][indexAndLabel[1]][splitedName[1]] = Number(objectPositionLeft.toFixed(0))
+              }
+            } else {
+              newState[splitedName[0]] = Number(objectPositionLeft.toFixed(0))
+            }
+            setMeasurements(item.pathS3, newState)
+          }
         }
       })
     })
@@ -259,7 +279,6 @@ export default function Canvas(props: Props){
   useEffect(() => {
     if (imagePath) {
       const addLine = (x: number, y: number, stroke?: string, label?: string) => {
-        console.log(label)
         const zoom = fabricRef.current?.getZoom() ?? 1
         const line = new fabric.Line([x, 0, x, y], {
           name: 'line',
