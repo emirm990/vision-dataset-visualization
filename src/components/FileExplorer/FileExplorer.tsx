@@ -1,8 +1,8 @@
 import { useAppStore } from '@/store/appStore'
 import { TestItemWithLocalPath } from '@/types/testdata'
-import { Box, Button, Checkbox, Drawer, FormControlLabel, List, ListItem, ListSubheader } from '@mui/material'
+import { Box, Button, Divider, Drawer, FormControl, FormControlLabel, FormLabel, Radio, RadioGroup } from '@mui/material'
 import ImageSearchIcon from '@mui/icons-material/Image'
-import { useState } from 'react'
+import { ChangeEvent, Fragment, useMemo, useState } from 'react'
 
 type Props = {
   data: TestItemWithLocalPath[],
@@ -17,47 +17,44 @@ export default function FileExplorer(props: Props){
   const removeSelectedImage = useAppStore((state) => state.removeSelectedImage)
   const [isToggleOpen, setIsToggleOpen] = useState(false)
 
-  const handleImageClick = (image: string) => {
-    if (selectedImages.includes(image)) {
-      removeSelectedImage(image)
-    } else {
-      addSelectedImage(image)
-    }
+  const handleImageClick = (event: ChangeEvent<HTMLInputElement>) => {
+    const value = event.target.value
+    selectedImages.forEach((image) => removeSelectedImage(image))
+    addSelectedImage(value)
   }
 
-  const drawerContent = () => {
+  const drawerContent = useMemo(() => {
+    if (!data || data.length < 1) {
+      return null
+    }
+
     return (
       <Box
         sx={{
-          width: 550
+          width: 550,
+          padding: 2,
         }}
       >
-        <List
-          subheader={
-            <ListSubheader component="div" id="nested-list-subheader">
-              Available images
-            </ListSubheader>
-          }
+        <FormControl>
+          <FormLabel id="images">Images</FormLabel>
+        </FormControl>
+        <RadioGroup
+          name="radio-buttons-group"
+          value={selectedImages.length > 0 ? selectedImages[0] : data[0].localImagePath}
+          onChange={handleImageClick}
         >
           {data.map((item) => {
             return (
-              <ListItem key={item.localImagePath}>
-                <FormControlLabel
-                  control={
-                    <Checkbox
-                      checked={selectedImages.includes(item.localImagePath)}
-                      onClick={() => handleImageClick(item.localImagePath)}
-                    />
-                  }
-                  label={item.localImagePath}
-                />
-              </ListItem>
+              <Fragment key={item.localImagePath}>
+                <FormControlLabel sx={{mt: 1, mb: 1}} value={item.localImagePath} control={<Radio />} label={item.localImagePath} />
+                <Divider />
+              </Fragment>
             )
           })}
-        </List>
+        </RadioGroup>
       </Box>
     )
-  }
+  }, [data, selectedImages])
 
   return (
     <>
@@ -78,7 +75,7 @@ export default function FileExplorer(props: Props){
         open={isToggleOpen}
         onClose={() => setIsToggleOpen(false)}
       >
-        {drawerContent()}
+        {drawerContent}
       </Drawer>
     </>
   )
