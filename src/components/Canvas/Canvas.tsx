@@ -199,7 +199,6 @@ export default function Canvas(props: Props){
     fabricRef.current?.on('mouse:wheel', function(opt) {
       const canvas = fabricRef.current
       const delta = opt.e.deltaY
-      const ratio = getRatio() ?? 0.01
 
       if (!canvas) {
         return
@@ -209,40 +208,27 @@ export default function Canvas(props: Props){
 
       zoom *= 0.999 ** delta
       if (zoom > 100) zoom = 100
-      if (zoom < ratio) zoom = ratio
       canvas.zoomToPoint({ x: opt.e.offsetX, y: opt.e.offsetY }, zoom)
-      const measurementLines = canvas.getObjects().filter((object) => {
-        if (object.name?.includes('foil') || object.name?.includes('sections')) {
-          return true
-        }
-
-        return false
-      })
-
-      measurementLines.forEach((item) => {
-        const group = item as fabric.Group
-
-        const lines = group.getObjects().filter((object) => object.name === 'line') as fabric.Line[]
-        const texts = group.getObjects().filter((object) => object.name === 'text') as fabric.Text[]
-
-        lines.forEach((line) => {
-          if (line.strokeWidth) {
-            if (zoom < 1) {
-              line.strokeWidth = 1 / zoom
-            }
-          }
-        })
-
-        texts.forEach((text) => {
-          if (zoom < 1) {
-            text.fontSize = 16 / zoom
-          }
-        })
-      })
+      canvas.fire('zoom')
       opt.e.preventDefault()
       opt.e.stopPropagation()
     })
           
+    fabricRef.current?.on('mouse:dblclick', function() {
+      const canvas = fabricRef.current
+      
+      if (canvas) {
+        const objects = canvas.getObjects()
+
+        const image = objects.find((object) => {
+          return object.type === 'image'
+        }) as fabric.Image
+        const scale = canvas.getWidth() / image.getScaledWidth()
+        canvas.setViewportTransform([scale, 0, 0, scale, 0, 0])
+        canvas.fire('zoom')
+        canvas.renderAll()
+      }
+    })
     fabricRef.current?.on('object:moving', function(opt) {
       const target = opt.target as fabric.Group
       if (!target) {
@@ -341,6 +327,42 @@ export default function Canvas(props: Props){
       }
     })
 
+    fabricRef.current?.on('zoom', function() {
+      const canvas = fabricRef.current
+      if (canvas) {
+        const zoom = canvas.getZoom()
+
+        const measurementLines = canvas.getObjects().filter((object) => {
+          if (object.name?.includes('foil') || object.name?.includes('sections')) {
+            return true
+          }
+  
+          return false
+        })
+  
+        measurementLines.forEach((item) => {
+          const group = item as fabric.Group
+  
+          const lines = group.getObjects().filter((object) => object.name === 'line') as fabric.Line[]
+          const texts = group.getObjects().filter((object) => object.name === 'text') as fabric.Text[]
+  
+          lines.forEach((line) => {
+            if (line.strokeWidth) {
+              if (zoom < 1) {
+                line.strokeWidth = 1 / zoom
+              }
+            }
+          })
+  
+          texts.forEach((text) => {
+            if (zoom < 1) {
+              text.fontSize = 16 / zoom
+            }
+          })
+        })
+      }
+    })
+  
     onResize()
     window.addEventListener('resize', onResize)
     return () => {
