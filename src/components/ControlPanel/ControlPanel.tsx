@@ -1,7 +1,7 @@
 import { Result, TestItem } from '@/types/testdata'
 import styles from './styles.module.css'
 import { Fragment, useEffect, useState } from 'react'
-import { Box, Button, Chip, Divider, FormControl, InputLabel, List, ListItem, ListSubheader, MenuItem, Select, SelectChangeEvent, TextField, Typography } from '@mui/material'
+import { Alert, Box, Button, Chip, Divider, FormControl, InputLabel, List, ListItem, ListSubheader, MenuItem, Select, SelectChangeEvent, Snackbar, TextField, Typography } from '@mui/material'
 import { useAppStore } from '@/store/appStore'
 import RefreshIcon from '@mui/icons-material/Refresh'
 import SaveIcon from '@mui/icons-material/Save'
@@ -24,6 +24,7 @@ export default function ControlPanel(props: Props) {
   const [allTags, setAllTags] = useState(config?.data?.tags ? config.data.tags : [])
   const [itemTags, setItemTags] = useState(item.tags)
   const [batteryType, setBatteryType] = useState(item.batteryType)
+  const [status, setStatus] = useState<{ code: number, message: string} | null>(null)
 
   const handleValueChanged = (measurements: Result) => {
     setMeasurements(item.pathS3, measurements)
@@ -40,13 +41,20 @@ export default function ControlPanel(props: Props) {
     const updatedItem = {...item, ...{batteryType: batteryType, tags: itemTags}}
     updatedItem.result = updatedResults
 
-    await fetch('/api/data', {
+    const response = await fetch('/api/data', {
       method: 'POST',
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({updatedItem})
+    })
+
+    const data = await response.json()
+
+    setStatus({
+      code: data.status,
+      message: data.message
     })
   }
 
@@ -76,6 +84,10 @@ export default function ControlPanel(props: Props) {
     }
   }
 
+  const handleAlertClose = () => {
+    setStatus(null)
+  }
+
   useEffect(() => {
     if (config?.data?.tags) {
       setAllTags(config.data.tags)
@@ -87,182 +99,189 @@ export default function ControlPanel(props: Props) {
   }, [])
 
   return (
-    <Box className={styles.controlPanelContainer} sx={{  bgcolor: 'background.paper' }}>
-      <Typography>{item.fbs}</Typography>
-      <Typography>width: {item.width}px</Typography>
-      <Typography>height: {item.width}px</Typography>
-      <Typography>ppmx: {item.ppmx}</Typography>
-      <FormControl fullWidth sx={{mt: 2}}>
-        <InputLabel id="battery-type-label">Battery type</InputLabel>
-        <Select
-          labelId="battery-type-label"
-          label="Battery type"
-          value={batteryType}
-          onChange={(e) => handleBatteryTypeChanged(e)}
-        >
-          {config?.data?.batteryTypes ? (config.data.batteryTypes as string[]).map((battery) => <MenuItem key={battery} value={battery}>{battery}</MenuItem>) : null}
-        </Select>
-        <Typography sx={{mt: 2}}>Tags: </Typography>
-        <div className={styles.tagsContainer} >
-          {allTags.map((tag: string) => <Chip key={tag} label={tag} color={checkisTagActive(tag) ? 'primary' : undefined} onClick={() => handleTagClicked(tag, checkisTagActive(tag))} /> )}
-        </div>
-        <List
-          sx={{
-            marginTop: 2,
-          }}
-          subheader={
-            <ListSubheader>
-              <Typography>Results: </Typography>
-            </ListSubheader>
-          }>
-          <ListItem>
-          foil_start:
-            <TextField
-              sx={{marginLeft: 1}}
-              value={measurements[item.pathS3]?.foil_start}
-              onChange={(e) => handleValueChanged({...measurements[item.pathS3], foil_start: Number(e.target.value)})}
-              type='number'
-              variant='standard'
-            />
-          </ListItem>
-          <ListItem>
-          foil_end:
-            <TextField
-              sx={{marginLeft: 1}}
-              value={measurements[item.pathS3]?.foil_end}
-              onChange={(e) => handleValueChanged({...measurements[item.pathS3], foil_end: Number(e.target.value)})}
-              type='number'
-              variant='standard'
-            />
-          </ListItem>
-          <Divider />
+    <>
+      <Box className={styles.controlPanelContainer} sx={{  bgcolor: 'background.paper' }}>
+        <Typography>{item.fbs}</Typography>
+        <Typography>width: {item.width}px</Typography>
+        <Typography>height: {item.width}px</Typography>
+        <Typography>ppmx: {item.ppmx}</Typography>
+        <FormControl fullWidth sx={{mt: 2}}>
+          <InputLabel id="battery-type-label">Battery type</InputLabel>
+          <Select
+            labelId="battery-type-label"
+            label="Battery type"
+            value={batteryType}
+            onChange={(e) => handleBatteryTypeChanged(e)}
+          >
+            {config?.data?.batteryTypes ? (config.data.batteryTypes as string[]).map((battery) => <MenuItem key={battery} value={battery}>{battery}</MenuItem>) : null}
+          </Select>
+          <Typography sx={{mt: 2}}>Tags: </Typography>
+          <div className={styles.tagsContainer} >
+            {allTags.map((tag: string) => <Chip key={tag} label={tag} color={checkisTagActive(tag) ? 'primary' : undefined} onClick={() => handleTagClicked(tag, checkisTagActive(tag))} /> )}
+          </div>
           <List
+            sx={{
+              marginTop: 2,
+            }}
             subheader={
               <ListSubheader>
-                <Typography>Coating sections: </Typography>
+                <Typography>Results: </Typography>
               </ListSubheader>
-            }
-          >
-            {measurements[item.pathS3]?.coating_line_sections.map((result, i) => {
-              return (
-                <Fragment key={i}>
-                  <ListItem>
+            }>
+            <ListItem>
+          foil_start:
+              <TextField
+                sx={{marginLeft: 1}}
+                value={measurements[item.pathS3]?.foil_start}
+                onChange={(e) => handleValueChanged({...measurements[item.pathS3], foil_start: Number(e.target.value)})}
+                type='number'
+                variant='standard'
+              />
+            </ListItem>
+            <ListItem>
+          foil_end:
+              <TextField
+                sx={{marginLeft: 1}}
+                value={measurements[item.pathS3]?.foil_end}
+                onChange={(e) => handleValueChanged({...measurements[item.pathS3], foil_end: Number(e.target.value)})}
+                type='number'
+                variant='standard'
+              />
+            </ListItem>
+            <Divider />
+            <List
+              subheader={
+                <ListSubheader>
+                  <Typography>Coating sections: </Typography>
+                </ListSubheader>
+              }
+            >
+              {measurements[item.pathS3]?.coating_line_sections.map((result, i) => {
+                return (
+                  <Fragment key={i}>
+                    <ListItem>
                   foil_start:
-                    <TextField
-                      disabled
-                      sx={{marginLeft: 1}}
-                      value={result.foil_start}
-                      onChange={(e) => {
-                        const coatingSections = [...measurements[item.pathS3].coating_line_sections]
-                        const coatingSection = {...coatingSections[i]}
-                        coatingSection.foil_start = Number(e.target.value)
-                        coatingSections[i] = coatingSection
-                        handleValueChanged(
-                          {
-                            ...measurements[item.pathS3],
-                            coating_line_sections: [
-                              ...coatingSections
-                            ]
-                          }
-                        )}
-                      }
-                      type='number'
-                      variant='standard'
-                    />
-                  </ListItem>
-                  <ListItem>
+                      <TextField
+                        disabled
+                        sx={{marginLeft: 1}}
+                        value={result.foil_start}
+                        onChange={(e) => {
+                          const coatingSections = [...measurements[item.pathS3].coating_line_sections]
+                          const coatingSection = {...coatingSections[i]}
+                          coatingSection.foil_start = Number(e.target.value)
+                          coatingSections[i] = coatingSection
+                          handleValueChanged(
+                            {
+                              ...measurements[item.pathS3],
+                              coating_line_sections: [
+                                ...coatingSections
+                              ]
+                            }
+                          )}
+                        }
+                        type='number'
+                        variant='standard'
+                      />
+                    </ListItem>
+                    <ListItem>
                   foil_end:
-                    <TextField
-                      disabled
-                      sx={{marginLeft: 1}}
-                      value={result.foil_end}
-                      onChange={(e) => {
-                        const coatingSections = [...measurements[item.pathS3].coating_line_sections]
-                        const coatingSection = {...coatingSections[i]}
-                        coatingSection.foil_end = Number(e.target.value)
-                        coatingSections[i] = coatingSection
-                        handleValueChanged(
-                          {
-                            ...measurements[item.pathS3],
-                            coating_line_sections: [
-                              ...coatingSections
-                            ]
-                          }
-                        )}
-                      }
-                      type='number'
-                      variant='standard'
-                    />
-                  </ListItem>
-                  <ListItem>
+                      <TextField
+                        disabled
+                        sx={{marginLeft: 1}}
+                        value={result.foil_end}
+                        onChange={(e) => {
+                          const coatingSections = [...measurements[item.pathS3].coating_line_sections]
+                          const coatingSection = {...coatingSections[i]}
+                          coatingSection.foil_end = Number(e.target.value)
+                          coatingSections[i] = coatingSection
+                          handleValueChanged(
+                            {
+                              ...measurements[item.pathS3],
+                              coating_line_sections: [
+                                ...coatingSections
+                              ]
+                            }
+                          )}
+                        }
+                        type='number'
+                        variant='standard'
+                      />
+                    </ListItem>
+                    <ListItem>
                   coating_start:
-                    <TextField
-                      sx={{marginLeft: 1}}
-                      value={result.coating_start}
-                      onChange={(e) => {
-                        const coatingSections = [...measurements[item.pathS3].coating_line_sections]
-                        const coatingSection = {...coatingSections[i]}
-                        coatingSection.coating_start = Number(e.target.value)
-                        coatingSections[i] = coatingSection
-                        handleValueChanged(
-                          {
-                            ...measurements[item.pathS3],
-                            coating_line_sections: [
-                              ...coatingSections
-                            ]
-                          }
-                        )}
-                      }
-                      type='number'
-                      variant='standard'
-                    />
-                  </ListItem>
-                  <ListItem>
+                      <TextField
+                        sx={{marginLeft: 1}}
+                        value={result.coating_start}
+                        onChange={(e) => {
+                          const coatingSections = [...measurements[item.pathS3].coating_line_sections]
+                          const coatingSection = {...coatingSections[i]}
+                          coatingSection.coating_start = Number(e.target.value)
+                          coatingSections[i] = coatingSection
+                          handleValueChanged(
+                            {
+                              ...measurements[item.pathS3],
+                              coating_line_sections: [
+                                ...coatingSections
+                              ]
+                            }
+                          )}
+                        }
+                        type='number'
+                        variant='standard'
+                      />
+                    </ListItem>
+                    <ListItem>
                   coating_end:
-                    <TextField
-                      sx={{marginLeft: 1}}
-                      value={result.coating_end}
-                      onChange={(e) => {
-                        const coatingSections = [...measurements[item.pathS3].coating_line_sections]
-                        const coatingSection = {...coatingSections[i]}
-                        coatingSection.coating_end = Number(e.target.value)
-                        coatingSections[i] = coatingSection
-                        handleValueChanged(
-                          {
-                            ...measurements[item.pathS3],
-                            coating_line_sections: [
-                              ...coatingSections
-                            ]
-                          }
-                        )}
-                      }
-                      type='number'
-                      variant='standard'
-                    />
-                  </ListItem>
-                </Fragment>
-              )
-            })}
+                      <TextField
+                        sx={{marginLeft: 1}}
+                        value={result.coating_end}
+                        onChange={(e) => {
+                          const coatingSections = [...measurements[item.pathS3].coating_line_sections]
+                          const coatingSection = {...coatingSections[i]}
+                          coatingSection.coating_end = Number(e.target.value)
+                          coatingSections[i] = coatingSection
+                          handleValueChanged(
+                            {
+                              ...measurements[item.pathS3],
+                              coating_line_sections: [
+                                ...coatingSections
+                              ]
+                            }
+                          )}
+                        }
+                        type='number'
+                        variant='standard'
+                      />
+                    </ListItem>
+                  </Fragment>
+                )
+              })}
+            </List>
           </List>
-        </List>
-      </FormControl>
+        </FormControl>
 
-      <div className={styles.buttonContainer}>
-        <Button
-          variant='outlined'
-          onClick={() => handleResetValues()}
-          endIcon={
-            <RefreshIcon />
-          }
-        >Reset</Button>
-        <Button
-          variant='contained'
-          onClick={() => handleSaveValues()}
-          endIcon={
-            <SaveIcon />
-          }
-        >Save</Button>
-      </div>
-    </Box>
+        <div className={styles.buttonContainer}>
+          <Button
+            variant='outlined'
+            onClick={() => handleResetValues()}
+            endIcon={
+              <RefreshIcon />
+            }
+          >Reset</Button>
+          <Button
+            variant='contained'
+            onClick={() => handleSaveValues()}
+            endIcon={
+              <SaveIcon />
+            }
+          >Save</Button>
+        </div>
+      </Box>
+      <Snackbar open={Boolean(status)} autoHideDuration={6000} onClose={handleAlertClose}  anchorOrigin={{ vertical: 'bottom', horizontal: 'right'}}>
+        <Alert onClose={handleAlertClose} severity="success">
+          {status?.message}
+        </Alert>
+      </Snackbar>
+    </>
   )
 }

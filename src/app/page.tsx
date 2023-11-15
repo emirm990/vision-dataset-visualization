@@ -30,14 +30,14 @@ export default function Home() {
   }
 
   useEffect(() => {
-    if (data?.images) {
+    if (data?.images && testDataJSON) {
       const filteredData = testDataJSON.filter((item) => {
         return checkImage(item, data.images)
       }) as TestItemWithLocalPath[]
 
       setTestData(filteredData)
     }
-  }, [data])
+  }, [data, testDataJSON])
 
 
   const itemsToShow = () => {

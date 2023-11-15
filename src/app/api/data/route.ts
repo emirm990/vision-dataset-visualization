@@ -73,5 +73,5 @@ export async function POST(request: Request) {
   data.splice(indexOfUpdatedItem, 1, updatedItem)
   fs.writeFileSync(jsonFilePath, JSON.stringify(data, null, 2), 'utf8')
 
-  return Response.json({data})
+  return Response.json({status: 200, message: 'Saved successfully!'})
 }
