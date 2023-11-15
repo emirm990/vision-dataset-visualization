@@ -1,6 +1,5 @@
 'use client'
 import DataVisualization from '../components/DataVisualization/DataVisualization'
-import testDataJSON from '../../public/data/test.json'
 import { TestItem, TestItemWithLocalPath } from '@/types/testdata'
 import { useEffect, useState } from 'react'
 import FileExplorer from '@/components/FileExplorer/FileExplorer'
@@ -10,6 +9,7 @@ import { useFetch } from '@/hooks/useFetchHook'
 
 export default function Home() {
   const { data } = useFetch('/api/images')
+  const { data: testDataJSON }: { data: TestItem[]} = useFetch('/api/data')
   const selectedImages = useAppStore((state) => state.selectedImages)
 
   const [testData, setTestData] = useState<TestItemWithLocalPath[]>([])

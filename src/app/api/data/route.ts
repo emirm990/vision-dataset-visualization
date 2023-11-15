@@ -14,6 +14,22 @@ const backupJsonFile = (inputPath: string, outputPath: string) => {
   }
 }
 
+export async function GET() {
+  const dir = path.resolve('./public', 'data/')
+  const files = await readdir(dir)
+  const config = files.filter((file) => file === 'test.json')[0]
+
+  if (!config) {
+    return Response.error()
+  }
+
+  const jsonFilePath = path.join(dir, config)
+
+  const file = await promises.readFile(jsonFilePath, 'utf8')
+
+  return Response.json(JSON.parse(file))
+}
+
 export async function POST(request: Request) {
   const req = await request.json()
   const itemIdentifier = req.updatedItem.pathS3
@@ -57,5 +73,5 @@ export async function POST(request: Request) {
   data.splice(indexOfUpdatedItem, 1, updatedItem)
   fs.writeFileSync(jsonFilePath, JSON.stringify(data, null, 2), 'utf8')
 
-  return Response.json({indexOfUpdatedItem, data})
+  return Response.json({data})
 }
