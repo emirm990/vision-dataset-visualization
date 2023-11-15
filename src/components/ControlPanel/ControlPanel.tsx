@@ -1,7 +1,7 @@
 import { Result, TestItem } from '@/types/testdata'
 import styles from './styles.module.css'
 import { Fragment, useEffect, useState } from 'react'
-import { Box, Button, Chip, Divider, FormControl, InputLabel, List, ListItem, ListSubheader, MenuItem, Select, TextField, Typography } from '@mui/material'
+import { Box, Button, Chip, Divider, FormControl, InputLabel, List, ListItem, ListSubheader, MenuItem, Select, SelectChangeEvent, TextField, Typography } from '@mui/material'
 import { useAppStore } from '@/store/appStore'
 import RefreshIcon from '@mui/icons-material/Refresh'
 import SaveIcon from '@mui/icons-material/Save'
@@ -21,7 +21,9 @@ export default function ControlPanel(props: Props) {
   const measurements = useAppStore((state) => state.measurements)
   const setMeasurements = useAppStore((state) => state.setMeasurements)
 
-  const [tags, setTags] = useState(config?.data?.tags ? config.data.tags : [])
+  const [allTags, setAllTags] = useState(config?.data?.tags ? config.data.tags : [])
+  const [itemTags, setItemTags] = useState(item.tags)
+  const [batteryType, setBatteryType] = useState(item.batteryType)
 
   const handleValueChanged = (measurements: Result) => {
     setMeasurements(item.pathS3, measurements)
@@ -33,7 +35,7 @@ export default function ControlPanel(props: Props) {
 
   const handleSaveValues = async () => {
     const updatedResults = {...item.result, ...measurements[item.pathS3]}
-    const updatedItem = {...item}
+    const updatedItem = {...item, ...{batteryType: batteryType, tags: itemTags}}
     updatedItem.result = updatedResults
 
     await fetch('/api/data', {
@@ -47,16 +49,34 @@ export default function ControlPanel(props: Props) {
   }
 
   const checkisTagActive = (tag: string) => {
-    if (item.tags.includes(tag)) {
+    if (itemTags.includes(tag)) {
       return true
     }
 
     return false
   }
 
+  const handleBatteryTypeChanged = (e: SelectChangeEvent<string>) => {
+    const value = e.target.value
+
+    setBatteryType(value)
+  }
+
+  const handleTagClicked = (tag: string, isChecked: boolean) => {
+    if (isChecked) {
+      setItemTags((state: string[]) => {
+        return state.filter((stateTag) => stateTag !== tag)
+      })
+    } else {
+      setItemTags((state: string[]) => {
+        return [...state, tag]
+      })
+    }
+  }
+
   useEffect(() => {
     if (config?.data?.tags) {
-      setTags(config.data.tags)
+      setAllTags(config.data.tags)
     }
   }, [config?.data])
 
@@ -75,12 +95,14 @@ export default function ControlPanel(props: Props) {
         <Select
           labelId="battery-type-label"
           label="Battery type"
+          value={batteryType}
+          onChange={(e) => handleBatteryTypeChanged(e)}
         >
           {config?.data?.batteryTypes ? (config.data.batteryTypes as string[]).map((battery) => <MenuItem key={battery} value={battery}>{battery}</MenuItem>) : null}
         </Select>
         <Typography sx={{mt: 2}}>Tags: </Typography>
         <div className={styles.tagsContainer} >
-          {tags.map((tag: string) => <Chip key={tag} label={tag} color={checkisTagActive(tag) ? 'primary' : undefined} onClick={() => console.log()} /> )}
+          {allTags.map((tag: string) => <Chip key={tag} label={tag} color={checkisTagActive(tag) ? 'primary' : undefined} onClick={() => handleTagClicked(tag, checkisTagActive(tag))} /> )}
         </div>
         <List
           sx={{

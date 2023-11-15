@@ -32,14 +32,26 @@ export async function POST(request: Request) {
 
   backupJsonFile(jsonFilePath, `public/data/backup/test-bak-${new Date().toISOString()}.json`)
 
-  const data = JSON.parse(file)
-  const itemToUpdate = data.find((item: TestItem) => item.pathS3 === itemIdentifier)
+  const data = JSON.parse(file) as undefined | TestItem[]
+
+  if (!data) {
+    return Response.error()
+  }
+
   const indexOfUpdatedItem = data.findIndex((item: TestItem) => item.pathS3 === itemIdentifier)
+
+  if (indexOfUpdatedItem === -1) {
+    return Response.error()
+  }
+
+  const itemToUpdate = data[indexOfUpdatedItem]
 
   if (!itemToUpdate) {
     return Response.error()
   }
-
+ 
+  delete req.updatedItem.localImagePath
+  
   const updatedItem = {...itemToUpdate, ...req.updatedItem}
 
   data.splice(indexOfUpdatedItem, 1, updatedItem)
