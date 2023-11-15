@@ -1,6 +1,7 @@
 .visualizationContainer {
   padding: 30px;
   height: calc(100vh - 120px);
+  width: calc(100vw - 340px);
   margin-top: 50px;
 }
 
