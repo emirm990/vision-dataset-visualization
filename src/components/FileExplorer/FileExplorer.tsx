@@ -21,6 +21,7 @@ export default function FileExplorer(props: Props){
     const value = event.target.value
     selectedImages.forEach((image) => removeSelectedImage(image))
     addSelectedImage(value)
+    setIsToggleOpen(false)
   }
 
   const drawerContent = useMemo(() => {

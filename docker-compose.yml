@@ -1,6 +1,6 @@
 version: "3.8"
 services: 
-  frontend:
+  application:
     container_name: vision-dataset-visualization
     build:
       context: . #if your Dockerfile is not at the same level change the path here (./frontend)
