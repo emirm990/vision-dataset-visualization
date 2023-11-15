@@ -31,7 +31,16 @@ export const useAppStore = create<AppStore>()(
       }),
       measurements: {},
       setMeasurements: (key, measurement) => set((state) => {
-        state.measurements[key] = measurement
+        const coating_line_sections = JSON.parse(JSON.stringify(measurement.coating_line_sections))   
+        coating_line_sections[0].foil_start = measurement.foil_start
+
+        if (coating_line_sections.length > 1) {
+          coating_line_sections[1].foil_end = measurement.foil_end
+        } else {
+          coating_line_sections[0].foil_end = measurement.foil_end
+        }
+        const updatedMeasurement = {...measurement, coating_line_sections}
+        state.measurements[key] = updatedMeasurement
       })
     }))
   ))
