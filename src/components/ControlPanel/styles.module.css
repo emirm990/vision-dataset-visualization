@@ -6,6 +6,7 @@
 .buttonContainer {
   display: flex;
   justify-content: flex-end;
+  column-gap: 20px;
   margin-bottom: 20px;
 }
 

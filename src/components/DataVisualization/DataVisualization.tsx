@@ -3,8 +3,9 @@ import { TestItemWithLocalPath } from '@/types/testdata'
 import Canvas from '../Canvas/Canvas'
 import styles from './styles.module.css'
 import ControlPanel from '../ControlPanel/ControlPanel'
-import { memo, useRef } from 'react'
+import { memo, useEffect, useRef } from 'react'
 import { Typography } from '@mui/material'
+import { useAppStore } from '@/store/appStore'
 
 type Props = {
   item: TestItemWithLocalPath,
@@ -15,6 +16,7 @@ const DataVisualizedMemoized = memo(function DataVisualization(props: Props){
     item,
   } = props
 
+  const setMeasurements = useAppStore((state) => state.setMeasurements)
   const visualizationContainerRef = useRef<HTMLDivElement>(null)
   const generateFullImagePath = (imagePath: string) => {
     if (imagePath) {
@@ -23,6 +25,10 @@ const DataVisualizedMemoized = memo(function DataVisualization(props: Props){
 
     return ''
   }
+
+  useEffect(() => {
+    setMeasurements(item.pathS3, item.result)
+  }, [item])
 
   return (
     <div className={styles.mainContainer} >

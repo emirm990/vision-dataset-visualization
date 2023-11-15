@@ -4,7 +4,8 @@ import { Fragment, useEffect, useState } from 'react'
 import { Box, Button, Chip, Divider, FormControl, InputLabel, List, ListItem, ListSubheader, MenuItem, Select, TextField, Typography } from '@mui/material'
 import { useAppStore } from '@/store/appStore'
 import RefreshIcon from '@mui/icons-material/Refresh'
-import useSWR from 'swr'
+import SaveIcon from '@mui/icons-material/Save'
+import { useConfig } from '@/hooks/useConfigHook'
 
 type Props = {
   item: TestItem,
@@ -15,9 +16,7 @@ export default function ControlPanel(props: Props) {
     item,
   } = props
 
-  const fetcher = (url: string) => fetch(url).then((res) => res.json())
-  const { data: config } = useSWR('/api/config', fetcher)
-
+  const { data: config }= useConfig()
 
   const measurements = useAppStore((state) => state.measurements)
   const setMeasurements = useAppStore((state) => state.setMeasurements)
@@ -30,6 +29,21 @@ export default function ControlPanel(props: Props) {
 
   const handleResetValues = () => {
     setMeasurements(item.pathS3, item.result)
+  }
+
+  const handleSaveValues = async () => {
+    const updatedResults = {...item.result, ...measurements[item.pathS3]}
+    const updatedItem = {...item}
+    updatedItem.result = updatedResults
+
+    await fetch('/api/data', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({updatedItem})
+    })
   }
 
   const checkisTagActive = (tag: string) => {
@@ -50,7 +64,6 @@ export default function ControlPanel(props: Props) {
     setMeasurements(item.pathS3, item.result)
   }, [])
 
-  console.log(config?.data)
   return (
     <Box className={styles.controlPanelContainer} sx={{  bgcolor: 'background.paper' }}>
       <Typography>{item.fbs}</Typography>
@@ -217,7 +230,14 @@ export default function ControlPanel(props: Props) {
           endIcon={
             <RefreshIcon />
           }
-        >Reset values</Button>
+        >Reset</Button>
+        <Button
+          variant='contained'
+          onClick={() => handleSaveValues()}
+          endIcon={
+            <SaveIcon />
+          }
+        >Save</Button>
       </div>
     </Box>
   )

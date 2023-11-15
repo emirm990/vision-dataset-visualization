@@ -1,16 +1,15 @@
 'use client'
 import DataVisualization from '../components/DataVisualization/DataVisualization'
 import testDataJSON from '../../public/data/test.json'
-import useSWR from 'swr'
 import { TestItem, TestItemWithLocalPath } from '@/types/testdata'
 import { useEffect, useState } from 'react'
 import FileExplorer from '@/components/FileExplorer/FileExplorer'
 import { useAppStore } from '@/store/appStore'
 import { Alert, Box, Container } from '@mui/material'
+import { useFetch } from '@/hooks/useFetchHook'
 
 export default function Home() {
-  const fetcher = (url: string) => fetch(url).then((res) => res.json())
-  const { data } = useSWR('/api/images', fetcher)
+  const { data } = useFetch('/api/images')
   const selectedImages = useAppStore((state) => state.selectedImages)
 
   const [testData, setTestData] = useState<TestItemWithLocalPath[]>([])

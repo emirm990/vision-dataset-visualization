@@ -1,4 +1,4 @@
 {
   "tags": ["A", "B", "C"],
-  "batteryTypes": ["test_one", "test2_long_name", "t3"]
+  "batteryTypes": ["EV32", "PPE-CV", "PPE-HIGH", "PPE-SLIM"]
 }
