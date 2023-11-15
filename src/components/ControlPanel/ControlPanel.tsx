@@ -31,6 +31,8 @@ export default function ControlPanel(props: Props) {
 
   const handleResetValues = () => {
     setMeasurements(item.pathS3, item.result)
+    setItemTags(item.tags)
+    setBatteryType(item.batteryType)
   }
 
   const handleSaveValues = async () => {
