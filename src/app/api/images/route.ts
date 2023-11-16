@@ -1,8 +1,9 @@
 import path from 'path'
 import { readdir } from 'node:fs/promises'
+export const revalidate = 0
 
 export async function GET() {
-  const dir = path.resolve('./public', 'data/images')
+  const dir = path.resolve('public', 'data/images')
 
   try {
     const files = await readdir(dir, { recursive: true })
