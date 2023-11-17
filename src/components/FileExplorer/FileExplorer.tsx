@@ -1,8 +1,9 @@
 import { useAppStore } from '@/store/appStore'
-import { Box, Button, Divider, Drawer, FormControl, FormControlLabel, FormLabel, Radio, RadioGroup } from '@mui/material'
+import { Box, Button, Chip, Divider, Drawer, FormControl, FormControlLabel, FormLabel, Radio, RadioGroup } from '@mui/material'
 import ImageSearchIcon from '@mui/icons-material/Image'
 import { ChangeEvent, Fragment, useMemo, useState } from 'react'
 import { useFetch } from '@/hooks/useFetchHook'
+import styles from './styles.module.css'
 
 export default function FileExplorer(){
   const { data: imageData }: { data: {images: string[]}} = useFetch('/api/images')
@@ -32,7 +33,10 @@ export default function FileExplorer(){
         }}
       >
         <FormControl>
-          <FormLabel id="images">Images</FormLabel>
+          <div className={styles.labelContainer}>
+            <FormLabel id="images">Images</FormLabel>
+            <Chip label={imageData.images.length} />
+          </div>
         </FormControl>
         <RadioGroup
           name="radio-buttons-group"
