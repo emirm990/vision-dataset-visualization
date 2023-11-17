@@ -6,6 +6,7 @@ import FileExplorer from '@/components/FileExplorer/FileExplorer'
 import { useAppStore } from '@/store/appStore'
 import { Alert, Box, Container } from '@mui/material'
 import { useFetch } from '@/hooks/useFetchHook'
+import styles from './styles.module.css'
 
 export default function Home() {
   const { data } = useFetch('/api/images')
@@ -49,7 +50,7 @@ export default function Home() {
 
   const renderItems = itemsToShow()
   return (
-    <>
+    <div className={styles.mainContainer}>
       <Container maxWidth={false} disableGutters>
         <Box sx={{ bgcolor: 'background.paper'}}>
           { renderItems.length > 0 
@@ -58,6 +59,6 @@ export default function Home() {
         </Box>
       </Container>
       <FileExplorer />
-    </>
+    </div>
   )
 }
