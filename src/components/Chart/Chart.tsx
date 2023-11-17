@@ -1,4 +1,3 @@
-'use client'
 import Plotly, { Config, Data, Layout } from 'plotly.js'
 import { useEffect, useState } from 'react'
 
@@ -18,7 +17,7 @@ export default function Chart(props: Props) {
   const [root, setRoot] = useState<HTMLDivElement | null>(null)
 
   useEffect(() => {
-    if (root) {
+    if (root && data) {
       Plotly.newPlot(root, data.data, data.layout, data.config)
     }
   }, [root, data])
