@@ -8,7 +8,7 @@ type AppStore = {
   addSelectedImage: (imageToAdd: string) => void,
   removeSelectedImage: (imageToRemove: string) => void,
   measurements: {[key: string]: Result},
-  setMeasurements: (key: string, measurement: Result) => void,
+  setMeasurements: (key: string, measurement: Result) => void
 }
 
 export const useAppStore = create<AppStore>()(

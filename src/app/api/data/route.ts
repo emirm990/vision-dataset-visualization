@@ -2,6 +2,7 @@ import { readdir } from 'node:fs/promises'
 import path from 'path'
 import fs, {promises} from 'fs'
 import { TestItem } from '@/types/testdata'
+export const revalidate = 0
 
 const backupJsonFile = (inputPath: string, outputPath: string) => {
   try {
@@ -14,10 +15,20 @@ const backupJsonFile = (inputPath: string, outputPath: string) => {
   }
 }
 
-export async function GET() {
-  const dir = path.resolve('./public', 'data/')
+export async function GET(req: Request) {
+  const params = new URL(req.url).searchParams
+  const fileName = params.get('fileName')
+
+  const subPath = fileName ? 'data/test' : 'data'
+  const dir = path.resolve('./public', subPath)
   const files = await readdir(dir)
-  const config = files.filter((file) => file === 'test.json')[0]
+  const config = files.filter((file) => {
+    if (fileName) {
+      return file === fileName
+    }
+
+    return file === 'test.json'
+  })[0]
 
   if (!config) {
     return Response.error()
@@ -68,10 +79,10 @@ export async function POST(request: Request) {
  
   delete req.updatedItem.localImagePath
   
-  const updatedItem = {...itemToUpdate, ...req.updatedItem}
+  const updatedItem: TestItem = {...itemToUpdate, ...req.updatedItem}
 
   data.splice(indexOfUpdatedItem, 1, updatedItem)
   fs.writeFileSync(jsonFilePath, JSON.stringify(data, null, 2), 'utf8')
 
-  return Response.json({status: 200, message: 'Saved successfully!'})
+  return Response.json({status: 200, message: 'Saved successfully!', item: updatedItem})
 }

@@ -18,9 +18,7 @@ export default function Home() {
     const newItem = item as TestItemWithLocalPath
     let hasImage = false
     images.forEach((image) => {
-      const imagePathNormalized = image.replaceAll('_', '/')
-
-      if (item.pathS3.includes(imagePathNormalized) || item.pathLocal === image) {
+      if (item.pathLocal === image) {
         hasImage = true
         newItem.localImagePath = image
       }
@@ -37,7 +35,7 @@ export default function Home() {
 
       setTestData(filteredData)
     }
-  }, [data, testDataJSON])
+  }, [data, testDataJSON, selectedImages])
 
 
   const itemsToShow = () => {
@@ -59,7 +57,7 @@ export default function Home() {
             : <Container maxWidth={false}><Alert severity="info" sx={{position: 'relative', top: 100 }}>No images choosen!</Alert></Container>}
         </Box>
       </Container>
-      <FileExplorer data={testData} />
+      <FileExplorer />
     </>
   )
 }

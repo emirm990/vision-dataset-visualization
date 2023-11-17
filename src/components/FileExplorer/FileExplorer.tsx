@@ -1,16 +1,11 @@
 import { useAppStore } from '@/store/appStore'
-import { TestItemWithLocalPath } from '@/types/testdata'
 import { Box, Button, Divider, Drawer, FormControl, FormControlLabel, FormLabel, Radio, RadioGroup } from '@mui/material'
 import ImageSearchIcon from '@mui/icons-material/Image'
 import { ChangeEvent, Fragment, useMemo, useState } from 'react'
+import { useFetch } from '@/hooks/useFetchHook'
 
-type Props = {
-  data: TestItemWithLocalPath[],
-}
-export default function FileExplorer(props: Props){
-  const {
-    data,
-  } = props
+export default function FileExplorer(){
+  const { data: imageData }: { data: {images: string[]}} = useFetch('/api/images')
 
   const selectedImages = useAppStore((state) => state.selectedImages)
   const addSelectedImage = useAppStore((state) => state.addSelectedImage)
@@ -25,7 +20,7 @@ export default function FileExplorer(props: Props){
   }
 
   const drawerContent = useMemo(() => {
-    if (!data || data.length < 1) {
+    if (!imageData || imageData.images.length < 1) {
       return null
     }
 
@@ -44,10 +39,10 @@ export default function FileExplorer(props: Props){
           value={selectedImages.length > 0 ? selectedImages[0] : undefined}
           onChange={handleImageClick}
         >
-          {data.map((item) => {
+          {imageData.images.map((image) => {
             return (
-              <Fragment key={item.localImagePath}>
-                <FormControlLabel sx={{mt: 1, mb: 1}} value={item.localImagePath} control={<Radio />} label={item.localImagePath} />
+              <Fragment key={image}>
+                <FormControlLabel sx={{mt: 1, mb: 1}} value={image} control={<Radio />} label={image} />
                 <Divider />
               </Fragment>
             )
@@ -55,7 +50,7 @@ export default function FileExplorer(props: Props){
         </RadioGroup>
       </Box>
     )
-  }, [data, selectedImages])
+  }, [imageData, selectedImages])
 
   return (
     <>
