@@ -1,6 +1,8 @@
 version: "3.8"
 services: 
   frontend:
+    privileged: true
+    user: root
     container_name: vision-dataset-visualization
     build: .
     restart: always #change if you don't want your container restarting
@@ -8,3 +10,9 @@ services:
       - NODE_ENV=production
     ports:
       - 3000:3000
+    volumes:
+      - image-volume:/app/public/data/images
+volumes:
+  image-volume:
+    external: true
+    name: image-volume

@@ -62,8 +62,8 @@ export default function FileExplorer(){
     <>
       <Button
         sx={{
-          position: 'fixed',
-          top: '20px',
+          position: 'absolute',
+          top: '80px',
           left: '20px',
         }}
         onClick={() => setIsToggleOpen(true)}
