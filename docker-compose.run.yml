@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  frontend:
+    image: vision-show:latest
+    restart: always #change if you don't want your container restarting
+    environment:
+      - NODE_ENV=production
+    ports:
+      - 3000:3000
+    privileged: true
+    volumes:
+      - $HOME/src/github.com/northvolt/firefly-prism/data/algotest_dataset:/app/public/data/images/data/algotest_dataset
