@@ -1,5 +1,5 @@
 import { useAppStore } from '@/store/appStore'
-import { Box, Button, Chip, Divider, Drawer, FormControl, FormControlLabel, FormLabel, Radio, RadioGroup } from '@mui/material'
+import { Alert, Box, Button, Chip, Divider, Drawer, FormControl, FormControlLabel, FormLabel, Radio, RadioGroup } from '@mui/material'
 import ImageSearchIcon from '@mui/icons-material/Image'
 import { ChangeEvent, Fragment, useMemo, useState } from 'react'
 import { useFetch } from '@/hooks/useFetchHook'
@@ -22,7 +22,9 @@ export default function FileExplorer(){
 
   const drawerContent = useMemo(() => {
     if (!imageData || imageData.images.length < 1) {
-      return null
+      return (
+        <Alert severity="info" sx={{padding: 2}}>No images available!</Alert>
+      )
     }
 
     return (
