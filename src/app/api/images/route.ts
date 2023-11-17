@@ -7,7 +7,7 @@ export async function GET() {
 
   try {
     const files = await readdir(dir, { recursive: true })
-    const images = files.filter((file) => file.includes('.jpg'))
+    const images = files.filter((file) => file.includes('.jpg')).sort((a, b) => a.localeCompare(b))
     
     return Response.json({ images })
   } catch (err) {

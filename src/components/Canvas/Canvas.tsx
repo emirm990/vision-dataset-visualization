@@ -440,9 +440,10 @@ export default function Canvas(props: Props){
 
   useEffect(() => {
     if (fabricRef.current) {
+      const currentZoom = fabricRef.current.getZoom()
       const ratio = getRatio()
       if (ratio) {
-        fabricRef.current.setZoom(ratio)
+        fabricRef.current.setZoom(currentZoom === 1 ? ratio : currentZoom)
       }
     }
   }, [item])
