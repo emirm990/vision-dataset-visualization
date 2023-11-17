@@ -16,8 +16,8 @@ const backupJsonFile = (inputPath: string, outputPath: string) => {
 }
 
 export async function GET(req: Request) {
-  const params = new URL(req.url).searchParams
-  const fileName = params.get('fileName')
+  const { searchParams } = new URL(req.url)
+  const fileName = searchParams.get('fileName')
 
   const subPath = fileName ? 'data/test' : 'data'
   const dir = path.resolve('./public', subPath)
