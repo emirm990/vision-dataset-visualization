@@ -78,7 +78,6 @@ export default function Canvas(props: Props){
           if (text) {
             text.text = `${target}: ${value}px`
           }
-          group.setCoords()
           canvas.renderAll()
         }
       }

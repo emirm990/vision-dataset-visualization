@@ -354,7 +354,7 @@ export default function ControlPanel(props: Props) {
           </div>
         </div>
       </Box>
-      <Snackbar open={Boolean(status)} autoHideDuration={6000} onClose={handleAlertClose}  anchorOrigin={{ vertical: 'bottom', horizontal: 'right'}}>
+      <Snackbar open={Boolean(status)} autoHideDuration={6000} onClose={handleAlertClose}  anchorOrigin={{ vertical: 'bottom', horizontal: 'left'}}>
         <Alert onClose={handleAlertClose} severity="success">
           {status?.message}
         </Alert>
