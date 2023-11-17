@@ -5,19 +5,22 @@
     "fbs": "F1.A1.CT.COT01.BX1.KEA1.BXC1",
     "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx1-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-04.690603022Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX1.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-04.690603022Z.jpg",
-    "batteryType": "PPE-HIGH",
-    "tags": [],
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B"
+    ],
     "ppmx": 23.3,
     "width": 21960,
     "height": 1024,
     "result": {
-      "foil_start": 100,
+      "foil_start": 2423,
       "foil_end": 19359,
       "coating_line_sections": [
         {
-          "foil_start": 100,
+          "foil_start": 2423,
           "foil_end": 10898,
-          "coating_start": 3000,
+          "coating_start": 2793,
           "coating_end": 10555
         },
         {
@@ -56,7 +59,7 @@
         {
           "foil_start": 10897,
           "foil_end": 19358,
-          "coating_start": 11244,
+          "coating_start": 11241,
           "coating_end": 19003
         }
       ]
@@ -79,7 +82,7 @@
     "height": 1024,
     "result": {
       "foil_start": 2435,
-      "foil_end": 19359,
+      "foil_end": 19350,
       "coating_line_sections": [
         {
           "foil_start": 2435,
@@ -89,7 +92,7 @@
         },
         {
           "foil_start": 10897,
-          "foil_end": 19359,
+          "foil_end": 19350,
           "coating_start": 11244,
           "coating_end": 19004
         }
@@ -118,14 +121,14 @@
         {
           "foil_start": 2437,
           "foil_end": 10898,
-          "coating_start": 2793,
+          "coating_start": 2791,
           "coating_end": 10555
         },
         {
           "foil_start": 10898,
           "foil_end": 19359,
           "coating_start": 11244,
-          "coating_end": 19003
+          "coating_end": 19001
         }
       ]
     }
@@ -158,7 +161,7 @@
         {
           "foil_start": 10897,
           "foil_end": 19358,
-          "coating_start": 11244,
+          "coating_start": 11242,
           "coating_end": 19003
         }
       ]
@@ -181,7 +184,7 @@
     "height": 1024,
     "result": {
       "foil_start": 2206,
-      "foil_end": 19116,
+      "foil_end": 19115,
       "coating_line_sections": [
         {
           "foil_start": 2206,
@@ -191,7 +194,7 @@
         },
         {
           "foil_start": 10661,
-          "foil_end": 19116,
+          "foil_end": 19115,
           "coating_start": 11008,
           "coating_end": 18762
         }
@@ -1059,11 +1062,11 @@
     "height": 1024,
     "result": {
       "foil_start": 5606,
-      "foil_end": 16695,
+      "foil_end": 16694,
       "coating_line_sections": [
         {
           "foil_start": 5606,
-          "foil_end": 16695,
+          "foil_end": 16694,
           "coating_start": 6005,
           "coating_end": 16298
         }
@@ -1115,11 +1118,11 @@
     "height": 1024,
     "result": {
       "foil_start": 5606,
-      "foil_end": 16696,
+      "foil_end": 16698,
       "coating_line_sections": [
         {
           "foil_start": 5606,
-          "foil_end": 16696,
+          "foil_end": 16698,
           "coating_start": 6003,
           "coating_end": 16297
         }
@@ -1227,11 +1230,11 @@
     "height": 1024,
     "result": {
       "foil_start": 5203,
-      "foil_end": 16296,
+      "foil_end": 16297,
       "coating_line_sections": [
         {
           "foil_start": 5203,
-          "foil_end": 16296,
+          "foil_end": 16297,
           "coating_start": 5600,
           "coating_end": 15900
         }
@@ -1311,11 +1314,11 @@
     "height": 1024,
     "result": {
       "foil_start": 5575,
-      "foil_end": 16667,
+      "foil_end": 16661,
       "coating_line_sections": [
         {
           "foil_start": 5575,
-          "foil_end": 16667,
+          "foil_end": 16661,
           "coating_start": 5973,
           "coating_end": 16267
         }
@@ -1423,11 +1426,11 @@
     "height": 1024,
     "result": {
       "foil_start": 5575,
-      "foil_end": 16667,
+      "foil_end": 16664,
       "coating_line_sections": [
         {
           "foil_start": 5575,
-          "foil_end": 16667,
+          "foil_end": 16664,
           "coating_start": 5974,
           "coating_end": 16268
         }
@@ -1581,16 +1584,20 @@
     "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx4-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-00.036751012Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX4.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-00.036751012Z.jpg",
     "batteryType": "",
-    "tags": [],
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
     "ppmx": 23.3,
     "width": 21960,
     "height": 1024,
     "result": {
-      "foil_start": 20000,
+      "foil_start": 5804,
       "foil_end": 16889,
       "coating_line_sections": [
         {
-          "foil_start": 20000,
+          "foil_start": 5804,
           "foil_end": 16889,
           "coating_start": 6202,
           "coating_end": 16491
@@ -2892,17 +2899,21 @@
     "fbs": "F1.C1.CT.COT01.BX2.KEA1.BXC1",
     "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx2-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-09.3812088Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX2.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-09.3812088Z.jpg",
-    "batteryType": "PPE-HIGH",
-    "tags": [],
+    "batteryType": "",
+    "tags": [
+      "A",
+      "B",
+      "C"
+    ],
     "ppmx": 23.3,
     "width": 21960,
     "height": 1024,
     "result": {
-      "foil_start": 2000,
+      "foil_start": 5398,
       "foil_end": 16462,
       "coating_line_sections": [
         {
-          "foil_start": 2000,
+          "foil_start": 5398,
           "foil_end": 16462,
           "coating_start": 5875,
           "coating_end": 15984
