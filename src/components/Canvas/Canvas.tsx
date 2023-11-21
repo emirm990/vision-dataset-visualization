@@ -71,6 +71,7 @@ export default function Canvas(props: Props){
       const group = lineGroup as fabric.Group
       if (group.name === target) {
         const groupWidth = group.width
+
         if (groupWidth) {
           group.left = value - (groupWidth / 2)
           const text = group.getObjects().filter((item) => item.name === 'text')[0] as fabric.Text
@@ -239,6 +240,14 @@ export default function Canvas(props: Props){
         if (object.name === 'text') {
           const textObject = object as fabric.Text
           const objectPositionLeft = target.left && target.width ? target.left + target?.width / 2 : 0
+          if ( objectPositionLeft > item.width && target.width) {
+            target.left = item.width - target.width / 2
+            return
+          }
+          if (objectPositionLeft < 0 && target.width) {
+            target.left = 0 - target.width / 2
+            return
+          }
           const name = object.group?.name
           textObject.set({
             text: `${name}: ${objectPositionLeft.toFixed(0)}px`
@@ -249,7 +258,7 @@ export default function Canvas(props: Props){
             const currentState = useAppStore.getState().measurements[item.pathS3]
             const newState = JSON.parse(JSON.stringify(currentState)) // hack around read only object when setting 
             if (splitedName[1]) {
-              if (indexAndLabel[0] && indexAndLabel[1] && newState[indexAndLabel[0]][indexAndLabel[1]][splitedName[1]]) {
+              if (indexAndLabel[0] != null && indexAndLabel[1] != null && newState[indexAndLabel[0]][indexAndLabel[1]][splitedName[1]] != null) {
                 newState[indexAndLabel[0]][indexAndLabel[1]][splitedName[1]] = Number(objectPositionLeft.toFixed(0))
               }
             } else {
