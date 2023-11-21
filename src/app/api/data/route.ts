@@ -2,6 +2,7 @@ import { readdir } from 'node:fs/promises'
 import path from 'path'
 import fs, {promises} from 'fs'
 import { TestItem } from '@/types/testdata'
+import { NextResponse } from 'next/server'
 export const revalidate = 0
 
 const backupJsonFile = (inputPath: string, outputPath: string) => {
@@ -31,7 +32,10 @@ export async function GET(req: Request) {
   })[0]
 
   if (!config) {
-    return Response.error()
+    return NextResponse.json(
+      null,
+      { status: 404 }
+    )
   }
 
   const jsonFilePath = path.join(dir, config)
@@ -50,7 +54,10 @@ export async function POST(request: Request) {
   const config = files.filter((file) => file === 'test.json')[0]
 
   if (!config) {
-    return Response.error()
+    return NextResponse.json(
+      { error: 'File not found'},
+      { status: 404 }
+    )
   }
 
   const jsonFilePath = path.join(dir, config)
