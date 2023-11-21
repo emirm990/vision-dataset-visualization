@@ -190,7 +190,12 @@ export default function ControlPanel(props: Props) {
                 <TextField
                   sx={{marginLeft: 1}}
                   value={measurements[item.pathS3]?.foil_start}
-                  onChange={(e) => handleValueChanged({...measurements[item.pathS3], foil_start: Number(e.target.value)})}
+                  onChange={(e) => {
+                    if (Number(e.target.value) < 0) {
+                      return
+                    }
+                    handleValueChanged({...measurements[item.pathS3], foil_start: Number(e.target.value)})
+                  }}
                   type='number'
                   variant='standard'
                 />
@@ -200,7 +205,12 @@ export default function ControlPanel(props: Props) {
                 <TextField
                   sx={{marginLeft: 1}}
                   value={measurements[item.pathS3]?.foil_end}
-                  onChange={(e) => handleValueChanged({...measurements[item.pathS3], foil_end: Number(e.target.value)})}
+                  onChange={(e) => {
+                    if (Number(e.target.value) < 0) {
+                      return
+                    }
+                    handleValueChanged({...measurements[item.pathS3], foil_end: Number(e.target.value)})
+                  }}
                   type='number'
                   variant='standard'
                 />
@@ -223,6 +233,9 @@ export default function ControlPanel(props: Props) {
                           sx={{marginLeft: 1}}
                           value={result.foil_start}
                           onChange={(e) => {
+                            if (Number(e.target.value) < 0) {
+                              return
+                            }
                             const coatingSections = [...measurements[item.pathS3].coating_line_sections]
                             const coatingSection = {...coatingSections[i]}
                             coatingSection.foil_start = Number(e.target.value)
@@ -247,6 +260,9 @@ export default function ControlPanel(props: Props) {
                           sx={{marginLeft: 1}}
                           value={result.foil_end}
                           onChange={(e) => {
+                            if (Number(e.target.value) < 0) {
+                              return
+                            }
                             const coatingSections = [...measurements[item.pathS3].coating_line_sections]
                             const coatingSection = {...coatingSections[i]}
                             coatingSection.foil_end = Number(e.target.value)
@@ -270,6 +286,9 @@ export default function ControlPanel(props: Props) {
                           sx={{marginLeft: 1}}
                           value={result.coating_start}
                           onChange={(e) => {
+                            if (Number(e.target.value) < 0) {
+                              return
+                            }
                             const coatingSections = [...measurements[item.pathS3].coating_line_sections]
                             const coatingSection = {...coatingSections[i]}
                             coatingSection.coating_start = Number(e.target.value)
@@ -293,6 +312,9 @@ export default function ControlPanel(props: Props) {
                           sx={{marginLeft: 1}}
                           value={result.coating_end}
                           onChange={(e) => {
+                            if (Number(e.target.value) < 0) {
+                              return
+                            }
                             const coatingSections = [...measurements[item.pathS3].coating_line_sections]
                             const coatingSection = {...coatingSections[i]}
                             coatingSection.coating_end = Number(e.target.value)
