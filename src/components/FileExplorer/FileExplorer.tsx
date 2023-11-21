@@ -4,15 +4,16 @@ import ImageSearchIcon from '@mui/icons-material/Image'
 import { ChangeEvent, Fragment, useMemo, useState } from 'react'
 import { useFetch } from '@/hooks/useFetchHook'
 import styles from './styles.module.css'
+import { TestItem } from '@/types/testdata'
 
 export default function FileExplorer(){
-  const { data: imageData }: { data: {images: string[]}} = useFetch('/api/images')
-
+  const { data: testDataJSON }: { data: TestItem[]} = useFetch('/api/data')
+  const { data: imagesData }: { data: {images: string[]}} = useFetch('/api/images')
   const selectedImages = useAppStore((state) => state.selectedImages)
   const addSelectedImage = useAppStore((state) => state.addSelectedImage)
   const removeSelectedImage = useAppStore((state) => state.removeSelectedImage)
   const [isToggleOpen, setIsToggleOpen] = useState(false)
-
+  const [showAllImages, setShowAllImages] = useState(true)
   const handleImageClick = (event: ChangeEvent<HTMLInputElement>) => {
     const value = event.target.value
     selectedImages.forEach((image) => removeSelectedImage(image))
@@ -20,10 +21,36 @@ export default function FileExplorer(){
     setIsToggleOpen(false)
   }
 
+  const checkIfImageExists = (image: string) => {
+    if (imagesData?.images.find((imageFile) => imageFile === image)) {
+      return true
+    }
+
+    return false
+  }
+
+  const images = testDataJSON?.map((data) => data.pathLocal)
+  const filteredImages = images?.filter((image) => checkIfImageExists(image))
+  const imagesToRender = showAllImages ? images : filteredImages
+
   const drawerContent = useMemo(() => {
-    if (!imageData || imageData.images.length < 1) {
+    if (!imagesToRender || imagesToRender.length < 1) {
       return (
-        <Alert severity="info" sx={{padding: 2}}>No images available!</Alert>
+        <Box
+          sx={{
+            width: 550,
+            padding: 2,
+          }}
+        >
+          <FormControl>
+            <div className={styles.labelContainer}>
+              <FormLabel id="images">Images</FormLabel>
+              <Chip label={images ? images.length : 0} onClick={() => setShowAllImages(true)}/>
+              <Chip label={filteredImages ? filteredImages.length : 0} color="success" onClick={() => setShowAllImages(false)} />
+            </div>
+          </FormControl>
+          <Alert severity="info" sx={{padding: 2, mt: 2}}>No images available!</Alert>
+        </Box>
       )
     }
 
@@ -37,7 +64,8 @@ export default function FileExplorer(){
         <FormControl>
           <div className={styles.labelContainer}>
             <FormLabel id="images">Images</FormLabel>
-            <Chip label={imageData.images.length} />
+            <Chip label={images ? images.length : 0} color="primary" onClick={() => setShowAllImages(true)} variant={showAllImages ? 'filled' : 'outlined'} />
+            <Chip label={filteredImages ? filteredImages.length : 0} color="success" onClick={() => setShowAllImages(false)} variant={showAllImages ? 'outlined' : 'filled'}/>
           </div>
         </FormControl>
         <RadioGroup
@@ -45,10 +73,10 @@ export default function FileExplorer(){
           value={selectedImages.length > 0 ? selectedImages[0] : undefined}
           onChange={handleImageClick}
         >
-          {imageData.images.map((image) => {
+          {imagesToRender.map((image) => {
             return (
               <Fragment key={image}>
-                <FormControlLabel sx={{mt: 1, mb: 1}} value={image} control={<Radio />} label={image} />
+                <FormControlLabel sx={{mt: 1, mb: 1}} value={image} control={<Radio />} label={image} disabled={!checkIfImageExists(image)} />
                 <Divider />
               </Fragment>
             )
@@ -56,7 +84,7 @@ export default function FileExplorer(){
         </RadioGroup>
       </Box>
     )
-  }, [imageData, selectedImages])
+  }, [testDataJSON, selectedImages, imagesData, showAllImages])
 
   return (
     <>

@@ -1,5 +1,5 @@
 .controlPanelContainer {
-  height: calc(100% - 110px);
+  height: calc(100vh - 110px);
   overflow-y: scroll;
   padding: 30px 10px;
   display: flex;
