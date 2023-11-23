@@ -11,6 +11,8 @@ type AppStore = {
   setMeasurements: (key: string, measurement: Result) => void,
   threshold: number,
   setThreshold: (threshold: number) => void,
+  selectedFbs: string[],
+  setSelectedFbs: (selectedFbs: string[]) => void,
 }
 
 export const useAppStore = create<AppStore>()(
@@ -45,6 +47,8 @@ export const useAppStore = create<AppStore>()(
         state.measurements[key] = updatedMeasurement
       }),
       threshold: 2,
-      setThreshold: (threshold) => set({ threshold })
+      setThreshold: (threshold) => set({ threshold }),
+      selectedFbs: [],
+      setSelectedFbs: (selectedFbs) => set({ selectedFbs })
     })),    
   ))

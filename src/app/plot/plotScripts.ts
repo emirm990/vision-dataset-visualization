@@ -12,7 +12,7 @@ type PieMap = Map<'foil_start' | 'foil_end' | 'coating_start' | 'coating_end',{
   failure: number;
 }>
 
-export const getPlotData = (actual: TestItem[], expected: TestItem[], threshold: number) => {
+export const getPlotData = (actual: TestItem[], expected: TestItem[], threshold: number, selectedFbs: string[]) => {
   let error = ''
   if (actual.length !== expected.length){
     error = 'Expected and actual manifest files ar not the same length!'
@@ -25,7 +25,11 @@ export const getPlotData = (actual: TestItem[], expected: TestItem[], threshold:
       }
     }
   }
-  
+
+  if (selectedFbs.length > 0) {
+    actual = actual.filter((item) => selectedFbs.includes(item.fbs))
+    expected = expected.filter((item) => selectedFbs.includes(item.fbs))
+  }
   // read in manifest file and add listener to button
   const manifestDiff = subtractManifestResults(actual, expected)
       

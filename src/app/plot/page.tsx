@@ -9,6 +9,7 @@ import dynamic from 'next/dynamic'
 import { Alert, Container, TextField } from '@mui/material'
 import Loader from '@/components/Loader/Loader'
 import { useAppStore } from '@/store/appStore'
+import FbsFilter from '@/components/FbsFilter/FbsFilter'
 
 export default function Page() {
   const { data: actualData, isLoading: isLoadingActualData }: { data: TestItem[] | null, isLoading: boolean} = useFetch('/api/data', 'actual.json')
@@ -16,12 +17,13 @@ export default function Page() {
 
   const threshold = useAppStore((state) => state.threshold)
   const setThreshold = useAppStore((state) => state.setThreshold)
+  const selectedFbs = useAppStore((state) => state.selectedFbs)
 
   const getData = useCallback(() => {
     if (actualData && expectedData) {
-      return getPlotData(actualData, expectedData, threshold)
+      return getPlotData(actualData, expectedData, threshold, selectedFbs)
     }
-  }, [actualData, expectedData, threshold])
+  }, [actualData, expectedData, threshold, selectedFbs])
 
   const data = getData()
 
@@ -82,6 +84,7 @@ export default function Page() {
   return (
     <div className={styles.pageContainer}>
       <div className={styles.uploadButtonsContainer}>
+        <FbsFilter />
         <TextField label="Threshold" type="number" variant="standard" onChange={(e) => handleThresholdChange(e)} value={threshold} />
         <Uploader fileName={'actual'} />
         <Uploader fileName={'manifest'} />
