@@ -2,26 +2,30 @@
 import { useFetch } from '@/hooks/useFetchHook'
 import { TestItem } from '@/types/testdata'
 import { getPlotData } from './plotScripts'
-import { useCallback } from 'react'
+import { ChangeEvent, useCallback, useMemo } from 'react'
 import Uploader from '@/components/Uploader/Uploader'
 import styles from './styles.module.css'
 import dynamic from 'next/dynamic'
-import { Alert, Container } from '@mui/material'
+import { Alert, Container, TextField } from '@mui/material'
 import Loader from '@/components/Loader/Loader'
+import { useAppStore } from '@/store/appStore'
 
 export default function Page() {
   const { data: actualData, isLoading: isLoadingActualData }: { data: TestItem[] | null, isLoading: boolean} = useFetch('/api/data', 'actual.json')
   const { data: expectedData, isLoading: isLoadingExpectedData }: { data: TestItem[] | null, isLoading: boolean} = useFetch('/api/data', 'manifest.json')
 
+  const threshold = useAppStore((state) => state.threshold)
+  const setThreshold = useAppStore((state) => state.setThreshold)
+
   const getData = useCallback(() => {
     if (actualData && expectedData) {
-      return getPlotData(actualData, expectedData)
+      return getPlotData(actualData, expectedData, threshold)
     }
-  }, [actualData, expectedData])
+  }, [actualData, expectedData, threshold])
 
   const data = getData()
 
-  const DynamicChart1 = dynamic(() =>
+  const DynamicChart1 = useMemo(() => dynamic(() =>
     import('@/components/Chart/Chart'),{
     ssr: false,
     loading: () => {
@@ -29,9 +33,9 @@ export default function Page() {
         <Loader label="Loading pie chart..." />
       )
     }
-  })
+  }),[])
 
-  const DynamicChart2 = dynamic(() =>
+  const DynamicChart2 = useMemo(() => dynamic(() =>
     import('@/components/Chart/Chart'),{
     ssr: false,
     loading: () => {
@@ -39,15 +43,29 @@ export default function Page() {
         <Loader label="Loading scatter chart..." />
       )
     }
-  })
+  }), [])
 
+  const handleThresholdChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const value = Number(e.target.value)
+
+    if (value >= 0) {
+      setThreshold(value)
+    }
+  }
 
   const checkForErrors = () => {
+    if (data?.error) {
+      return (
+        <Container maxWidth={false}>
+          <Alert severity="error" sx={{padding: 2, mt: 2}}>{data.error}</Alert>
+        </Container>
+      )
+    }
     if (!actualData || !expectedData) {
       return (
         <Container maxWidth={false}>
-          {!actualData ? <Alert severity="info" sx={{padding: 2, mt: 2}}>Missing actual data file!</Alert> : null}
-          {!expectedData ? <Alert severity="info" sx={{padding: 2, mt: 2}}>Missing manifest data file!</Alert> : null}
+          {!actualData ? <Alert severity="error" sx={{padding: 2, mt: 2}}>Missing actual data file!</Alert> : null}
+          {!expectedData ? <Alert severity="error" sx={{padding: 2, mt: 2}}>Missing manifest data file!</Alert> : null}
         </Container>
       )
     }
@@ -64,6 +82,7 @@ export default function Page() {
   return (
     <div className={styles.pageContainer}>
       <div className={styles.uploadButtonsContainer}>
+        <TextField label="Threshold" type="number" variant="standard" onChange={(e) => handleThresholdChange(e)} value={threshold} />
         <Uploader fileName={'actual'} />
         <Uploader fileName={'manifest'} />
       </div>

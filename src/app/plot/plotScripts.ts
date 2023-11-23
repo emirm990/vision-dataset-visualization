@@ -12,23 +12,23 @@ type PieMap = Map<'foil_start' | 'foil_end' | 'coating_start' | 'coating_end',{
   failure: number;
 }>
 
-export const getPlotData = (actual: TestItem[], expected: TestItem[]) => {
+export const getPlotData = (actual: TestItem[], expected: TestItem[], threshold: number) => {
+  let error = ''
   if (actual.length !== expected.length){
-    alert('expected and actual manifest files ar not the same length! ')
-    throw new Error('Arrays do not have the same length')
+    error = 'Expected and actual manifest files ar not the same length!'
+
+    return {
+      error,
+      data: {
+        pie: null,
+        scatter: null,
+      }
+    }
   }
   
   // read in manifest file and add listener to button
   const manifestDiff = subtractManifestResults(actual, expected)
-    
-  // on-button clicked render
-  // function changeColor() {
-  //   const numberInput = Math.abs(document.getElementById('numberInput').value)
-  //   const pieMap = pieDataExtract(manifestDiff.ResultArr, numberInput)
-  //   piePlot(pieMap)
-  //   scatterPlot(manifestDiff, numberInput)
-  // }
-  
+      
   // subtract actual and expected manifest files assumption is they are the same format
   function subtractObjects(obj1: object | null, obj2: object | null): Result {
     const result: {[key: string]: unknown | unknown[]} = {}
@@ -378,12 +378,12 @@ export const getPlotData = (actual: TestItem[], expected: TestItem[]) => {
       xaxis5:{showticklabels:false},
       xaxis6:{showticklabels:false},
   
-      yaxis: {title: 'Foil Start', dtick: 2},
-      yaxis2: {title: 'Coating Start 0', dtick: 2},
-      yaxis3: {title: 'Coating End 0', dtick: 2},
-      yaxis4: {title: 'Foil End 1', dtick: 2},
-      yaxis5: {title: 'Coating End 1', dtick: 2},
-      yaxis6: {title: 'Foil End', dtick: 2}, //range: [-7,7]
+      yaxis: {title: 'Foil Start'},
+      yaxis2: {title: 'Coating Start 0'},
+      yaxis3: {title: 'Coating End 0'},
+      yaxis4: {title: 'Foil End 1'},
+      yaxis5: {title: 'Coating End 1'},
+      yaxis6: {title: 'Foil End'}, //range: [-7,7]
   
       shapes: [{type:'rect', x0:0, x1:samplesNo, yref:'y', y0:-th, y1:th, fillcolor: 'green',opacity: 0.2, line: {width:0}},
         {type:'rect', x0:0, x1:samplesNo, yref:'y2', y0:-th, y1:th, fillcolor: 'green',opacity: 0.2, line: {width:0}},
@@ -408,12 +408,13 @@ export const getPlotData = (actual: TestItem[], expected: TestItem[]) => {
     }
   }
 
-  const { data: scatterData, layout: scatterLayout, config: scatterConfig } = scatterPlot(manifestDiff, 2)
+  const { data: scatterData, layout: scatterLayout, config: scatterConfig } = scatterPlot(manifestDiff, threshold)
 
-  const pieMap = pieDataExtract(manifestDiff.ResultArr)
+  const pieMap = pieDataExtract(manifestDiff.ResultArr, threshold)
   const { data: pieData, layout: pieLayout, config: pieConfig } = piePlot(pieMap)
 
   return {
+    error: error,
     data: {
       pie: {
         data: pieData,

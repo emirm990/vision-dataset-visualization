@@ -8,7 +8,9 @@ type AppStore = {
   addSelectedImage: (imageToAdd: string) => void,
   removeSelectedImage: (imageToRemove: string) => void,
   measurements: {[key: string]: Result},
-  setMeasurements: (key: string, measurement: Result) => void
+  setMeasurements: (key: string, measurement: Result) => void,
+  threshold: number,
+  setThreshold: (threshold: number) => void,
 }
 
 export const useAppStore = create<AppStore>()(
@@ -41,6 +43,8 @@ export const useAppStore = create<AppStore>()(
         }
         const updatedMeasurement = {...measurement, coating_line_sections}
         state.measurements[key] = updatedMeasurement
-      })
-    }))
+      }),
+      threshold: 500,
+      setThreshold: (threshold) => set({ threshold })
+    })),    
   ))
