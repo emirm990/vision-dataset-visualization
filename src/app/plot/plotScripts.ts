@@ -232,6 +232,7 @@ export const getPlotData = (actual: TestItem[], expected: TestItem[], threshold:
       doubleClick: 'reset+autosize',
       responsive: true,
       scrollZoom: true,
+      modeBarButtonsToRemove: ['select2d', 'lasso2d']
     }
     
     return {
@@ -403,6 +404,7 @@ export const getPlotData = (actual: TestItem[], expected: TestItem[], threshold:
       doubleClick: 'reset+autosize',
       responsive: true,
       scrollZoom: true,
+      modeBarButtonsToRemove: ['select2d', 'lasso2d']
     }
 
     return {
