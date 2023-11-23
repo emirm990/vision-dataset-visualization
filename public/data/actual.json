@@ -14,11 +14,11 @@
     "width": 21960,
     "height": 1024,
     "result": {
-      "foil_start": 2423,
+      "foil_start": 2500,
       "foil_end": 19359,
       "coating_line_sections": [
         {
-          "foil_start": 2423,
+          "foil_start": 2437,
           "foil_end": 10898,
           "coating_start": 2793,
           "coating_end": 10555
@@ -59,7 +59,7 @@
         {
           "foil_start": 10897,
           "foil_end": 19358,
-          "coating_start": 11241,
+          "coating_start": 11244,
           "coating_end": 19003
         }
       ]
@@ -82,7 +82,7 @@
     "height": 1024,
     "result": {
       "foil_start": 2435,
-      "foil_end": 19350,
+      "foil_end": 19359,
       "coating_line_sections": [
         {
           "foil_start": 2435,
@@ -92,7 +92,7 @@
         },
         {
           "foil_start": 10897,
-          "foil_end": 19350,
+          "foil_end": 19359,
           "coating_start": 11244,
           "coating_end": 19004
         }
@@ -121,14 +121,14 @@
         {
           "foil_start": 2437,
           "foil_end": 10898,
-          "coating_start": 2791,
+          "coating_start": 2793,
           "coating_end": 10555
         },
         {
           "foil_start": 10898,
           "foil_end": 19359,
           "coating_start": 11244,
-          "coating_end": 19001
+          "coating_end": 19003
         }
       ]
     }
@@ -161,7 +161,7 @@
         {
           "foil_start": 10897,
           "foil_end": 19358,
-          "coating_start": 11242,
+          "coating_start": 11244,
           "coating_end": 19003
         }
       ]
@@ -184,7 +184,7 @@
     "height": 1024,
     "result": {
       "foil_start": 2206,
-      "foil_end": 19115,
+      "foil_end": 19116,
       "coating_line_sections": [
         {
           "foil_start": 2206,
@@ -194,7 +194,7 @@
         },
         {
           "foil_start": 10661,
-          "foil_end": 19115,
+          "foil_end": 19116,
           "coating_start": 11008,
           "coating_end": 18762
         }
@@ -1062,11 +1062,11 @@
     "height": 1024,
     "result": {
       "foil_start": 5606,
-      "foil_end": 16694,
+      "foil_end": 16695,
       "coating_line_sections": [
         {
           "foil_start": 5606,
-          "foil_end": 16694,
+          "foil_end": 16695,
           "coating_start": 6005,
           "coating_end": 16298
         }
@@ -1118,11 +1118,11 @@
     "height": 1024,
     "result": {
       "foil_start": 5606,
-      "foil_end": 16698,
+      "foil_end": 16696,
       "coating_line_sections": [
         {
           "foil_start": 5606,
-          "foil_end": 16698,
+          "foil_end": 16696,
           "coating_start": 6003,
           "coating_end": 16297
         }
@@ -1230,11 +1230,11 @@
     "height": 1024,
     "result": {
       "foil_start": 5203,
-      "foil_end": 16297,
+      "foil_end": 16296,
       "coating_line_sections": [
         {
           "foil_start": 5203,
-          "foil_end": 16297,
+          "foil_end": 16296,
           "coating_start": 5600,
           "coating_end": 15900
         }
@@ -1314,11 +1314,11 @@
     "height": 1024,
     "result": {
       "foil_start": 5575,
-      "foil_end": 16661,
+      "foil_end": 16667,
       "coating_line_sections": [
         {
           "foil_start": 5575,
-          "foil_end": 16661,
+          "foil_end": 16667,
           "coating_start": 5973,
           "coating_end": 16267
         }
@@ -1426,11 +1426,11 @@
     "height": 1024,
     "result": {
       "foil_start": 5575,
-      "foil_end": 16664,
+      "foil_end": 16667,
       "coating_line_sections": [
         {
           "foil_start": 5575,
-          "foil_end": 16664,
+          "foil_end": 16667,
           "coating_start": 5974,
           "coating_end": 16268
         }

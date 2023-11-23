@@ -20,15 +20,14 @@ export async function GET(req: Request) {
   const { searchParams } = new URL(req.url)
   const fileName = searchParams.get('fileName')
 
-  const subPath = fileName ? 'data/test' : 'data'
-  const dir = path.resolve('./public', subPath)
+  const dir = path.resolve('./public', 'data')
   const files = await readdir(dir)
   const config = files.filter((file) => {
     if (fileName) {
       return file === fileName
     }
 
-    return file === 'test.json'
+    return file === 'manifest.json'
   })[0]
 
   if (!config) {
@@ -51,7 +50,7 @@ export async function POST(request: Request) {
 
   const dir = path.resolve('./public', 'data/')
   const files = await readdir(dir)
-  const config = files.filter((file) => file === 'test.json')[0]
+  const config = files.filter((file) => file === 'manifest.json')[0]
 
   if (!config) {
     return NextResponse.json(
@@ -64,7 +63,7 @@ export async function POST(request: Request) {
 
   const file = await promises.readFile(jsonFilePath, 'utf8')
 
-  backupJsonFile(jsonFilePath, `public/data/backup/test-bak-${new Date().toISOString()}.json`)
+  backupJsonFile(jsonFilePath, `public/data/backup/manifest-bak-${new Date().toISOString()}.json`)
 
   const data = JSON.parse(file) as undefined | TestItem[]
 

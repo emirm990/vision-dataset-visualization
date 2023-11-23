@@ -11,7 +11,7 @@ import Loader from '@/components/Loader/Loader'
 
 export default function Page() {
   const { data: actualData, isLoading: isLoadingActualData }: { data: TestItem[] | null, isLoading: boolean} = useFetch('/api/data', 'actual.json')
-  const { data: expectedData, isLoading: isLoadingExpectedData }: { data: TestItem[] | null, isLoading: boolean} = useFetch('/api/data', 'manifest.json')
+  const { data: expectedData, isLoading: isLoadingExpectedData }: { data: TestItem[] | null, isLoading: boolean} = useFetch('/api/data')
 
   const getData = useCallback(() => {
     if (actualData && expectedData) {
