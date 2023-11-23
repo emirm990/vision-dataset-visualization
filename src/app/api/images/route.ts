@@ -21,7 +21,7 @@ export async function GET() {
     const files = await readdir(dir, { recursive: true })
     const images = files.filter((file) => file.includes('.jpg')).sort((a, b) => a.localeCompare(b))
     
-    const data = fs.readFileSync(path.resolve('public', 'data/test.json'), 'utf-8')
+    const data = fs.readFileSync(path.resolve('public', 'data/manifest.json'), 'utf-8')
     if (!data) {
       return NextResponse.json({
         code: 404,
