@@ -5,6 +5,7 @@ import { ChangeEvent, Fragment, useMemo, useState } from 'react'
 import { useFetch } from '@/hooks/useFetchHook'
 import styles from './styles.module.css'
 import { TestItem } from '@/types/testdata'
+import FbsFilter from '../FbsFilter/FbsFilter'
 
 export default function FileExplorer(){
   const { data: testDataJSON }: { data: TestItem[]} = useFetch('/api/data')
@@ -12,6 +13,8 @@ export default function FileExplorer(){
   const selectedImages = useAppStore((state) => state.selectedImages)
   const addSelectedImage = useAppStore((state) => state.addSelectedImage)
   const removeSelectedImage = useAppStore((state) => state.removeSelectedImage)
+  const selectedFbs = useAppStore((state) => state.selectedFbs)
+
   const [isToggleOpen, setIsToggleOpen] = useState(false)
   const [showAllImages, setShowAllImages] = useState(true)
   const handleImageClick = (event: ChangeEvent<HTMLInputElement>) => {
@@ -29,7 +32,8 @@ export default function FileExplorer(){
     return false
   }
 
-  const images = testDataJSON?.map((data) => data.pathLocal)
+  const filteredData = selectedFbs.length > 0 ? testDataJSON?.filter((item) => selectedFbs.includes(item.fbs)) : testDataJSON
+  const images = filteredData?.map((data) => data.pathLocal)
   const filteredImages = images?.filter((image) => checkIfImageExists(image))
   const imagesToRender = showAllImages ? images : filteredImages
 
@@ -57,10 +61,18 @@ export default function FileExplorer(){
     return (
       <Box
         sx={{
-          width: 550,
+          width: 600,
           padding: 2,
         }}
       >
+        <Box
+          sx={{
+            mt: 2,
+            mb: 2,
+          }}
+        >
+          <FbsFilter sx={{width: '100%'}} />
+        </Box>
         <FormControl>
           <div className={styles.labelContainer}>
             <FormLabel id="images">Images</FormLabel>
@@ -84,7 +96,7 @@ export default function FileExplorer(){
         </RadioGroup>
       </Box>
     )
-  }, [testDataJSON, selectedImages, imagesData, showAllImages])
+  }, [testDataJSON, selectedImages, imagesData, showAllImages, selectedFbs])
 
   return (
     <>

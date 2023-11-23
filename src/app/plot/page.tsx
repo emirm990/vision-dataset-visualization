@@ -84,7 +84,7 @@ export default function Page() {
   return (
     <div className={styles.pageContainer}>
       <div className={styles.uploadButtonsContainer}>
-        <FbsFilter />
+        <FbsFilter sx={{ width: '600px' }}/>
         <TextField label="Threshold" type="number" variant="standard" onChange={(e) => handleThresholdChange(e)} value={threshold} />
         <Uploader fileName={'actual'} />
         <Uploader fileName={'manifest'} />

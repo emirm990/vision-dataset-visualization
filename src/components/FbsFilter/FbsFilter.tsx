@@ -1,10 +1,17 @@
 import { useFetch } from '@/hooks/useFetchHook'
 import { useAppStore } from '@/store/appStore'
 import { TestItem } from '@/types/testdata'
-import { Autocomplete, Box, TextField } from '@mui/material'
+import { Autocomplete, Box, SxProps, TextField, Theme } from '@mui/material'
 import { SyntheticEvent } from 'react'
 
-export default function FbsFilter(){
+type Props = {
+  sx?: SxProps<Theme>
+}
+
+export default function FbsFilter(props: Props){
+  const {
+    sx
+  } = props
   const { data: manifestData }: { data: TestItem[] | null, isLoading: boolean} = useFetch('/api/data', 'manifest.json')
 
   const fbsList = [...new Set(manifestData ? manifestData.map((item) => item.fbs) : [])].sort()
@@ -17,7 +24,7 @@ export default function FbsFilter(){
   }
 
   return (
-    <Box sx={{width: '600px'}}>
+    <Box sx={{...sx}}>
       <Autocomplete
         multiple
         disableCloseOnSelect
