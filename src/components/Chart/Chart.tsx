@@ -18,7 +18,7 @@ export default function Chart(props: Props) {
 
   useEffect(() => {
     if (root && data) {
-      Plotly.newPlot(root, data.data, data.layout, data.config)
+      Plotly.react(root, data.data, data.layout, data.config)
     }
   }, [root, data])
 

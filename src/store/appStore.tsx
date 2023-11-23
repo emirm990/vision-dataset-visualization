@@ -44,7 +44,7 @@ export const useAppStore = create<AppStore>()(
         const updatedMeasurement = {...measurement, coating_line_sections}
         state.measurements[key] = updatedMeasurement
       }),
-      threshold: 500,
+      threshold: 2,
       setThreshold: (threshold) => set({ threshold })
     })),    
   ))
