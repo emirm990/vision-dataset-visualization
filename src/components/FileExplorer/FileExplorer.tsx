@@ -37,27 +37,22 @@ export default function FileExplorer(){
   const filteredImages = images?.filter((image) => checkIfImageExists(image))
   const imagesToRender = showAllImages ? images : filteredImages
 
-  const drawerContent = useMemo(() => {
-    if (!imagesToRender || imagesToRender.length < 1) {
-      return (
-        <Box
-          sx={{
-            width: 550,
-            padding: 2,
-          }}
-        >
-          <FormControl>
-            <div className={styles.labelContainer}>
-              <FormLabel id="images">Images</FormLabel>
-              <Chip label={images ? images.length : 0} onClick={() => setShowAllImages(true)}/>
-              <Chip label={filteredImages ? filteredImages.length : 0} color="success" onClick={() => setShowAllImages(false)} />
-            </div>
-          </FormControl>
-          <Alert severity="info" sx={{padding: 2, mt: 2}}>No images available!</Alert>
-        </Box>
-      )
+  const renderImagesSelector = (images?: string[]) => {
+    if (!images || images.length === 0) {
+      return <Alert severity="info" sx={{padding: 2, mt: 1}}>No images available!</Alert>
     }
 
+    return images.map((image) => {
+      return (
+        <Fragment key={image}>
+          <FormControlLabel sx={{ mt: 1, mb: 1}} value={image} control={<Radio />} label={image} disabled={!checkIfImageExists(image)} />
+          <Divider />
+        </Fragment>
+      )
+    })
+  }
+  
+  const drawerContent = useMemo(() => {
     return (
       <Box
         sx={{
@@ -73,7 +68,7 @@ export default function FileExplorer(){
         >
           <FbsFilter sx={{width: '100%'}} />
         </Box>
-        <FormControl>
+        <FormControl sx={{mb: 2}}>
           <div className={styles.labelContainer}>
             <FormLabel id="images">Images</FormLabel>
             <Chip label={images ? images.length : 0} color="primary" onClick={() => setShowAllImages(true)} variant={showAllImages ? 'filled' : 'outlined'} />
@@ -85,14 +80,7 @@ export default function FileExplorer(){
           value={selectedImages.length > 0 ? selectedImages[0] : undefined}
           onChange={handleImageClick}
         >
-          {imagesToRender.map((image) => {
-            return (
-              <Fragment key={image}>
-                <FormControlLabel sx={{mt: 1, mb: 1}} value={image} control={<Radio />} label={image} disabled={!checkIfImageExists(image)} />
-                <Divider />
-              </Fragment>
-            )
-          })}
+          {renderImagesSelector(imagesToRender)}
         </RadioGroup>
       </Box>
     )
