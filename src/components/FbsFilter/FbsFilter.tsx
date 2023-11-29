@@ -44,8 +44,7 @@ export default function FbsFilter(props: Props){
           />
         )
         }
-      >
-      </Autocomplete>
+      />
     </Box>
   )
 }
