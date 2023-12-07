@@ -4,6 +4,8 @@ import { Box, Tab, Tabs } from '@mui/material'
 import { usePathname, useRouter } from 'next/navigation'
 import { useState } from 'react'
 
+import styles from './styles.module.css'
+
 interface LinkTabProps {
   label?: string;
   href?: string;
@@ -38,7 +40,7 @@ export default function Navigation() {
   }
 
   return (
-    <Box sx={{ borderBottom: 1, borderColor: 'divider', padding: 1 }}>
+    <Box sx={{ borderBottom: 1, borderColor: 'divider', padding: 1 }} className={styles.navigation}>
       <Tabs value={value} onChange={handleChange}>
         <LinkTab label="Images" href="/" />
         <LinkTab label="Plot" href="/plot" />

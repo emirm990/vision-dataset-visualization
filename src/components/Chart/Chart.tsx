@@ -2,6 +2,7 @@ import Plotly, { Config, Data, Layout } from 'plotly.js'
 import { useEffect, useState } from 'react'
 
 type Props = {
+  id: string,
   data: {
     data: Data[],
     layout: Partial<Layout>
@@ -11,6 +12,7 @@ type Props = {
 
 export default function Chart(props: Props) {
   const {
+    id,
     data
   } = props
 
@@ -23,6 +25,6 @@ export default function Chart(props: Props) {
   }, [root, data])
 
   return (
-    <div id="plot" ref={(ref) => setRoot(ref)}></div>
+    <div id={id} ref={(ref) => setRoot(ref)}></div>
   )
 }
