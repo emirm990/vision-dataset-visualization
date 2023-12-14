@@ -1,16 +1,373 @@
 [
   {
     "test": true,
+    "fileName": "2023-11-21T08-01-09.756546001Z.jpg",
+    "fbs": "F1.A1.CD.CLD01.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-cd-cld01-bx1-kea1-bxc1/2023-11-21-08/2023-11-21T08-01-09.756546001Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CD.CLD01.BX1.KEA1.BXC1/raw/2023/11/21/2023-11-21T08-01-09.756546001Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 2093,
+      "foil_end": 13197,
+      "coating_line_sections": [
+        {
+          "foil_start": 2093,
+          "foil_end": 13197,
+          "coating_start": 2494,
+          "coating_end": 12799
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-21T08-01-10.002724325Z.jpg",
+    "fbs": "F1.A1.CD.CLD01.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-cd-cld01-bx1-kea1-bxc1/2023-11-21-08/2023-11-21T08-01-10.002724325Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CD.CLD01.BX1.KEA1.BXC1/raw/2023/11/21/2023-11-21T08-01-10.002724325Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 2091,
+      "foil_end": 13195,
+      "coating_line_sections": [
+        {
+          "foil_start": 2091,
+          "foil_end": 13195,
+          "coating_start": 2493,
+          "coating_end": 12798
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-21T08-01-10.143879257Z.jpg",
+    "fbs": "F1.A1.CD.CLD01.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-cd-cld01-bx1-kea1-bxc1/2023-11-21-08/2023-11-21T08-01-10.143879257Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CD.CLD01.BX1.KEA1.BXC1/raw/2023/11/21/2023-11-21T08-01-10.143879257Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 2092,
+      "foil_end": 13194,
+      "coating_line_sections": [
+        {
+          "foil_start": 2092,
+          "foil_end": 13194,
+          "coating_start": 2492,
+          "coating_end": 12797
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-21T08-01-10.285960194Z.jpg",
+    "fbs": "F1.A1.CD.CLD01.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-cd-cld01-bx1-kea1-bxc1/2023-11-21-08/2023-11-21T08-01-10.285960194Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CD.CLD01.BX1.KEA1.BXC1/raw/2023/11/21/2023-11-21T08-01-10.285960194Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 2091,
+      "foil_end": 13195,
+      "coating_line_sections": [
+        {
+          "foil_start": 2091,
+          "foil_end": 13195,
+          "coating_start": 2492,
+          "coating_end": 12796
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-11-21T08-01-10.705800739Z.jpg",
+    "fbs": "F1.A1.CD.CLD01.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-cd-cld01-bx1-kea1-bxc1/2023-11-21-08/2023-11-21T08-01-10.705800739Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CD.CLD01.BX1.KEA1.BXC1/raw/2023/11/21/2023-11-21T08-01-10.705800739Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 2091,
+      "foil_end": 13192,
+      "coating_line_sections": [
+        {
+          "foil_start": 2091,
+          "foil_end": 13192,
+          "coating_start": 2491,
+          "coating_end": 12795
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-22T11-40-24.75967611Z.jpg",
+    "fbs": "F1.A1.CD.CLD02.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-cd-cld02-bx1-kea1-bxc1/2023-10-22-11/2023-10-22T11-40-24.75967611Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CD.CLD02.BX1.KEA1.BXC1/raw/2023/10/22/2023-10-22T11-40-24.75967611Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 1320,
+      "foil_end": 12423,
+      "coating_line_sections": [
+        {
+          "foil_start": 1320,
+          "foil_end": 12423,
+          "coating_start": 1785,
+          "coating_end": 12023
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-22T11-40-24.972086204Z.jpg",
+    "fbs": "F1.A1.CD.CLD02.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-cd-cld02-bx1-kea1-bxc1/2023-10-22-11/2023-10-22T11-40-24.972086204Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CD.CLD02.BX1.KEA1.BXC1/raw/2023/10/22/2023-10-22T11-40-24.972086204Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 1321,
+      "foil_end": 12422,
+      "coating_line_sections": [
+        {
+          "foil_start": 1321,
+          "foil_end": 12422,
+          "coating_start": 1774,
+          "coating_end": 12023
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-22T11-40-25.12493715Z.jpg",
+    "fbs": "F1.A1.CD.CLD02.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-cd-cld02-bx1-kea1-bxc1/2023-10-22-11/2023-10-22T11-40-25.12493715Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CD.CLD02.BX1.KEA1.BXC1/raw/2023/10/22/2023-10-22T11-40-25.12493715Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 1321,
+      "foil_end": 12423,
+      "coating_line_sections": [
+        {
+          "foil_start": 1321,
+          "foil_end": 12423,
+          "coating_start": 1786,
+          "coating_end": 12023
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-22T11-40-25.71468215Z.jpg",
+    "fbs": "F1.A1.CD.CLD02.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-cd-cld02-bx1-kea1-bxc1/2023-10-22-11/2023-10-22T11-40-25.71468215Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CD.CLD02.BX1.KEA1.BXC1/raw/2023/10/22/2023-10-22T11-40-25.71468215Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 1321,
+      "foil_end": 12423,
+      "coating_line_sections": [
+        {
+          "foil_start": 1321,
+          "foil_end": 12423,
+          "coating_start": 1785,
+          "coating_end": 12023
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-22T11-40-25.855686667Z.jpg",
+    "fbs": "F1.A1.CD.CLD02.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-cd-cld02-bx1-kea1-bxc1/2023-10-22-11/2023-10-22T11-40-25.855686667Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CD.CLD02.BX1.KEA1.BXC1/raw/2023/10/22/2023-10-22T11-40-25.855686667Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 1321,
+      "foil_end": 12423,
+      "coating_line_sections": [
+        {
+          "foil_start": 1321,
+          "foil_end": 12423,
+          "coating_start": 1785,
+          "coating_end": 12023
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-22T02-07-08.270874285Z.jpg",
+    "fbs": "F1.A1.CD.CLD03.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-cd-cld03-bx1-kea1-bxc1/2023-10-22-02/2023-10-22T02-07-08.270874285Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CD.CLD03.BX1.KEA1.BXC1/raw/2023/10/22/2023-10-22T02-07-08.270874285Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 3246,
+      "foil_end": 11695,
+      "coating_line_sections": [
+        {
+          "foil_start": 3246,
+          "foil_end": 11695,
+          "coating_start": 3590,
+          "coating_end": 11344
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-22T02-07-14.068042043Z.jpg",
+    "fbs": "F1.A1.CD.CLD03.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-cd-cld03-bx1-kea1-bxc1/2023-10-22-02/2023-10-22T02-07-14.068042043Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CD.CLD03.BX1.KEA1.BXC1/raw/2023/10/22/2023-10-22T02-07-14.068042043Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 3250,
+      "foil_end": 11699,
+      "coating_line_sections": [
+        {
+          "foil_start": 3250,
+          "foil_end": 11699,
+          "coating_start": 3594,
+          "coating_end": 11347
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-22T02-07-15.695666884Z.jpg",
+    "fbs": "F1.A1.CD.CLD03.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-cd-cld03-bx1-kea1-bxc1/2023-10-22-02/2023-10-22T02-07-15.695666884Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CD.CLD03.BX1.KEA1.BXC1/raw/2023/10/22/2023-10-22T02-07-15.695666884Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 3247,
+      "foil_end": 11697,
+      "coating_line_sections": [
+        {
+          "foil_start": 3247,
+          "foil_end": 11697,
+          "coating_start": 3592,
+          "coating_end": 11345
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-22T02-07-16.226210373Z.jpg",
+    "fbs": "F1.A1.CD.CLD03.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-cd-cld03-bx1-kea1-bxc1/2023-10-22-02/2023-10-22T02-07-16.226210373Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CD.CLD03.BX1.KEA1.BXC1/raw/2023/10/22/2023-10-22T02-07-16.226210373Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 3248,
+      "foil_end": 11697,
+      "coating_line_sections": [
+        {
+          "foil_start": 3248,
+          "foil_end": 11697,
+          "coating_start": 3592,
+          "coating_end": 11346
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-22T02-07-17.986132105Z.jpg",
+    "fbs": "F1.A1.CD.CLD03.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-cd-cld03-bx1-kea1-bxc1/2023-10-22-02/2023-10-22T02-07-17.986132105Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CD.CLD03.BX1.KEA1.BXC1/raw/2023/10/22/2023-10-22T02-07-17.986132105Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 3251,
+      "foil_end": 11701,
+      "coating_line_sections": [
+        {
+          "foil_start": 3251,
+          "foil_end": 11701,
+          "coating_start": 3594,
+          "coating_end": 11349
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
     "fileName": "2023-11-03T05-15-04.690603022Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx1-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-04.690603022Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx1-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-04.690603022Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX1.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-04.690603022Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.61668,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -36,14 +393,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-10.110977008Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx1-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-10.110977008Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx1-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-10.110977008Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX1.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-10.110977008Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.61668,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -69,15 +423,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-15.530606816Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx1-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-15.530606816Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx1-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-15.530606816Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX1.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-15.530606816Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.61668,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -103,15 +453,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-20.950602981Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx1-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-20.950602981Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx1-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-20.950602981Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX1.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-20.950602981Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.61668,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -137,15 +483,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-26.368819059Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx1-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-26.368819059Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx1-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-26.368819059Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX1.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-26.368819059Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.61668,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -171,15 +513,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-00.363160937Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx2-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.363160937Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx2-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.363160937Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX2.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-00.363160937Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.60351,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -205,15 +543,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-00.411918569Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx2-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.411918569Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx2-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.411918569Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX2.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-00.411918569Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.60351,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -239,15 +573,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-00.463642101Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx2-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.463642101Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx2-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.463642101Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX2.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-00.463642101Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.60351,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -273,15 +603,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-00.563021695Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx2-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.563021695Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx2-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.563021695Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX2.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-00.563021695Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.60351,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -307,15 +633,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-00.667900776Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx2-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.667900776Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx2-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.667900776Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX2.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-00.667900776Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.60351,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -341,15 +663,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-04.028712371Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx3-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-04.028712371Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx3-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-04.028712371Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX3.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-04.028712371Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.60601,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -375,15 +693,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-09.446856905Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx3-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-09.446856905Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx3-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-09.446856905Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX3.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-09.446856905Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.60601,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -409,15 +723,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-14.869412259Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx3-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-14.869412259Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx3-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-14.869412259Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX3.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-14.869412259Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.60601,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -443,15 +753,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-20.288256884Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx3-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-20.288256884Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx3-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-20.288256884Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX3.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-20.288256884Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.60601,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -477,15 +783,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-25.704001998Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx3-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-25.704001998Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx3-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-25.704001998Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX3.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-25.704001998Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.60601,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -511,15 +813,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-08.988344634Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx3-kea2-bxc1/2023-11-03-05/2023-11-03T05-15-08.988344634Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx3-kea2-bxc1/2023-11-03-05/2023-11-03T05-15-08.988344634Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX3.KEA2.BXC1/raw/2023/11/03/2023-11-03T05-15-08.988344634Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.62476,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -545,15 +843,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-30.664419273Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx3-kea2-bxc1/2023-11-03-05/2023-11-03T05-15-30.664419273Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx3-kea2-bxc1/2023-11-03-05/2023-11-03T05-15-30.664419273Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX3.KEA2.BXC1/raw/2023/11/03/2023-11-03T05-15-30.664419273Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.62476,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -579,15 +873,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-52.341758403Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx3-kea2-bxc1/2023-11-03-05/2023-11-03T05-15-52.341758403Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx3-kea2-bxc1/2023-11-03-05/2023-11-03T05-15-52.341758403Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX3.KEA2.BXC1/raw/2023/11/03/2023-11-03T05-15-52.341758403Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.62476,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -613,15 +903,11 @@
     "test": true,
     "fileName": "2023-11-03T05-16-14.018316907Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx3-kea2-bxc1/2023-11-03-05/2023-11-03T05-16-14.018316907Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx3-kea2-bxc1/2023-11-03-05/2023-11-03T05-16-14.018316907Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX3.KEA2.BXC1/raw/2023/11/03/2023-11-03T05-16-14.018316907Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.62476,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -647,15 +933,11 @@
     "test": true,
     "fileName": "2023-11-03T05-16-35.695427654Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx3-kea2-bxc1/2023-11-03-05/2023-11-03T05-16-35.695427654Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx3-kea2-bxc1/2023-11-03-05/2023-11-03T05-16-35.695427654Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX3.KEA2.BXC1/raw/2023/11/03/2023-11-03T05-16-35.695427654Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.62476,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -681,15 +963,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-00.246255567Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx4-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.246255567Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx4-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.246255567Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX4.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-00.246255567Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.60726,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -715,15 +993,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-00.342419757Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx4-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.342419757Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx4-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.342419757Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX4.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-00.342419757Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.60726,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -749,15 +1023,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-00.736417669Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx4-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.736417669Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx4-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.736417669Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX4.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-00.736417669Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.60726,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -783,15 +1053,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-00.98282228Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx4-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.98282228Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx4-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-00.98282228Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX4.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-00.98282228Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.60726,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -817,15 +1083,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-02.070648925Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx4-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-02.070648925Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx4-kea1-bxc1/2023-11-03-05/2023-11-03T05-15-02.070648925Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX4.KEA1.BXC1/raw/2023/11/03/2023-11-03T05-15-02.070648925Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.60726,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -851,15 +1113,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-00.024245011Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx4-kea2-bxc1/2023-11-03-05/2023-11-03T05-15-00.024245011Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx4-kea2-bxc1/2023-11-03-05/2023-11-03T05-15-00.024245011Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX4.KEA2.BXC1/raw/2023/11/03/2023-11-03T05-15-00.024245011Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.60854,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -885,15 +1143,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-00.070420086Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx4-kea2-bxc1/2023-11-03-05/2023-11-03T05-15-00.070420086Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx4-kea2-bxc1/2023-11-03-05/2023-11-03T05-15-00.070420086Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX4.KEA2.BXC1/raw/2023/11/03/2023-11-03T05-15-00.070420086Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.60854,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -919,15 +1173,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-00.122903652Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx4-kea2-bxc1/2023-11-03-05/2023-11-03T05-15-00.122903652Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx4-kea2-bxc1/2023-11-03-05/2023-11-03T05-15-00.122903652Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX4.KEA2.BXC1/raw/2023/11/03/2023-11-03T05-15-00.122903652Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.60854,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -953,15 +1203,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-00.168718097Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx4-kea2-bxc1/2023-11-03-05/2023-11-03T05-15-00.168718097Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx4-kea2-bxc1/2023-11-03-05/2023-11-03T05-15-00.168718097Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX4.KEA2.BXC1/raw/2023/11/03/2023-11-03T05-15-00.168718097Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.60854,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -987,15 +1233,11 @@
     "test": true,
     "fileName": "2023-11-03T05-15-00.229001316Z.jpg",
     "fbs": "F1.A1.CT.COT01.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot01-bx4-kea2-bxc1/2023-11-03-05/2023-11-03T05-15-00.229001316Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot01-bx4-kea2-bxc1/2023-11-03-05/2023-11-03T05-15-00.229001316Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT01.BX4.KEA2.BXC1/raw/2023/11/03/2023-11-03T05-15-00.229001316Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.60854,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1021,15 +1263,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-02.891348687Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx1-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-02.891348687Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx1-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-02.891348687Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX1.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-02.891348687Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.604764,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1049,15 +1287,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-07.806845162Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx1-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-07.806845162Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx1-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-07.806845162Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX1.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-07.806845162Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.604764,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1077,15 +1311,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-12.723122977Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx1-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-12.723122977Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx1-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-12.723122977Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX1.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-12.723122977Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.604764,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1105,15 +1335,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-17.638276759Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx1-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-17.638276759Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx1-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-17.638276759Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX1.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-17.638276759Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.604764,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1133,15 +1359,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-22.553824603Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx1-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-22.553824603Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx1-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-22.553824603Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX1.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-22.553824603Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.604764,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1161,15 +1383,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-00.045146275Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx2-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-00.045146275Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx2-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-00.045146275Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX2.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-00.045146275Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.621014,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1189,15 +1407,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-00.143257199Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx2-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-00.143257199Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx2-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-00.143257199Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX2.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-00.143257199Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.621014,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1217,15 +1431,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-00.193084144Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx2-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-00.193084144Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx2-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-00.193084144Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX2.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-00.193084144Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.621014,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1245,15 +1455,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-00.291846138Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx2-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-00.291846138Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx2-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-00.291846138Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX2.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-00.291846138Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.621014,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1273,15 +1479,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-00.340786405Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx2-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-00.340786405Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx2-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-00.340786405Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX2.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-00.340786405Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.621014,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1301,15 +1503,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-02.155775261Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx3-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-02.155775261Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx3-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-02.155775261Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX3.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-02.155775261Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.612264,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1329,15 +1527,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-07.069882311Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx3-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-07.069882311Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx3-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-07.069882311Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX3.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-07.069882311Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.612264,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1357,15 +1551,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-11.983722755Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx3-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-11.983722755Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx3-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-11.983722755Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX3.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-11.983722755Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.612264,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1385,15 +1575,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-16.898469524Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx3-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-16.898469524Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx3-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-16.898469524Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX3.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-16.898469524Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.612264,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1413,15 +1599,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-21.812364071Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx3-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-21.812364071Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx3-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-21.812364071Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX3.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-21.812364071Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.612264,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1441,15 +1623,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-00.036844989Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx3-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-00.036844989Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx3-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-00.036844989Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX3.KEA2.BXC1/raw/2023/11/01/2023-11-01T05-30-00.036844989Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.623514,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1469,15 +1647,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-00.084801031Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx3-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-00.084801031Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx3-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-00.084801031Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX3.KEA2.BXC1/raw/2023/11/01/2023-11-01T05-30-00.084801031Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.623514,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1497,15 +1671,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-00.132574692Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx3-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-00.132574692Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx3-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-00.132574692Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX3.KEA2.BXC1/raw/2023/11/01/2023-11-01T05-30-00.132574692Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.623514,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1525,15 +1695,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-00.182343637Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx3-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-00.182343637Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx3-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-00.182343637Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX3.KEA2.BXC1/raw/2023/11/01/2023-11-01T05-30-00.182343637Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.623514,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1553,15 +1719,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-00.23202471Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx3-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-00.23202471Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx3-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-00.23202471Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX3.KEA2.BXC1/raw/2023/11/01/2023-11-01T05-30-00.23202471Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.623514,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1581,15 +1743,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-00.036751012Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx4-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-00.036751012Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx4-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-00.036751012Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX4.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-00.036751012Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.6026,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1609,15 +1767,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-01.182073811Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx4-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-01.182073811Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx4-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-01.182073811Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX4.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-01.182073811Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.6026,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1637,15 +1791,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-02.15072194Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx4-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-02.15072194Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx4-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-02.15072194Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX4.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-02.15072194Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.6026,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1665,15 +1815,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-02.598112065Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx4-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-02.598112065Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx4-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-02.598112065Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX4.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-02.598112065Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.6026,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1693,15 +1839,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-02.643893496Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx4-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-02.643893496Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx4-kea1-bxc1/2023-11-01-05/2023-11-01T05-30-02.643893496Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX4.KEA1.BXC1/raw/2023/11/01/2023-11-01T05-30-02.643893496Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.6026,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1721,15 +1863,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-00.633744774Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx4-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-00.633744774Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx4-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-00.633744774Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX4.KEA2.BXC1/raw/2023/11/01/2023-11-01T05-30-00.633744774Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.60735,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1749,15 +1887,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-00.78191178Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx4-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-00.78191178Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx4-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-00.78191178Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX4.KEA2.BXC1/raw/2023/11/01/2023-11-01T05-30-00.78191178Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.60735,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1777,15 +1911,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-01.569668569Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx4-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-01.569668569Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx4-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-01.569668569Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX4.KEA2.BXC1/raw/2023/11/01/2023-11-01T05-30-01.569668569Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.60735,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1805,15 +1935,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-01.718218331Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx4-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-01.718218331Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx4-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-01.718218331Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX4.KEA2.BXC1/raw/2023/11/01/2023-11-01T05-30-01.718218331Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.60735,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1833,15 +1959,11 @@
     "test": true,
     "fileName": "2023-11-01T05-30-01.961636154Z.jpg",
     "fbs": "F1.A1.CT.COT02.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot02-bx4-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-01.961636154Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot02-bx4-kea2-bxc1/2023-11-01-05/2023-11-01T05-30-01.961636154Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT02.BX4.KEA2.BXC1/raw/2023/11/01/2023-11-01T05-30-01.961636154Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.60735,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1861,15 +1983,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-08.737465004Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx1-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-08.737465004Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx1-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-08.737465004Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX1.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-08.737465004Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.61851,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1889,15 +2007,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-18.569329009Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx1-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-18.569329009Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx1-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-18.569329009Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX1.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-18.569329009Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.61851,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1917,15 +2031,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-28.399936516Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx1-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-28.399936516Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx1-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-28.399936516Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX1.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-28.399936516Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.61851,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1945,15 +2055,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-38.230640967Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx1-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-38.230640967Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx1-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-38.230640967Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX1.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-38.230640967Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.61851,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -1973,15 +2079,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-48.06048151Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx1-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-48.06048151Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx1-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-48.06048151Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX1.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-48.06048151Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.61851,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2001,15 +2103,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-00.516011108Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx2-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-00.516011108Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx2-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-00.516011108Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX2.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-00.516011108Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.61726,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2029,15 +2127,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-00.812019784Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx2-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-00.812019784Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx2-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-00.812019784Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX2.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-00.812019784Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.61726,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2057,15 +2151,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-01.106356481Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx2-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-01.106356481Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx2-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-01.106356481Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX2.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-01.106356481Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.61726,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2085,15 +2175,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-01.401417394Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx2-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-01.401417394Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx2-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-01.401417394Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX2.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-01.401417394Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.61726,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2113,15 +2199,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-01.794390283Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx2-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-01.794390283Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx2-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-01.794390283Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX2.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-01.794390283Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.61726,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2141,15 +2223,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-03.243153069Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx3-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-03.243153069Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx3-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-03.243153069Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX3.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-03.243153069Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.633,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2169,15 +2247,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-13.071805378Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx3-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-13.071805378Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx3-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-13.071805378Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX3.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-13.071805378Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.633,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2197,15 +2271,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-22.900231318Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx3-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-22.900231318Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx3-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-22.900231318Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX3.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-22.900231318Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.633,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2225,15 +2295,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-32.728378893Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx3-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-32.728378893Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx3-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-32.728378893Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX3.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-32.728378893Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.633,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2253,15 +2319,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-42.557249251Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx3-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-42.557249251Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx3-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-42.557249251Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX3.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-42.557249251Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.633,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2281,15 +2343,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-00.615802274Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx3-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-00.615802274Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx3-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-00.615802274Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX3.KEA2.BXC1/raw/2023/11/01/2023-11-01T15-30-00.615802274Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.60976,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2309,15 +2367,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-01.697327206Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx3-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-01.697327206Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx3-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-01.697327206Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX3.KEA2.BXC1/raw/2023/11/01/2023-11-01T15-30-01.697327206Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.60976,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2337,15 +2391,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-01.992768293Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx3-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-01.992768293Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx3-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-01.992768293Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX3.KEA2.BXC1/raw/2023/11/01/2023-11-01T15-30-01.992768293Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.60976,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2365,15 +2415,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-02.879198644Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx3-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-02.879198644Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx3-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-02.879198644Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX3.KEA2.BXC1/raw/2023/11/01/2023-11-01T15-30-02.879198644Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.60976,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2393,15 +2439,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-05.237706059Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx3-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-05.237706059Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx3-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-05.237706059Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX3.KEA2.BXC1/raw/2023/11/01/2023-11-01T15-30-05.237706059Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.60976,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2421,15 +2463,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-00.189975629Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx4-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-00.189975629Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx4-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-00.189975629Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX4.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-00.189975629Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.6161,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2449,15 +2487,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-00.485028356Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx4-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-00.485028356Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx4-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-00.485028356Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX4.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-00.485028356Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.6161,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2477,15 +2511,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-03.336911822Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx4-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-03.336911822Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx4-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-03.336911822Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX4.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-03.336911822Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.6161,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2505,15 +2535,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-06.389919124Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx4-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-06.389919124Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx4-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-06.389919124Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX4.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-06.389919124Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.6161,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2533,15 +2559,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-09.344694221Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx4-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-09.344694221Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx4-kea1-bxc1/2023-11-01-15/2023-11-01T15-30-09.344694221Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX4.KEA1.BXC1/raw/2023/11/01/2023-11-01T15-30-09.344694221Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.6161,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2561,15 +2583,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-00.215002515Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx4-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-00.215002515Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx4-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-00.215002515Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX4.KEA2.BXC1/raw/2023/11/01/2023-11-01T15-30-00.215002515Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.6026,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2589,15 +2607,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-00.411989826Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx4-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-00.411989826Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx4-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-00.411989826Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX4.KEA2.BXC1/raw/2023/11/01/2023-11-01T15-30-00.411989826Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.6026,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2617,15 +2631,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-03.659773616Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx4-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-03.659773616Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx4-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-03.659773616Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX4.KEA2.BXC1/raw/2023/11/01/2023-11-01T15-30-03.659773616Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.6026,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2645,15 +2655,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-03.95547199Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx4-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-03.95547199Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx4-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-03.95547199Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX4.KEA2.BXC1/raw/2023/11/01/2023-11-01T15-30-03.95547199Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.6026,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2673,15 +2679,11 @@
     "test": true,
     "fileName": "2023-11-01T15-30-04.053696835Z.jpg",
     "fbs": "F1.A1.CT.COT03.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-a1-ct-cot03-bx4-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-04.053696835Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-a1-ct-cot03-bx4-kea2-bxc1/2023-11-01-15/2023-11-01T15-30-04.053696835Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.A1.CT.COT03.BX4.KEA2.BXC1/raw/2023/11/01/2023-11-01T15-30-04.053696835Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.6026,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2699,17 +2701,373 @@
   },
   {
     "test": true,
+    "fileName": "2023-10-23T01-08-12.303088482Z.jpg",
+    "fbs": "F1.C1.CD.CLD01.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-cd-cld01-bx1-kea1-bxc1/2023-10-23-01/2023-10-23T01-08-12.303088482Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CD.CLD01.BX1.KEA1.BXC1/raw/2023/10/23/2023-10-23T01-08-12.303088482Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 1293,
+      "foil_end": 12387,
+      "coating_line_sections": [
+        {
+          "foil_start": 1293,
+          "foil_end": 12387,
+          "coating_start": 1768,
+          "coating_end": 11913
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-23T01-08-12.372975293Z.jpg",
+    "fbs": "F1.C1.CD.CLD01.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-cd-cld01-bx1-kea1-bxc1/2023-10-23-01/2023-10-23T01-08-12.372975293Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CD.CLD01.BX1.KEA1.BXC1/raw/2023/10/23/2023-10-23T01-08-12.372975293Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 1292,
+      "foil_end": 12387,
+      "coating_line_sections": [
+        {
+          "foil_start": 1292,
+          "foil_end": 12387,
+          "coating_start": 1768,
+          "coating_end": 11913
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-23T01-08-12.546394729Z.jpg",
+    "fbs": "F1.C1.CD.CLD01.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-cd-cld01-bx1-kea1-bxc1/2023-10-23-01/2023-10-23T01-08-12.546394729Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CD.CLD01.BX1.KEA1.BXC1/raw/2023/10/23/2023-10-23T01-08-12.546394729Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 1293,
+      "foil_end": 12387,
+      "coating_line_sections": [
+        {
+          "foil_start": 1293,
+          "foil_end": 12387,
+          "coating_start": 1767,
+          "coating_end": 11912
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-23T01-08-12.826673382Z.jpg",
+    "fbs": "F1.C1.CD.CLD01.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-cd-cld01-bx1-kea1-bxc1/2023-10-23-01/2023-10-23T01-08-12.826673382Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CD.CLD01.BX1.KEA1.BXC1/raw/2023/10/23/2023-10-23T01-08-12.826673382Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 1291,
+      "foil_end": 12385,
+      "coating_line_sections": [
+        {
+          "foil_start": 1291,
+          "foil_end": 12385,
+          "coating_start": 1767,
+          "coating_end": 11911
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-23T01-08-12.862546381Z.jpg",
+    "fbs": "F1.C1.CD.CLD01.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-cd-cld01-bx1-kea1-bxc1/2023-10-23-01/2023-10-23T01-08-12.862546381Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CD.CLD01.BX1.KEA1.BXC1/raw/2023/10/23/2023-10-23T01-08-12.862546381Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 1291,
+      "foil_end": 12385,
+      "coating_line_sections": [
+        {
+          "foil_start": 1291,
+          "foil_end": 12385,
+          "coating_start": 1767,
+          "coating_end": 11911
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-23T12-09-21.615518715Z.jpg",
+    "fbs": "F1.C1.CD.CLD02.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-cd-cld02-bx1-kea1-bxc1/2023-10-23-12/2023-10-23T12-09-21.615518715Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CD.CLD02.BX1.KEA1.BXC1/raw/2023/10/23/2023-10-23T12-09-21.615518715Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 1757,
+      "foil_end": 12849,
+      "coating_line_sections": [
+        {
+          "foil_start": 1757,
+          "foil_end": 12849,
+          "coating_start": 2232,
+          "coating_end": 12378
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-23T12-09-23.148884711Z.jpg",
+    "fbs": "F1.C1.CD.CLD02.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-cd-cld02-bx1-kea1-bxc1/2023-10-23-12/2023-10-23T12-09-23.148884711Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CD.CLD02.BX1.KEA1.BXC1/raw/2023/10/23/2023-10-23T12-09-23.148884711Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 1759,
+      "foil_end": 12849,
+      "coating_line_sections": [
+        {
+          "foil_start": 1759,
+          "foil_end": 12849,
+          "coating_start": 2232,
+          "coating_end": 12379
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-23T12-09-25.101033044Z.jpg",
+    "fbs": "F1.C1.CD.CLD02.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-cd-cld02-bx1-kea1-bxc1/2023-10-23-12/2023-10-23T12-09-25.101033044Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CD.CLD02.BX1.KEA1.BXC1/raw/2023/10/23/2023-10-23T12-09-25.101033044Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 1759,
+      "foil_end": 12850,
+      "coating_line_sections": [
+        {
+          "foil_start": 1759,
+          "foil_end": 12850,
+          "coating_start": 2233,
+          "coating_end": 12379
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-23T12-09-28.587532981Z.jpg",
+    "fbs": "F1.C1.CD.CLD02.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-cd-cld02-bx1-kea1-bxc1/2023-10-23-12/2023-10-23T12-09-28.587532981Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CD.CLD02.BX1.KEA1.BXC1/raw/2023/10/23/2023-10-23T12-09-28.587532981Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 1758,
+      "foil_end": 12849,
+      "coating_line_sections": [
+        {
+          "foil_start": 1758,
+          "foil_end": 12849,
+          "coating_start": 2233,
+          "coating_end": 12379
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-23T12-09-32.073914306Z.jpg",
+    "fbs": "F1.C1.CD.CLD02.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-cd-cld02-bx1-kea1-bxc1/2023-10-23-12/2023-10-23T12-09-32.073914306Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CD.CLD02.BX1.KEA1.BXC1/raw/2023/10/23/2023-10-23T12-09-32.073914306Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 1760,
+      "foil_end": 12851,
+      "coating_line_sections": [
+        {
+          "foil_start": 1760,
+          "foil_end": 12851,
+          "coating_start": 2234,
+          "coating_end": 12381
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-24T14-11-29.762074485Z.jpg",
+    "fbs": "F1.C1.CD.CLD03.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-cd-cld03-bx1-kea1-bxc1/2023-10-24-14/2023-10-24T14-11-29.762074485Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CD.CLD03.BX1.KEA1.BXC1/raw/2023/10/24/2023-10-24T14-11-29.762074485Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 2846,
+      "foil_end": 11320,
+      "coating_line_sections": [
+        {
+          "foil_start": 2846,
+          "foil_end": 11320,
+          "coating_start": 3309,
+          "coating_end": 10882
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-24T14-11-30.066154452Z.jpg",
+    "fbs": "F1.C1.CD.CLD03.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-cd-cld03-bx1-kea1-bxc1/2023-10-24-14/2023-10-24T14-11-30.066154452Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CD.CLD03.BX1.KEA1.BXC1/raw/2023/10/24/2023-10-24T14-11-30.066154452Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 2844,
+      "foil_end": 11317,
+      "coating_line_sections": [
+        {
+          "foil_start": 2844,
+          "foil_end": 11317,
+          "coating_start": 3305,
+          "coating_end": 10879
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-24T14-11-30.85125415Z.jpg",
+    "fbs": "F1.C1.CD.CLD03.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-cd-cld03-bx1-kea1-bxc1/2023-10-24-14/2023-10-24T14-11-30.85125415Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CD.CLD03.BX1.KEA1.BXC1/raw/2023/10/24/2023-10-24T14-11-30.85125415Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 2837,
+      "foil_end": 11310,
+      "coating_line_sections": [
+        {
+          "foil_start": 2837,
+          "foil_end": 11310,
+          "coating_start": 3299,
+          "coating_end": 10872
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-24T14-11-31.240549873Z.jpg",
+    "fbs": "F1.C1.CD.CLD03.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-cd-cld03-bx1-kea1-bxc1/2023-10-24-14/2023-10-24T14-11-31.240549873Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CD.CLD03.BX1.KEA1.BXC1/raw/2023/10/24/2023-10-24T14-11-31.240549873Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 2834,
+      "foil_end": 11307,
+      "coating_line_sections": [
+        {
+          "foil_start": 2834,
+          "foil_end": 11307,
+          "coating_start": 3296,
+          "coating_end": 10869
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
+    "fileName": "2023-10-24T14-11-31.435327178Z.jpg",
+    "fbs": "F1.C1.CD.CLD03.BX1.KEA1.BXC1",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-cd-cld03-bx1-kea1-bxc1/2023-10-24-14/2023-10-24T14-11-31.435327178Z.jpg",
+    "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CD.CLD03.BX1.KEA1.BXC1/raw/2023/10/24/2023-10-24T14-11-31.435327178Z.jpg",
+    "batteryType": "",
+    "tags": [],
+    "ppmx": 23.61590757,
+    "width": 14640,
+    "height": 1024,
+    "result": {
+      "foil_start": 2833,
+      "foil_end": 11306,
+      "coating_line_sections": [
+        {
+          "foil_start": 2833,
+          "foil_end": 11306,
+          "coating_start": 3295,
+          "coating_end": 10868
+        }
+      ]
+    }
+  },
+  {
+    "test": true,
     "fileName": "2023-10-20T14-00-03.714176169Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx1-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-03.714176169Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx1-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-03.714176169Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX1.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-03.714176169Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.6219,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2729,15 +3087,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-09.822249613Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx1-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-09.822249613Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx1-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-09.822249613Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX1.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-09.822249613Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.6219,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2757,15 +3111,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-15.930872932Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx1-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-15.930872932Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx1-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-15.930872932Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX1.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-15.930872932Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.6219,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2785,15 +3135,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-22.036310276Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx1-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-22.036310276Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx1-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-22.036310276Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX1.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-22.036310276Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.6219,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2813,15 +3159,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-28.147565655Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx1-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-28.147565655Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx1-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-28.147565655Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX1.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-28.147565655Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.6219,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2841,15 +3183,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-00.865537758Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx2-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-00.865537758Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx2-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-00.865537758Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX2.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-00.865537758Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.614764,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2869,15 +3207,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-04.48682814Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx2-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-04.48682814Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx2-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-04.48682814Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX2.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-04.48682814Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.614764,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2897,15 +3231,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-09.3812088Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx2-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-09.3812088Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx2-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-09.3812088Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX2.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-09.3812088Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.614764,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2925,15 +3255,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-14.270784707Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx2-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-14.270784707Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx2-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-14.270784707Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX2.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-14.270784707Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.614764,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2953,15 +3279,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-19.164697893Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx2-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-19.164697893Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx2-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-19.164697893Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX2.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-19.164697893Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.614764,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -2981,15 +3303,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-05.320257065Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx3-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-05.320257065Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx3-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-05.320257065Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX3.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-05.320257065Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.61226,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3009,15 +3327,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-11.427997355Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx3-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-11.427997355Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx3-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-11.427997355Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX3.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-11.427997355Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.61226,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3037,15 +3351,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-17.535624694Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx3-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-17.535624694Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx3-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-17.535624694Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX3.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-17.535624694Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.61226,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3065,15 +3375,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-23.640648052Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx3-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-23.640648052Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx3-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-23.640648052Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX3.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-23.640648052Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.61226,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3093,15 +3399,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-29.751890185Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx3-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-29.751890185Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx3-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-29.751890185Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX3.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-29.751890185Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.61226,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3121,15 +3423,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-01.002539774Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx3-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-01.002539774Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx3-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-01.002539774Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX3.KEA2.BXC1/raw/2023/10/20/2023-10-20T14-00-01.002539774Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.61101,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3149,15 +3447,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-03.628651788Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx3-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-03.628651788Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx3-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-03.628651788Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX3.KEA2.BXC1/raw/2023/10/20/2023-10-20T14-00-03.628651788Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.61101,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3177,15 +3471,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-04.969815499Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx3-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-04.969815499Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx3-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-04.969815499Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX3.KEA2.BXC1/raw/2023/10/20/2023-10-20T14-00-04.969815499Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.61101,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3205,15 +3495,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-05.644084107Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx3-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-05.644084107Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx3-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-05.644084107Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX3.KEA2.BXC1/raw/2023/10/20/2023-10-20T14-00-05.644084107Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.61101,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3233,15 +3519,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-07.109966784Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx3-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-07.109966784Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx3-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-07.109966784Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX3.KEA2.BXC1/raw/2023/10/20/2023-10-20T14-00-07.109966784Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.61101,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3261,15 +3543,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-03.523553167Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx4-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-03.523553167Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx4-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-03.523553167Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX4.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-03.523553167Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.6216,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3289,15 +3567,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-04.842362892Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx4-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-04.842362892Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx4-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-04.842362892Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX4.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-04.842362892Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.6216,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3317,15 +3591,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-04.891259552Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx4-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-04.891259552Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx4-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-04.891259552Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX4.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-04.891259552Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.6216,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3345,15 +3615,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-04.94185865Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx4-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-04.94185865Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx4-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-04.94185865Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX4.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-04.94185865Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.6216,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3373,15 +3639,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-05.676438555Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx4-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-05.676438555Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx4-kea1-bxc1/2023-10-20-14/2023-10-20T14-00-05.676438555Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX4.KEA1.BXC1/raw/2023/10/20/2023-10-20T14-00-05.676438555Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.6216,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3401,15 +3663,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-03.603430556Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx4-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-03.603430556Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx4-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-03.603430556Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX4.KEA2.BXC1/raw/2023/10/20/2023-10-20T14-00-03.603430556Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.618514,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3429,15 +3687,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-05.068452802Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx4-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-05.068452802Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx4-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-05.068452802Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX4.KEA2.BXC1/raw/2023/10/20/2023-10-20T14-00-05.068452802Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.618514,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3457,15 +3711,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-08.496423409Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx4-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-08.496423409Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx4-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-08.496423409Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX4.KEA2.BXC1/raw/2023/10/20/2023-10-20T14-00-08.496423409Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.618514,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3485,15 +3735,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-13.389551872Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx4-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-13.389551872Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx4-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-13.389551872Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX4.KEA2.BXC1/raw/2023/10/20/2023-10-20T14-00-13.389551872Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.618514,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3513,15 +3759,11 @@
     "test": true,
     "fileName": "2023-10-20T14-00-17.694897473Z.jpg",
     "fbs": "F1.C1.CT.COT01.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot01-bx4-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-17.694897473Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot01-bx4-kea2-bxc1/2023-10-20-14/2023-10-20T14-00-17.694897473Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT01.BX4.KEA2.BXC1/raw/2023/10/20/2023-10-20T14-00-17.694897473Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-SLIM",
+    "tags": [],
+    "ppmx": 23.618514,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3541,15 +3783,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-02.755977111Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx1-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-02.755977111Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx1-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-02.755977111Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX1.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-02.755977111Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.623514,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3569,15 +3807,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-08.862291439Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx1-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-08.862291439Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx1-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-08.862291439Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX1.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-08.862291439Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.623514,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3597,15 +3831,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-14.972856553Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx1-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-14.972856553Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx1-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-14.972856553Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX1.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-14.972856553Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.623514,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3625,15 +3855,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-21.081478749Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx1-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-21.081478749Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx1-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-21.081478749Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX1.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-21.081478749Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.623514,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3653,15 +3879,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-27.189826823Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx1-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-27.189826823Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx1-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-27.189826823Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX1.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-27.189826823Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.623514,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3681,15 +3903,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-00.360556658Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx2-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-00.360556658Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx2-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-00.360556658Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX2.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-00.360556658Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.62226,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3709,15 +3927,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-00.899426117Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx2-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-00.899426117Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx2-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-00.899426117Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX2.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-00.899426117Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.62226,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3737,15 +3951,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-01.044921367Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx2-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-01.044921367Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx2-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-01.044921367Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX2.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-01.044921367Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.62226,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3765,15 +3975,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-01.095188892Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx2-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-01.095188892Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx2-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-01.095188892Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX2.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-01.095188892Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.62226,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3793,15 +3999,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-01.239746317Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx2-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-01.239746317Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx2-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-01.239746317Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX2.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-01.239746317Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.62226,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3821,15 +4023,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-02.535251175Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx3-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-02.535251175Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx3-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-02.535251175Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX3.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-02.535251175Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.623514,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3849,15 +4047,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-08.647774142Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx3-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-08.647774142Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx3-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-08.647774142Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX3.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-08.647774142Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.623514,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3877,15 +4071,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-14.759117287Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx3-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-14.759117287Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx3-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-14.759117287Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX3.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-14.759117287Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.623514,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3905,15 +4095,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-20.871326927Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx3-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-20.871326927Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx3-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-20.871326927Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX3.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-20.871326927Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.623514,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3933,15 +4119,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-26.982059109Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx3-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-26.982059109Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx3-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-26.982059109Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX3.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-26.982059109Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.623514,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3961,15 +4143,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-00.475601629Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx3-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-00.475601629Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx3-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-00.475601629Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX3.KEA2.BXC1/raw/2023/10/31/2023-10-31T17-00-00.475601629Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.62601,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -3989,15 +4167,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-01.817033315Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx3-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-01.817033315Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx3-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-01.817033315Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX3.KEA2.BXC1/raw/2023/10/31/2023-10-31T17-00-01.817033315Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.62601,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4017,15 +4191,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-02.367175274Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx3-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-02.367175274Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx3-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-02.367175274Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX3.KEA2.BXC1/raw/2023/10/31/2023-10-31T17-00-02.367175274Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.62601,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4045,15 +4215,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-03.347684189Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx3-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-03.347684189Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx3-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-03.347684189Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX3.KEA2.BXC1/raw/2023/10/31/2023-10-31T17-00-03.347684189Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.62601,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4073,15 +4239,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-03.958565105Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx3-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-03.958565105Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx3-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-03.958565105Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX3.KEA2.BXC1/raw/2023/10/31/2023-10-31T17-00-03.958565105Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.62601,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4101,15 +4263,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-00.393225207Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx4-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-00.393225207Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx4-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-00.393225207Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX4.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-00.393225207Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.6122296,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4129,15 +4287,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-02.007883814Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx4-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-02.007883814Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx4-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-02.007883814Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX4.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-02.007883814Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.6122296,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4157,15 +4311,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-02.983655315Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx4-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-02.983655315Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx4-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-02.983655315Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX4.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-02.983655315Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.6122296,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4185,15 +4335,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-03.033968702Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx4-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-03.033968702Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx4-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-03.033968702Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX4.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-03.033968702Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.6122296,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4213,15 +4359,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-04.797793321Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx4-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-04.797793321Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx4-kea1-bxc1/2023-10-31-17/2023-10-31T17-00-04.797793321Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX4.KEA1.BXC1/raw/2023/10/31/2023-10-31T17-00-04.797793321Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.6122296,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4241,15 +4383,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-00.777530999Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx4-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-00.777530999Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx4-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-00.777530999Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX4.KEA2.BXC1/raw/2023/10/31/2023-10-31T17-00-00.777530999Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.6092,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4269,15 +4407,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-01.26472895Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx4-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-01.26472895Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx4-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-01.26472895Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX4.KEA2.BXC1/raw/2023/10/31/2023-10-31T17-00-01.26472895Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.6092,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4297,15 +4431,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-01.41313683Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx4-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-01.41313683Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx4-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-01.41313683Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX4.KEA2.BXC1/raw/2023/10/31/2023-10-31T17-00-01.41313683Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.6092,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4325,15 +4455,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-01.560459981Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx4-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-01.560459981Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx4-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-01.560459981Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX4.KEA2.BXC1/raw/2023/10/31/2023-10-31T17-00-01.560459981Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.6092,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4353,15 +4479,11 @@
     "test": true,
     "fileName": "2023-10-31T17-00-02.144688832Z.jpg",
     "fbs": "F1.C1.CT.COT02.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot02-bx4-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-02.144688832Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot02-bx4-kea2-bxc1/2023-10-31-17/2023-10-31T17-00-02.144688832Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT02.BX4.KEA2.BXC1/raw/2023/10/31/2023-10-31T17-00-02.144688832Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "PPE-CV",
+    "tags": [],
+    "ppmx": 23.6092,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4381,15 +4503,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-05.554680789Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx1-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-05.554680789Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx1-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-05.554680789Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX1.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-05.554680789Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6244,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4415,15 +4533,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-11.692660976Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx1-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-11.692660976Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx1-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-11.692660976Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX1.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-11.692660976Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6244,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4449,15 +4563,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-17.826500793Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx1-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-17.826500793Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx1-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-17.826500793Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX1.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-17.826500793Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6244,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4483,15 +4593,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-23.962903681Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx1-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-23.962903681Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx1-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-23.962903681Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX1.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-23.962903681Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6244,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4517,15 +4623,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-30.095808919Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX1.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx1-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-30.095808919Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx1-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-30.095808919Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX1.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-30.095808919Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6244,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4551,15 +4653,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-01.489942766Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx2-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-01.489942766Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx2-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-01.489942766Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX2.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-01.489942766Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6156,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4585,15 +4683,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-06.39871014Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx2-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-06.39871014Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx2-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-06.39871014Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX2.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-06.39871014Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6156,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4619,15 +4713,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-11.312840979Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx2-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-11.312840979Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx2-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-11.312840979Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX2.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-11.312840979Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6156,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4653,15 +4743,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-16.224424337Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx2-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-16.224424337Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx2-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-16.224424337Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX2.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-16.224424337Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6156,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4687,15 +4773,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-21.135147057Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX2.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx2-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-21.135147057Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx2-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-21.135147057Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX2.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-21.135147057Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6156,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4721,15 +4803,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-03.451741409Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx3-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-03.451741409Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx3-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-03.451741409Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX3.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-03.451741409Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6156,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4755,15 +4833,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-09.583786852Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx3-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-09.583786852Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx3-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-09.583786852Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX3.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-09.583786852Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6156,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4789,15 +4863,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-15.71528146Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx3-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-15.71528146Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx3-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-15.71528146Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX3.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-15.71528146Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6156,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4823,15 +4893,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-21.847652214Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx3-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-21.847652214Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx3-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-21.847652214Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX3.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-21.847652214Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6156,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4857,15 +4923,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-27.980165324Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX3.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx3-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-27.980165324Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx3-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-27.980165324Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX3.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-27.980165324Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6156,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4891,15 +4953,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-00.007879131Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx3-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-00.007879131Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx3-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-00.007879131Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX3.KEA2.BXC1/raw/2023/10/20/2023-10-20T18-00-00.007879131Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6157,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4925,15 +4983,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-01.049895066Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx3-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-01.049895066Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx3-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-01.049895066Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX3.KEA2.BXC1/raw/2023/10/20/2023-10-20T18-00-01.049895066Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6157,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4959,15 +5013,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-01.295347454Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx3-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-01.295347454Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx3-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-01.295347454Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX3.KEA2.BXC1/raw/2023/10/20/2023-10-20T18-00-01.295347454Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6157,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -4993,15 +5043,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-01.906201724Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx3-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-01.906201724Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx3-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-01.906201724Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX3.KEA2.BXC1/raw/2023/10/20/2023-10-20T18-00-01.906201724Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6157,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -5027,15 +5073,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-03.687377365Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX3.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx3-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-03.687377365Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx3-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-03.687377365Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX3.KEA2.BXC1/raw/2023/10/20/2023-10-20T18-00-03.687377365Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6157,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -5061,15 +5103,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-03.698003931Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx4-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-03.698003931Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx4-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-03.698003931Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX4.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-03.698003931Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.614764,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -5095,15 +5133,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-08.611915344Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx4-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-08.611915344Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx4-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-08.611915344Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX4.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-08.611915344Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.614764,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -5129,15 +5163,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-12.691022818Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx4-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-12.691022818Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx4-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-12.691022818Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX4.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-12.691022818Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.614764,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -5163,15 +5193,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-13.528092877Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx4-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-13.528092877Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx4-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-13.528092877Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX4.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-13.528092877Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.614764,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -5197,15 +5223,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-18.442656858Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX4.KEA1.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx4-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-18.442656858Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx4-kea1-bxc1/2023-10-20-18/2023-10-20T18-00-18.442656858Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX4.KEA1.BXC1/raw/2023/10/20/2023-10-20T18-00-18.442656858Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.614764,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -5231,15 +5253,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-00.522784439Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx4-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-00.522784439Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx4-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-00.522784439Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX4.KEA2.BXC1/raw/2023/10/20/2023-10-20T18-00-00.522784439Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6207,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -5265,15 +5283,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-01.753281179Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx4-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-01.753281179Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx4-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-01.753281179Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX4.KEA2.BXC1/raw/2023/10/20/2023-10-20T18-00-01.753281179Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6207,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -5299,15 +5313,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-03.719864839Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx4-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-03.719864839Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx4-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-03.719864839Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX4.KEA2.BXC1/raw/2023/10/20/2023-10-20T18-00-03.719864839Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6207,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -5333,15 +5343,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-05.439914046Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx4-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-05.439914046Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx4-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-05.439914046Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX4.KEA2.BXC1/raw/2023/10/20/2023-10-20T18-00-05.439914046Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6207,
     "width": 21960,
     "height": 1024,
     "result": {
@@ -5367,15 +5373,11 @@
     "test": true,
     "fileName": "2023-10-20T18-00-10.352741817Z.jpg",
     "fbs": "F1.C1.CT.COT03.BX4.KEA2.BXC1",
-    "pathLocal": "data/algotest_dataset/ds1/f1-c1-ct-cot03-bx4-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-10.352741817Z.jpg",
+    "pathLocal": "data/widthscan-data/ett-ds1/f1-c1-ct-cot03-bx4-kea2-bxc1/2023-10-20-18/2023-10-20T18-00-10.352741817Z.jpg",
     "pathS3": "s3://nv-firefly-prod-vision-data-ett-ds1/F1.C1.CT.COT03.BX4.KEA2.BXC1/raw/2023/10/20/2023-10-20T18-00-10.352741817Z.jpg",
-    "batteryType": "",
-    "tags": [
-      "A",
-      "B",
-      "C"
-    ],
-    "ppmx": 23.3,
+    "batteryType": "EV32",
+    "tags": [],
+    "ppmx": 23.6207,
     "width": 21960,
     "height": 1024,
     "result": {

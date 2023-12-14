@@ -9,5 +9,5 @@ services:
       - 3000:3000
     privileged: true
     volumes:
-      - $HOME/src/github.com/northvolt/firefly-prism/data/widthscan/ds1:/app/public/data/images/data/widthscan/ds1
+      - $HOME/src/github.com/northvolt/firefly-prism/data/widthscan-data/ett-ds1:/app/public/data/images/data/widthscan-data/ett-ds1
       - $HOME/src/github.com/northvolt/firefly-prism/data/widthscan/manifest-ds1.json:/app/public/data/manifest.json
